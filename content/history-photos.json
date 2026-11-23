@@ -1,0 +1,114 @@
+{
+  "photos": [
+    {
+      "photo": "/media/fotos/s01.jpg",
+      "caption": {
+        "nl": "Singel 83, gezien over het water. Rechts ervan begint de steeg.",
+        "en": "Singel 83 seen across the water. The alley starts just to its right.",
+        "fy": "Singel 83, sjoen oer it wetter. Rjochts dêrfan begjint de steech.",
+        "fr": "Le Singel 83, vu de l'autre côté de l'eau. La ruelle commence juste à sa droite.",
+        "de": "Singel 83, über das Wasser gesehen. Rechts daneben beginnt die Gasse."
+      }
+    },
+    {
+      "photo": "/media/fotos/s02.jpg",
+      "caption": {
+        "nl": "De ingang van de steeg, gezien vanaf de brug over het Singel.",
+        "en": "The entrance to the alley, seen from the bridge over the Singel.",
+        "fy": "De yngong fan de steech, sjoen fan de brêge oer it Singel ôf.",
+        "fr": "L'entrée de la ruelle, vue du pont sur le Singel.",
+        "de": "Der Eingang der Gasse, von der Brücke über den Singel gesehen."
+      }
+    },
+    {
+      "photo": "/media/fotos/s03.jpg",
+      "caption": {
+        "nl": "De hoek van het Singel en de steeg, toen er een boekhandel zat.",
+        "en": "The corner of the Singel and the alley, when it housed a bookshop.",
+        "fy": "De hoeke fan it Singel en de steech, doe't der in boekhannel siet.",
+        "fr": "L'angle du Singel et de la ruelle, à l'époque d'une librairie.",
+        "de": "Die Ecke von Singel und Gasse, als dort eine Buchhandlung war."
+      }
+    },
+    {
+      "photo": "/media/fotos/s04.jpg",
+      "caption": {
+        "nl": "De steeg van bovenaf.",
+        "en": "The alley from above.",
+        "fy": "De steech fan boppen ôf.",
+        "fr": "La ruelle vue d'en haut.",
+        "de": "Die Gasse von oben."
+      }
+    },
+    {
+      "photo": "/media/fotos/s05.jpg",
+      "caption": {
+        "nl": "Nummer 5 sluit het straatbeeld af, met ‘Handelsdrukkerij’ boven de pui.",
+        "en": "Number 5 closes the view, with ‘Handelsdrukkerij’ lettered above the shopfront.",
+        "fy": "Nûmer 5 slút it strjitbyld ôf, mei ‘Handelsdrukkerij’ boppe de pui.",
+        "fr": "Le numéro 5 ferme la perspective, avec « Handelsdrukkerij » au-dessus de la devanture.",
+        "de": "Nummer 5 schließt den Blick ab, mit „Handelsdrukkerij“ über der Ladenfront."
+      }
+    },
+    {
+      "photo": "/media/fotos/s06.jpg",
+      "caption": {
+        "nl": "De klokgevel van nummer 5 boven de pui met kleine ruitjes.",
+        "en": "The bell gable of number 5 above its small-paned shopfront.",
+        "fy": "De klokgevel fan nûmer 5 boppe de pui mei lytse rútsjes.",
+        "fr": "Le pignon en cloche du numéro 5 au-dessus de sa devanture à petits carreaux.",
+        "de": "Der Glockengiebel von Nummer 5 über der kleinteilig verglasten Ladenfront."
+      }
+    },
+    {
+      "photo": "/media/fotos/s07.jpg",
+      "caption": {
+        "nl": "Nummer 5 en 7 naast elkaar.",
+        "en": "Numbers 5 and 7 side by side.",
+        "fy": "Nûmer 5 en 7 neist inoar.",
+        "fr": "Les numéros 5 et 7 côte à côte.",
+        "de": "Nummer 5 und 7 nebeneinander."
+      }
+    },
+    {
+      "photo": "/media/fotos/s08.jpg",
+      "caption": {
+        "nl": "De gevel in de steigers tijdens de restauratie.",
+        "en": "The facade in scaffolding during the restoration.",
+        "fy": "De gevel yn de steigers by de restauraasje.",
+        "fr": "La façade sous les échafaudages pendant la restauration.",
+        "de": "Die Fassade im Gerüst während der Restaurierung."
+      }
+    },
+    {
+      "photo": "/media/fotos/s09.jpg",
+      "caption": {
+        "nl": "Een gebeeldhouwde geveltop tijdens de restauratie.",
+        "en": "A carved gable top during the restoration.",
+        "fy": "In byldhoude geveltop by de restauraasje.",
+        "fr": "Un couronnement de pignon sculpté pendant la restauration.",
+        "de": "Eine gemeißelte Giebelbekrönung während der Restaurierung."
+      }
+    },
+    {
+      "photo": "/media/fotos/s10.jpg",
+      "caption": {
+        "nl": "Bouwtekening uit 1968 van architect Nic. Klok: beneden een tapperij, boven het restaurant.",
+        "en": "Building plans from 1968 by architect Nic. Klok: a taproom downstairs, the restaurant above.",
+        "fy": "Boutekening út 1968 fan arsjitekt Nic. Klok: ûnder in taperij, boppe it restaurant.",
+        "fr": "Plans de 1968 de l'architecte Nic. Klok : une taverne au rez-de-chaussée, le restaurant à l'étage.",
+        "de": "Bauzeichnung von 1968 des Architekten Nic. Klok: unten eine Schankstube, oben das Restaurant."
+      }
+    },
+    {
+      "photo": "/media/fotos/s11.jpg",
+      "caption": {
+        "nl": "De hoek van het Singel en de Lijnbaanssteeg, met beide straatnaambordjes.",
+        "en": "The corner of Singel and Lijnbaanssteeg, with both street signs.",
+        "fy": "De hoeke fan it Singel en de Lijnbaanssteeg, mei beide strjitnammebuordsjes.",
+        "fr": "L'angle du Singel et de la Lijnbaanssteeg, avec les deux plaques de rue.",
+        "de": "Die Ecke von Singel und Lijnbaanssteeg, mit beiden Straßenschildern."
+      }
+    }
+  ]
+}

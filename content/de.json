@@ -1,0 +1,179 @@
+{
+  "home": {
+    "lead": "Ein Amsterdamer Cocktail-Pub im Stil der braunen Kneipen, in einem Haus von 1734, in der Gasse zwischen Singel und Spuistraat.",
+    "ctaFind": "So finden Sie uns",
+    "ctaMenus": "Karten ansehen",
+    "impTitle": "Ein Eindruck von der Bar",
+    "impBody1": "Das Batavia ist ein Wohnzimmer für Amsterdamer, Cocktailfans, Foodies und Weintrinker. Ungezwungen und gemütlich: Am einen Tisch wird ausgiebig gegessen, am anderen nur ein Drink genommen.",
+    "impBody2": "Das Haus hat viele ursprüngliche Details bewahrt: Balken aus dem Holz alter Schiffe, einen Natursteinboden und eine antike Bar. Dazu viel Holz, sanfte dunkle Farben und warmes Licht.",
+    "peopleTitle": "Hinter der Bar",
+    "peopleText": "Das Batavia gehört Samuel Stok und Jimmy Hu, zwei Bartendern, die sich hinter derselben Amsterdamer Bar kennengelernt haben. Jimmy kam bei Best Bartender Netherlands 2024 unter die besten drei.",
+    "knowTitle": "Gut zu wissen",
+    "k1Title": "Mit oder ohne Reservierung",
+    "k1Text": "Kommen Sie einfach vorbei. Wer sicher einen Tisch möchte, reserviert vorab.",
+    "k2Title": "Terrasse",
+    "k2Text": "Bei schönem Wetter steht die Terrasse draußen, mit Platz für fünfzehn Gäste.",
+    "k3Title": "Drinnen",
+    "k3Text": "Vierzig Sitzplätze im Pub.",
+    "k4Title": "Ohne Alkohol",
+    "k4Text": "Einen Teil unserer Cocktails gibt es auch alkoholfrei.",
+    "hoursTitle": "Öffnungszeiten",
+    "alleyTitle": "Die Gasse finden",
+    "alleyBody": "Die Lijnbaanssteeg ist eine schmale Gasse in der Altstadt, zwischen Singel und Spuistraat. Sie finden uns in Nummer 5–7, etwa zehn Minuten zu Fuß vom Hauptbahnhof (Centraal Station).",
+    "alleyCta": "Anfahrt und Parken",
+    "mapCaption": "Skizze, nicht maßstabsgetreu. Norden ist oben.",
+    "mapMarker": "Batavia, Nr. 5–7",
+    "linksTitle": "Schauen Sie sich um",
+    "cards": {
+      "menus": {
+        "title": "Karten",
+        "text": "Cocktails, niederländische Weine und klassische holländische Gerichte der Saison.",
+        "cta": "Karten ansehen"
+      },
+      "events": {
+        "title": "Veranstaltungen",
+        "text": "Platz für bis zu 70 Gäste, mit Catering von der Bar bis zur Küche.",
+        "cta": "Veranstaltung planen"
+      },
+      "building": {
+        "title": "Das Haus",
+        "text": "1734 erbaut: Druckerei, Sternerestaurant, Cocktailbar und heute Public House.",
+        "cta": "Geschichte lesen"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "Eine Frage, eine Reservierung oder etwas zu feiern? Schreiben Sie uns.",
+        "cta": "Kontakt aufnehmen"
+      }
+    }
+  },
+  "film": {
+    "cue": "Scrollen Sie, um einzutreten",
+    "skip": "Film überspringen",
+    "rail": [
+      "Die Gasse",
+      "Die Bar",
+      "Die Treppe",
+      "Die Speakeasy"
+    ],
+    "c2": "Ein Haus von 1734",
+    "c3": "Die Treppe hinauf",
+    "c3text": "Hinten in der Bar führt eine steile Treppe nach oben.",
+    "c4": "Hinter dem Bücherregal",
+    "c4text": "Oben, hinter einem Bücherregal, liegt unsere Speakeasy."
+  },
+  "menus": {
+    "title": "Karten",
+    "lead": "Unsere Karten folgen den Jahreszeiten und setzen auf regionale Produkte aus den Niederlanden.",
+    "body": "Deshalb wechseln sie im Laufe des Jahres. Laden Sie unten die aktuellen Karten herunter.",
+    "barTitle": "Die Bar",
+    "barText": "Klassische Cocktails mit niederländischen Spirituosen, von Genever bis Korenwijn. Dazu sechs eigene Cocktails, jeder rund um ein Produkt eines anderen niederländischen Bauern oder Erzeugers. Die Cocktailkarte wechselt alle drei Monate.",
+    "kitchenTitle": "Die Küche",
+    "kitchenText": "Klassisch niederländisch und herzerwärmend, mit einem Twist. Eine kleine Karte mit zehn bis zwölf saisonalen Gerichten, vom Snack bis zum Abendessen, dazu jede Woche ein Gericht der Woche.",
+    "wineTitle": "Der Wein",
+    "wineText": "Ausschließlich niederländische Weine: zwei weiße, zwei rote und ein Schaumwein.",
+    "listTitle": "Aktuelle Karten",
+    "pdfNote": "Folgt in Kürze"
+  },
+  "events": {
+    "title": "Veranstaltungen",
+    "lead": "Etwas zu feiern oder zu organisieren? Bei uns ist das möglich.",
+    "fact1Title": "Bis zu 70 Gäste",
+    "fact1Text": "Wir richten Veranstaltungen für bis zu 70 Personen gleichzeitig aus.",
+    "fact2Title": "Von der Bar bis zur Küche",
+    "fact2Text": "Wir bieten professionelles Catering, von der Bar bis zur Küche.",
+    "ctaTitle": "Schon eine Idee?",
+    "ctaText": "Nennen Sie uns Datum, Gästezahl und Ihre Wünsche, dann planen wir gemeinsam mit Ihnen.",
+    "ctaContact": "Anfrage senden",
+    "ctaWhatsapp": "Per WhatsApp schreiben"
+  },
+  "building": {
+    "title": "Das Haus",
+    "lead": "Die Lijnbaanssteeg 5–7 wurde 1734 erbaut. Seitdem beherbergte das Haus eine Handelsdruckerei, zwei Restaurants und eine Cocktailbar. Heute ist es ein Public House.",
+    "galleryTitle": "Das Haus in Bildern",
+    "credit": "[Quelle und Lizenz der historischen Fotos ergänzen]",
+    "nameTitle": "Warum Batavia",
+    "nameText": "Batavia ist der alte lateinische Name der Niederlande. Und Public House, weil wir ein Pub in einem alten Amsterdamer Haus sind, offen für alle. Nicht mehr und nicht weniger.",
+    "streetTitle": "Eine Gasse der Seiler",
+    "streetText": "Die Gasse verdankt ihren Namen den Lijnbanen, den Seilerbahnen, die hier Ende des 16. Jahrhunderts lagen, als der Singel noch den Stadtrand bildete.",
+    "insideTitle": "Was erhalten blieb",
+    "insideText": "Drinnen sieht man es noch: Balken, die einst Teil von Schiffen waren, einen Natursteinboden und eine antike Bar.",
+    "timelineTitle": "Unter diesem Dach",
+    "timeline": [
+      {
+        "year": "1734",
+        "title": "Das Haus",
+        "text": "Das Haus an der Lijnbaanssteeg 5–7 wird erbaut."
+      },
+      {
+        "year": "[Jahr]",
+        "title": "Die Handelsdruckerei",
+        "text": "In Nummer 5 arbeitet eine Handelsdruckerei. Ihr Name steht in großen Buchstaben über der Ladenfront."
+      },
+      {
+        "year": "1969",
+        "title": "Restaurant Gravenmolen",
+        "text": "1968 zeichnet der Architekt Nic. Klok den Umbau: unten eine Schankstube, oben das Restaurant. Gravenmolen eröffnet im November 1969 und trägt von 1972 bis 1976 einen Michelin-Stern."
+      },
+      {
+        "year": "[Jahr]",
+        "title": "De Jonge Gravenmolen",
+        "text": "Eine neue Generation: das Restaurant De Jonge Gravenmolen."
+      },
+      {
+        "year": "2012",
+        "title": "Tales & Spirits",
+        "text": "Die Cocktailbar Tales & Spirits zieht ein."
+      },
+      {
+        "year": "Heute",
+        "title": "Batavia Public House",
+        "text": "Heute öffnen sich die Türen als Batavia Public House."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Schreiben Sie uns, rufen Sie an oder nutzen Sie WhatsApp. Reservieren können Sie auf demselben Weg; einfach vorbeikommen geht immer.",
+    "formTitle": "Schreiben Sie uns",
+    "name": "Name",
+    "email": "E-Mail-Adresse",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "formNote": "Ihre Nachricht geht an info@bataviapublichouse.nl.",
+    "subject": "Nachricht über die Website",
+    "directTitle": "Direkter Kontakt",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "whatsapp": "Per WhatsApp schreiben",
+    "addressTitle": "Adresse",
+    "mapsCta": "In Maps öffnen",
+    "parkingTitle": "Parken",
+    "parkingText": "Das nächstgelegene Parkhaus ist Q-Park Nieuwendijk, Nieuwezijds Kolk 18. Rund um die Uhr geöffnet und wenige Gehminuten von der Bar entfernt.",
+    "parkingCta": "Parkhaus in Maps öffnen",
+    "routeTitle": "Zu Fuß vom Hauptbahnhof (Centraal Station)",
+    "routeTime": "Etwa zehn Minuten.",
+    "s1": {
+      "place": "Centraal Station",
+      "text": "Verlassen Sie den Bahnhof auf der Stadtseite, am Stationsplein."
+    },
+    "s2": {
+      "place": "Martelaarsgracht",
+      "text": "Überqueren Sie die Prins Hendrikkade und gehen Sie in die Martelaarsgracht."
+    },
+    "s3": {
+      "place": "Hekelveld und Spuistraat",
+      "text": "Gehen Sie weiter über das Hekelveld bis zur Spuistraat."
+    },
+    "s4": {
+      "place": "Lijnbaanssteeg",
+      "text": "Folgen Sie der Spuistraat und biegen Sie rechts in die Lijnbaanssteeg ein, eine schmale Gasse. Wir sind in Nummer 5–7."
+    },
+    "routeCta": "Fußweg in Maps öffnen"
+  },
+  "footer": {
+    "addressTitle": "Adresse",
+    "hoursTitle": "Geöffnet",
+    "contactTitle": "Kontakt"
+  }
+}

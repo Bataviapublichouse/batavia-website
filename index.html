@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Batavia Public House</title>
+<meta name="description" content="Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --oak: #1B1410;
+  --oak-2: #241A15;
+  --plaster: #EDE4D3;
+  --plaster-2: #DCD0BC;
+  --muted: #B3A48F;
+  --brass: #C9A260;
+  --brass-2: #E2C285;
+  --line: rgba(201, 162, 96, 0.3);
+  --serif: 'Bodoni Moda', Didot, 'Bodoni 72', Georgia, serif;
+  --sans: 'Jost', 'Avenir Next', 'Segoe UI', sans-serif;
+  --gutter: clamp(20px, 5vw, 64px);
+  --header-h: 104px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--oak); color: var(--plaster); font: 400 18px/1.65 var(--sans); -webkit-font-smoothing: antialiased; }
+img, video { display: block; max-width: 100%; }
+a { color: inherit; }
+p { margin: 0; }
+h1, h2, h3 { margin: 0; font-family: var(--serif); font-weight: 400; font-variant-numeric: lining-nums; text-wrap: balance; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--brass-2); outline-offset: 3px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip-link { position: fixed; left: 16px; top: -60px; z-index: 50; background: var(--plaster); color: var(--oak); padding: 10px 16px; text-decoration: none; }
+.skip-link:focus { top: 16px; }
+
+/* Header */
+.site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 30; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 16px var(--gutter); transition: background-color .35s ease, border-color .35s ease; border-bottom: 1px solid transparent; background: linear-gradient(rgba(16, 11, 8, 0.7), rgba(16, 11, 8, 0)); }
+.site-header.solid { background: rgba(27, 20, 16, 0.96); border-bottom-color: var(--line); }
+.site-header:not(.solid) .nav-links a, .site-header:not(.solid) .langs button { text-shadow: 0 1px 10px rgba(0, 0, 0, 0.75); }
+.cap { text-shadow: 0 1px 18px rgba(0, 0, 0, 0.45); }
+.brand img { height: clamp(54px, 5.6vw, 72px); width: auto; }
+.nav { display: flex; align-items: center; gap: clamp(18px, 2.4vw, 36px); }
+.nav-links { display: flex; gap: clamp(16px, 2.2vw, 32px); margin: 0; padding: 0; list-style: none; }
+.nav-links a { text-decoration: none; font-size: 16px; letter-spacing: 0.02em; padding: 6px 0; border-bottom: 1px solid transparent; }
+.nav-links a:hover { border-bottom-color: var(--line); }
+.nav-links a[aria-current="page"] { border-bottom-color: var(--brass); }
+.langs { display: flex; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.langs button { background: none; border: 0; padding: 6px 7px; font-size: 14px; letter-spacing: 0.04em; color: var(--muted); cursor: pointer; }
+.langs button[aria-pressed="true"] { color: var(--plaster); text-decoration: underline; text-decoration-color: var(--brass); text-underline-offset: 6px; }
+.menu-toggle { display: none; background: none; border: 1px solid var(--line); padding: 8px 14px; font-size: 15px; cursor: pointer; }
+
+/* Film */
+.film { position: relative; height: 860vh; }
+.stage { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; background: #120D0A; }
+.stage video, .stage .poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.stage video { opacity: 0; transition: opacity .4s ease; }
+.stage.ready video { opacity: 1; }
+.shade { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to top, rgba(16, 11, 8, 0.86) 0%, rgba(16, 11, 8, 0.42) 34%, rgba(16, 11, 8, 0) 58%), linear-gradient(to right, rgba(16, 11, 8, 0.38), rgba(16, 11, 8, 0) 46%); }
+.cap { position: absolute; left: var(--gutter); bottom: clamp(36px, 9vh, 96px); width: min(640px, calc(100vw - 2 * var(--gutter))); opacity: 0; transform: translateY(14px); transition: opacity .7s ease, transform .7s ease; pointer-events: none; }
+.cap.on { opacity: 1; transform: none; pointer-events: auto; }
+.cap h1, .cap h2 { font-size: clamp(32px, 4.3vw, 60px); line-height: 1.08; margin-bottom: 18px; }
+.cap h1 { font-size: clamp(30px, 3.6vw, 50px); line-height: 1.14; }
+.cap p { font-size: clamp(17px, 1.35vw, 20px); color: var(--plaster-2); max-width: 46ch; }
+.cap .row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; margin-top: 26px; }
+.status { display: inline-flex; align-items: center; gap: 10px; font-size: 16px; color: var(--plaster); }
+.status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+.status.live::before { background: var(--brass-2); box-shadow: 0 0 0 4px rgba(226, 194, 133, 0.18), 0 0 14px rgba(226, 194, 133, 0.7); }
+.text-btn { background: none; border: 0; padding: 0; font-size: 16px; color: var(--plaster-2); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 5px; cursor: pointer; }
+.text-btn:hover { text-decoration-color: var(--brass); }
+.rail { position: absolute; right: var(--gutter); top: 50%; transform: translateY(-50%); padding: 0 0 0 22px; display: flex; flex-direction: column; gap: 22px; }
+.rail::before, .rail .fill { content: ""; position: absolute; left: 0; top: 6px; width: 1px; background: rgba(237, 228, 211, 0.24); bottom: 6px; }
+.rail .fill { background: var(--brass); bottom: auto; height: 0; }
+.rail button { display: block; background: none; border: 0; padding: 2px 0; text-align: left; font-size: 15px; letter-spacing: 0.02em; text-shadow: 0 1px 10px rgba(0, 0, 0, 0.7); color: rgba(237, 228, 211, 0.72); cursor: pointer; transition: color .3s ease; }
+.rail button[aria-current="step"] { color: var(--plaster); }
+.cue { position: absolute; left: 50%; bottom: 26px; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 10px; font-size: 14px; letter-spacing: 0.04em; color: var(--plaster-2); transition: opacity .4s ease; pointer-events: none; }
+.cue::after { content: ""; width: 1px; height: 38px; background: linear-gradient(var(--brass), rgba(201, 162, 96, 0)); animation: cue 2.2s ease-in-out infinite; transform-origin: top; }
+@keyframes cue { 0% { transform: scaleY(0); opacity: 1; } 60% { transform: scaleY(1); opacity: 1; } 100% { transform: scaleY(1); opacity: 0; } }
+.cue.gone { opacity: 0; }
+.loadbar { position: absolute; left: 0; bottom: 0; height: 2px; width: 0; background: var(--brass); transition: width .2s linear, opacity .6s ease; }
+.loadbar.done { opacity: 0; }
+.mobile-bar { display: none; }
+
+/* Content */
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 var(--gutter); }
+.block { padding: clamp(72px, 10vw, 136px) 0; border-top: 1px solid var(--line); }
+.block.first { border-top: 0; }
+.title { font-size: clamp(32px, 3.5vw, 48px); line-height: 1.1; margin-bottom: 24px; }
+.page-title { font-size: clamp(44px, 6.4vw, 92px); line-height: 1; margin-bottom: 28px; }
+.lead { font-family: var(--serif); font-size: clamp(22px, 2.1vw, 30px); line-height: 1.38; max-width: 34ch; font-variant-numeric: lining-nums; text-wrap: pretty; }
+.body p + p { margin-top: 18px; }
+.body p { max-width: 60ch; color: var(--plaster-2); }
+h3 { font-size: 25px; line-height: 1.2; margin-bottom: 10px; font-weight: 500; }
+.split { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(36px, 6vw, 96px); align-items: start; }
+.split.even { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 36px; }
+.btn { display: inline-block; padding: 14px 24px; font-size: 16px; letter-spacing: 0.02em; text-decoration: none; border: 1px solid var(--brass); background: var(--brass); color: var(--oak); cursor: pointer; transition: background-color .2s ease, color .2s ease; }
+.btn:hover { background: var(--brass-2); border-color: var(--brass-2); }
+.btn.ghost { background: transparent; color: var(--plaster); border-color: rgba(237, 228, 211, 0.4); }
+.btn.ghost:hover { border-color: var(--plaster); background: transparent; }
+.link { color: var(--plaster); text-decoration: underline; text-decoration-color: var(--brass); text-underline-offset: 6px; text-decoration-thickness: 1px; }
+.link:hover { color: var(--brass-2); }
+.aside-note { margin-top: 44px; padding-top: 28px; border-top: 1px solid var(--line); }
+
+.hours { width: 100%; max-width: 440px; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.hours th, .hours td { padding: 11px 0; border-bottom: 1px solid var(--line); text-align: left; font-weight: 400; color: var(--plaster-2); }
+.hours td { text-align: right; }
+.hours tr.today th, .hours tr.today td { color: var(--plaster); font-weight: 500; }
+.know { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 48px; margin: 0; padding: 0; list-style: none; }
+.know p { color: var(--plaster-2); }
+
+.map { position: relative; height: 300px; border: 1px solid var(--line); overflow: hidden; background: var(--oak-2); }
+.map .water { position: absolute; top: 0; bottom: 0; left: 0; width: 19%; background: rgba(201, 162, 96, 0.08); border-right: 1px solid var(--line); display: flex; align-items: center; justify-content: center; }
+.map .blockx { position: absolute; background: var(--oak); border: 1px solid var(--line); }
+.map .lbl { font-family: var(--serif); font-style: italic; font-size: 17px; color: var(--plaster-2); }
+.map .vert { writing-mode: vertical-rl; transform: rotate(180deg); }
+.map .pin { position: absolute; left: 47%; top: 50%; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--brass-2); box-shadow: 0 0 0 5px rgba(226, 194, 133, 0.2); }
+.map .tag { position: absolute; left: 47%; top: 50%; transform: translate(-50%, -50px); background: var(--plaster); color: var(--oak); padding: 4px 11px; font-size: 14px; font-weight: 500; white-space: nowrap; }
+.caption { margin-top: 12px; font-size: 15px; color: var(--muted); }
+address { font-style: normal; }
+
+.around { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+.around li { padding: 32px 28px 8px 0; }
+.around li + li { padding-left: 28px; border-left: 1px solid var(--line); }
+.around h3 a { text-decoration: none; }
+.around h3 a::after { content: ""; position: absolute; inset: 0; }
+.around li { position: relative; }
+.around p { color: var(--plaster-2); font-size: 17px; }
+.around .more { display: inline-block; margin-top: 18px; font-size: 15px; color: var(--brass-2); text-decoration: underline; text-underline-offset: 5px; text-decoration-color: var(--line); }
+.around li:hover h3 { color: var(--brass-2); }
+
+.page-head { padding-top: calc(var(--header-h) + clamp(48px, 7vw, 96px)); padding-bottom: clamp(40px, 6vw, 72px); }
+.still { margin: 0; }
+.still img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.still figcaption { margin-top: 12px; font-size: 15px; color: var(--muted); }
+.trio { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(28px, 4vw, 56px); margin: 0; padding: 0; list-style: none; }
+.trio p { color: var(--plaster-2); }
+.menu-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); max-width: 760px; }
+.menu-list li { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 24px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+.menu-list span:first-child { font-family: var(--serif); font-size: 24px; }
+.menu-list span:last-child { color: var(--muted); font-size: 16px; }
+.menu-list a { color: var(--brass-2); font-size: 16px; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 5px; }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(28px, 5vw, 72px); margin: 0; padding: 0; list-style: none; }
+.facts h3 { font-size: clamp(30px, 3.2vw, 44px); font-weight: 400; margin-bottom: 14px; }
+.facts p { color: var(--plaster-2); max-width: 40ch; }
+
+.gallery { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+.gallery .frame { position: relative; height: clamp(320px, 52vw, 620px); background: #120D0A; }
+.gallery .frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.gallery .controls { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.gallery .controls p { color: var(--plaster-2); font-size: 16px; max-width: 70ch; }
+.gallery .arrows { display: flex; align-items: center; gap: 12px; flex: none; font-variant-numeric: tabular-nums; color: var(--muted); font-size: 15px; }
+.arrow { width: 46px; height: 46px; display: inline-flex; align-items: center; justify-content: center; background: none; border: 1px solid var(--line); cursor: pointer; }
+.arrow:hover { border-color: var(--brass); }
+.arrow svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5; }
+.timeline { margin: 0; padding: 0; list-style: none; max-width: 820px; }
+.timeline li { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; padding: 26px 0; border-top: 1px solid var(--line); }
+.timeline .yr { font-family: var(--serif); font-size: 28px; color: var(--brass-2); font-variant-numeric: lining-nums; }
+.timeline p { color: var(--plaster-2); }
+
+.form { display: grid; gap: 20px; max-width: 560px; }
+.form label { display: grid; gap: 8px; font-size: 16px; }
+.form input, .form textarea { width: 100%; font: inherit; color: var(--plaster); background: var(--oak-2); border: 1px solid var(--line); padding: 13px 14px; border-radius: 0; }
+.form textarea { min-height: 170px; resize: vertical; }
+.form input:focus, .form textarea:focus { border-color: var(--brass); outline: none; box-shadow: 0 0 0 1px var(--brass); }
+.form .note { font-size: 15px; color: var(--muted); }
+.form .error { color: #F0B7A0; font-size: 16px; }
+.ready { border: 1px solid var(--brass); padding: 22px; display: grid; gap: 16px; }
+.contact-list { margin: 0; display: grid; gap: 18px; }
+.contact-list dt { font-size: 15px; color: var(--muted); }
+.contact-list dd { margin: 2px 0 0; font-size: 20px; }
+.route { margin: 24px 0 0; padding: 0; list-style: none; counter-reset: r; }
+.route li { counter-increment: r; position: relative; padding: 0 0 22px 52px; }
+.route li::before { content: counter(r); position: absolute; left: 0; top: -2px; width: 32px; height: 32px; border: 1px solid var(--brass); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--serif); font-size: 17px; color: var(--brass-2); }
+.route li:not(:last-child)::after { content: ""; position: absolute; left: 16px; top: 34px; bottom: 4px; width: 1px; background: var(--line); }
+.route strong { font-weight: 500; display: block; }
+.route span { color: var(--plaster-2); }
+.stack > * + * { margin-top: 56px; }
+
+.site-footer { border-top: 1px solid var(--line); padding: 72px 0 56px; background: #160F0C; }
+.foot { display: grid; grid-template-columns: minmax(0, 1.2fr) repeat(3, minmax(0, 1fr)); gap: 40px; }
+.foot img { height: 96px; width: auto; }
+.foot h2 { font-size: 21px; margin-bottom: 10px; font-weight: 500; }
+.foot p, .foot address { color: var(--plaster-2); font-size: 16px; }
+.foot a { color: var(--plaster-2); text-decoration-color: var(--line); text-underline-offset: 4px; }
+
+[hidden] { display: none !important; }
+
+@media (max-width: 980px) {
+  .around { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .around li:nth-child(3) { padding-left: 0; border-left: 0; }
+  .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 860px) {
+  :root { --header-h: 84px; }
+  .menu-toggle { display: inline-block; }
+  .nav { position: fixed; inset: 0 0 auto 0; top: 0; flex-direction: column; align-items: flex-start; gap: 28px; padding: 108px var(--gutter) 40px; background: var(--oak); border-bottom: 1px solid var(--line); transform: translateY(-105%); transition: transform .35s ease; z-index: -1; }
+  .nav.open { transform: none; }
+  .nav-links { flex-direction: column; gap: 6px; }
+  .nav-links a { font-family: var(--serif); font-size: 30px; }
+  .split, .split.even { grid-template-columns: minmax(0, 1fr); }
+  .trio { grid-template-columns: minmax(0, 1fr); }
+  .rail { display: none; }
+  .mobile-bar { display: block; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: rgba(237, 228, 211, 0.16); }
+  .mobile-bar i { display: block; height: 100%; width: 0; background: var(--brass); }
+  .film { height: 700vh; }
+}
+@media (orientation: portrait) {
+  .stage video, .stage .poster { object-position: 42% 50%; }
+}
+@media (max-width: 620px) {
+  .know, .facts, .around { grid-template-columns: minmax(0, 1fr); }
+  .around li, .around li + li { padding: 26px 0 6px; border-left: 0; }
+  .around li + li { border-top: 1px solid var(--line); }
+  .foot { grid-template-columns: minmax(0, 1fr); }
+  .timeline li { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .gallery .controls { flex-direction: column-reverse; align-items: flex-start; }
+  .cue { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cue::after { animation: none; }
+  .cap, .stage video, .nav { transition: none; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main" data-t="a11y.skip"></a>
+
+<header class="site-header" id="header">
+  <a class="brand" href="#home" data-ta="aria-label:a11y.logoHome"><img src="media/logo.png" alt="" width="1128" height="980"></a>
+  <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav" data-t="ui.menu"></button>
+  <nav class="nav" id="nav" data-ta="aria-label:a11y.mainNav">
+    <ul class="nav-links">
+      <li><a href="#home" data-page="home" data-t="nav.home"></a></li>
+      <li><a href="#menus" data-page="menus" data-t="nav.menus"></a></li>
+      <li><a href="#events" data-page="events" data-t="nav.events"></a></li>
+      <li><a href="#building" data-page="building" data-t="nav.building"></a></li>
+      <li><a href="#contact" data-page="contact" data-t="nav.contact"></a></li>
+    </ul>
+    <ul class="langs" data-ta="aria-label:a11y.language" role="list">
+      <li><button type="button" data-lang="nl" lang="nl" aria-label="Nederlands">NL</button></li>
+      <li><button type="button" data-lang="en" lang="en" aria-label="English">EN</button></li>
+      <li><button type="button" data-lang="fy" lang="fy" aria-label="Frysk">FY</button></li>
+      <li><button type="button" data-lang="fr" lang="fr" aria-label="Français">FR</button></li>
+      <li><button type="button" data-lang="de" lang="de" aria-label="Deutsch">DE</button></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+
+<!-- HOME -->
+<div class="view" data-view="home">
+  <section class="film" id="film" data-ta="aria-label:film.label">
+    <div class="stage" id="stage">
+      <img class="poster" src="media/poster.jpg" alt="" width="1280" height="720" fetchpriority="high">
+      <video id="filmVideo" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+      <div class="shade"></div>
+      <div class="mobile-bar" aria-hidden="true"><i id="mobileFill"></i></div>
+
+      <div class="cap on" data-ch="0">
+        <h1 data-t="home.lead"></h1>
+        <div class="row">
+          <span class="status" id="status1"></span>
+          <button class="text-btn" type="button" id="skipFilm" data-t="film.skip"></button>
+        </div>
+      </div>
+      <div class="cap" data-ch="1">
+        <h2 data-t="film.c2"></h2>
+        <p data-t="building.insideText"></p>
+      </div>
+      <div class="cap" data-ch="2">
+        <h2 data-t="film.c3"></h2>
+        <p data-t="film.c3text"></p>
+      </div>
+      <div class="cap" data-ch="3">
+        <h2 data-t="film.c4"></h2>
+        <p data-t="film.c4text"></p>
+        <div class="row"><a class="btn" href="#events" data-t="home.cards.events.cta"></a></div>
+      </div>
+
+      <div class="rail" id="rail" aria-hidden="true">
+        <span class="fill" id="railFill"></span>
+        <button type="button" tabindex="-1" data-go="0" data-t="film.rail.0"></button>
+        <button type="button" tabindex="-1" data-go="1" data-t="film.rail.1"></button>
+        <button type="button" tabindex="-1" data-go="2" data-t="film.rail.2"></button>
+        <button type="button" tabindex="-1" data-go="3" data-t="film.rail.3"></button>
+      </div>
+      <p class="cue" id="cue"><span id="cueText" data-t="film.cue"></span></p>
+      <div class="loadbar" id="loadbar" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <section class="block first" id="intro" tabindex="-1" aria-labelledby="impTitle">
+      <div class="split">
+        <div>
+          <h2 class="title" id="impTitle" data-t="home.impTitle"></h2>
+          <p class="lead" data-t="home.impBody1"></p>
+          <div class="actions">
+            <a class="btn" href="#menus" data-t="home.ctaMenus"></a>
+            <a class="btn ghost" href="#contact" data-t="home.ctaFind"></a>
+          </div>
+        </div>
+        <div class="body">
+          <p data-t="home.impBody2"></p>
+          <div class="aside-note">
+            <h3 data-t="home.peopleTitle"></h3>
+            <p data-t="home.peopleText"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="hoursTitle">
+      <div class="split even">
+        <div>
+          <h2 class="title" id="hoursTitle" data-t="home.hoursTitle"></h2>
+          <p class="status" id="status2" style="margin-bottom: 22px"></p>
+          <table class="hours"><tbody id="hoursBody"></tbody></table>
+        </div>
+        <div>
+          <h2 class="title" data-t="home.knowTitle"></h2>
+          <ul class="know">
+            <li><h3 data-t="home.k1Title"></h3><p data-t="home.k1Text"></p></li>
+            <li><h3 data-t="home.k2Title"></h3><p data-t="home.k2Text"></p></li>
+            <li><h3 data-t="home.k3Title"></h3><p data-t="home.k3Text"></p></li>
+            <li><h3 data-t="home.k4Title"></h3><p data-t="home.k4Text"></p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="alleyTitle">
+      <div class="split even">
+        <div>
+          <h2 class="title" id="alleyTitle" data-t="home.alleyTitle"></h2>
+          <div class="body"><p data-t="home.alleyBody"></p></div>
+          <address style="margin-top: 26px">Lijnbaanssteeg 5–7<br>1012 TE Amsterdam</address>
+          <div class="actions"><a class="btn ghost" href="#contact" data-t="home.alleyCta"></a></div>
+        </div>
+        <figure style="margin: 0">
+          <div class="map" aria-hidden="true">
+            <div class="water"><span class="lbl vert">Singel</span></div>
+            <div class="blockx" style="left: 24%; width: 48%; top: -1px; height: calc(50% - 15px)"></div>
+            <div class="blockx" style="left: 24%; width: 48%; bottom: -1px; height: calc(50% - 15px); display: flex; justify-content: center; padding-top: 10px"><span class="lbl">Lijnbaanssteeg</span></div>
+            <div class="blockx" style="left: 86%; right: -1px; top: -1px; height: calc(50% - 15px)"></div>
+            <div class="blockx" style="left: 86%; right: -1px; bottom: -1px; height: calc(50% - 15px)"></div>
+            <div style="position: absolute; top: 0; bottom: 0; left: 72%; width: 14%; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 16px"><span class="lbl vert">Spuistraat</span></div>
+            <div class="pin"></div>
+            <div class="tag" data-t="home.mapMarker"></div>
+          </div>
+          <figcaption class="caption" data-t="home.mapCaption"></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="aroundTitle">
+      <h2 class="title" id="aroundTitle" data-t="home.linksTitle"></h2>
+      <ul class="around">
+        <li><h3><a href="#menus" data-t="home.cards.menus.title"></a></h3><p data-t="home.cards.menus.text"></p><span class="more" aria-hidden="true" data-t="home.cards.menus.cta"></span></li>
+        <li><h3><a href="#events" data-t="home.cards.events.title"></a></h3><p data-t="home.cards.events.text"></p><span class="more" aria-hidden="true" data-t="home.cards.events.cta"></span></li>
+        <li><h3><a href="#building" data-t="home.cards.building.title"></a></h3><p data-t="home.cards.building.text"></p><span class="more" aria-hidden="true" data-t="home.cards.building.cta"></span></li>
+        <li><h3><a href="#contact" data-t="home.cards.contact.title"></a></h3><p data-t="home.cards.contact.text"></p><span class="more" aria-hidden="true" data-t="home.cards.contact.cta"></span></li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+<!-- MENUS -->
+<div class="view" data-view="menus" hidden>
+  <div class="wrap">
+    <header class="page-head">
+      <h1 class="page-title" data-t="menus.title"></h1>
+      <p class="lead" data-t="menus.lead"></p>
+      <div class="body" style="margin-top: 18px"><p data-t="menus.body"></p></div>
+    </header>
+    <figure class="still"><img src="media/still-bar.jpg" alt="" width="1280" height="720" loading="lazy" data-ta="alt:still.bar"><figcaption data-t="still.bar"></figcaption></figure>
+    <section class="block first">
+      <ul class="trio">
+        <li><h3 data-t="menus.barTitle"></h3><p data-t="menus.barText"></p></li>
+        <li><h3 data-t="menus.kitchenTitle"></h3><p data-t="menus.kitchenText"></p></li>
+        <li><h3 data-t="menus.wineTitle"></h3><p data-t="menus.wineText"></p></li>
+      </ul>
+    </section>
+    <section class="block" aria-labelledby="menuListTitle">
+      <h2 class="title" id="menuListTitle" data-t="menus.listTitle"></h2>
+      <ul class="menu-list" id="menuList"></ul>
+    </section>
+  </div>
+</div>
+
+<!-- EVENTS -->
+<div class="view" data-view="events" hidden>
+  <div class="wrap">
+    <header class="page-head">
+      <h1 class="page-title" data-t="events.title"></h1>
+      <p class="lead" data-t="events.lead"></p>
+    </header>
+    <figure class="still"><img src="media/still-room.jpg" alt="" width="1280" height="720" loading="lazy" data-ta="alt:still.room"><figcaption data-t="still.room"></figcaption></figure>
+    <section class="block first">
+      <ul class="facts">
+        <li><h3 data-t="events.fact1Title"></h3><p data-t="events.fact1Text"></p></li>
+        <li><h3 data-t="events.fact2Title"></h3><p data-t="events.fact2Text"></p></li>
+      </ul>
+    </section>
+    <section class="block" aria-labelledby="evCta">
+      <h2 class="title" id="evCta" data-t="events.ctaTitle"></h2>
+      <div class="body"><p data-t="events.ctaText"></p></div>
+      <div class="actions">
+        <a class="btn" href="#contact" data-t="events.ctaContact"></a>
+        <a class="btn ghost" href="https://wa.me/31640476549" target="_blank" rel="noopener" data-t="events.ctaWhatsapp"></a>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- BUILDING -->
+<div class="view" data-view="building" hidden>
+  <div class="wrap">
+    <header class="page-head">
+      <h1 class="page-title" data-t="building.title"></h1>
+      <p class="lead" data-t="building.lead"></p>
+    </header>
+    <section aria-labelledby="galTitle">
+      <h2 class="visually-hidden" id="galTitle" data-t="building.galleryTitle"></h2>
+      <div class="gallery" data-ta="aria-label:a11y.gallery" role="group">
+        <div class="frame"><img id="galImg" alt=""></div>
+        <div class="controls">
+          <p id="galCap" aria-live="polite"></p>
+          <div class="arrows">
+            <button class="arrow" type="button" id="galPrev" data-ta="aria-label:a11y.prev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <span id="galCount"></span>
+            <button class="arrow" type="button" id="galNext" data-ta="aria-label:a11y.next"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+          </div>
+        </div>
+        <p class="caption" data-t="building.credit"></p>
+      </div>
+    </section>
+    <section class="block" style="margin-top: clamp(56px, 8vw, 96px)">
+      <ul class="trio">
+        <li><h3 data-t="building.nameTitle"></h3><p data-t="building.nameText"></p></li>
+        <li><h3 data-t="building.streetTitle"></h3><p data-t="building.streetText"></p></li>
+        <li><h3 data-t="building.insideTitle"></h3><p data-t="building.insideText"></p></li>
+      </ul>
+    </section>
+    <section class="block" aria-labelledby="tlTitle">
+      <h2 class="title" id="tlTitle" data-t="building.timelineTitle"></h2>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="view" data-view="contact" hidden>
+  <div class="wrap">
+    <header class="page-head">
+      <h1 class="page-title" data-t="contact.title"></h1>
+      <p class="lead" data-t="contact.lead"></p>
+    </header>
+    <section class="block first" style="padding-top: 0">
+      <div class="split">
+        <div>
+          <h2 class="title" data-t="contact.formTitle"></h2>
+          <form class="form" id="form" novalidate>
+            <label><span data-t="contact.name"></span><input name="name" autocomplete="name" required></label>
+            <label><span data-t="contact.email"></span><input name="email" type="email" autocomplete="email" required></label>
+            <label><span data-t="contact.message"></span><textarea name="message" required></textarea></label>
+            <p class="error" id="formError" role="alert" hidden></p>
+            <div><button class="btn" type="submit" data-t="contact.send"></button></div>
+            <p class="note" data-t="contact.formNote"></p>
+            <div class="ready" id="formReady" hidden>
+              <p data-t="form.ready" role="status"></p>
+              <div class="actions" style="margin-top: 0">
+                <a class="btn" id="mailLink" href="mailto:info@bataviapublichouse.nl" data-t="form.open"></a>
+                <button class="btn ghost" type="button" id="copyMsg" data-t="form.copy"></button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="stack">
+          <div>
+            <h2 class="title" data-t="contact.directTitle"></h2>
+            <dl class="contact-list">
+              <div><dt data-t="contact.emailLabel"></dt><dd><a class="link" href="mailto:info@bataviapublichouse.nl">info@bataviapublichouse.nl</a></dd></div>
+              <div><dt data-t="contact.phoneLabel"></dt><dd><a class="link" href="tel:+31640476549">+31 6 40476549</a></dd></div>
+            </dl>
+            <div class="actions"><a class="btn ghost" href="https://wa.me/31640476549" target="_blank" rel="noopener" data-t="contact.whatsapp"></a></div>
+          </div>
+          <div>
+            <h3 data-t="contact.addressTitle"></h3>
+            <address>Batavia Public House<br>Lijnbaanssteeg 5–7<br>1012 TE Amsterdam</address>
+            <p style="margin-top: 12px"><a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Lijnbaanssteeg+5%2C+1012+TE+Amsterdam" target="_blank" rel="noopener" data-t="contact.mapsCta"></a></p>
+          </div>
+          <div>
+            <h3 data-t="contact.parkingTitle"></h3>
+            <p style="color: var(--plaster-2)" data-t="contact.parkingText"></p>
+            <p style="margin-top: 12px"><a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Q-Park+Nieuwendijk%2C+Nieuwezijds+Kolk+18%2C+Amsterdam" target="_blank" rel="noopener" data-t="contact.parkingCta"></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block" aria-labelledby="routeTitle">
+      <div class="split even">
+        <div>
+          <h2 class="title" id="routeTitle" data-t="contact.routeTitle"></h2>
+          <p class="lead" data-t="contact.routeTime"></p>
+          <div class="actions"><a class="btn ghost" href="https://www.google.com/maps/dir/?api=1&amp;origin=Amsterdam+Centraal&amp;destination=Lijnbaanssteeg+5%2C+1012+TE+Amsterdam&amp;travelmode=walking" target="_blank" rel="noopener" data-t="contact.routeCta"></a></div>
+        </div>
+        <ol class="route">
+          <li><strong data-t="contact.s1.place"></strong><span data-t="contact.s1.text"></span></li>
+          <li><strong data-t="contact.s2.place"></strong><span data-t="contact.s2.text"></span></li>
+          <li><strong data-t="contact.s3.place"></strong><span data-t="contact.s3.text"></span></li>
+          <li><strong data-t="contact.s4.place"></strong><span data-t="contact.s4.text"></span></li>
+        </ol>
+      </div>
+    </section>
+  </div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div><img src="media/logo.png" alt="" width="1128" height="980" data-ta="alt:a11y.logoAlt"></div>
+    <div><h2 data-t="footer.addressTitle"></h2><address>Lijnbaanssteeg 5–7<br>1012 TE Amsterdam</address></div>
+    <div><h2 data-t="footer.hoursTitle"></h2><p class="status" id="status3"></p></div>
+    <div><h2 data-t="footer.contactTitle"></h2><p><a href="mailto:info@bataviapublichouse.nl">info@bataviapublichouse.nl</a><br><a href="tel:+31640476549">+31 6 40476549</a><br><a href="https://wa.me/31640476549" target="_blank" rel="noopener">WhatsApp</a></p></div>
+  </div>
+</footer>
+
+<script>
+(function () {
+'use strict';
+var FIXED = {"nl":{"nav":{"home":"Home","menus":"Menu's","events":"Evenementen","building":"Het pand","contact":"Contact"},"a11y":{"mainNav":"Hoofdmenu","language":"Taal","skip":"Ga naar de inhoud","logoHome":"Batavia Public House, naar de homepage","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Lijntekening van de gevel van Batavia Public House aan de Lijnbaanssteeg 5–7","gallery":"Foto's uit de geschiedenis van het pand","prev":"Vorige foto","next":"Volgende foto"},"status":{"closed":"Gesloten","openUntil":"Nu open tot {t}","opensToday":"Vandaag open vanaf {t}","opensDay":"Nu gesloten, {d} weer open vanaf {t}","daysMid":{"d0":"zondag","d1":"maandag","d2":"dinsdag","d3":"woensdag","d4":"donderdag","d5":"vrijdag","d6":"zaterdag"}},"form":{"ready":"Je bericht staat klaar, maar is nog niet verstuurd. Open het in je mailprogramma om het te versturen.","open":"Open in mailprogramma","copy":"Kopieer bericht","copied":"Gekopieerd","missing":"Vul je naam, e-mailadres en bericht in."},"still":{"facade":"Beeld uit de film: de gevel aan de Lijnbaanssteeg in de avond","bar":"Beeld uit de film: de bar bij kaarslicht","room":"Beeld uit de film: de speakeasy achter de boekenkast"},"home":{"days":{"d1":"Maandag","d2":"Dinsdag","d3":"Woensdag","d4":"Donderdag","d5":"Vrijdag","d6":"Zaterdag","d7":"Zondag"}},"film":{"label":"Film: van de steeg naar binnen, door de bar en de trap op naar de bovenzaal","loading":"De film wordt geladen"},"menus":{"open":"Bekijk de kaart (PDF)"}},"en":{"nav":{"home":"Home","menus":"Menus","events":"Events","building":"The building","contact":"Contact"},"a11y":{"mainNav":"Main","language":"Language","skip":"Skip to content","logoHome":"Batavia Public House, to the home page","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Line drawing of the facade of Batavia Public House at Lijnbaanssteeg 5–7","gallery":"Photographs from the building's history","prev":"Previous photo","next":"Next photo"},"status":{"closed":"Closed","openUntil":"Open now until {t}","opensToday":"Opens today at {t}","opensDay":"Closed now, open again on {d} from {t}","daysMid":{"d0":"Sunday","d1":"Monday","d2":"Tuesday","d3":"Wednesday","d4":"Thursday","d5":"Friday","d6":"Saturday"}},"form":{"ready":"Your message is ready but has not been sent yet. Open it in your mail app to send it.","open":"Open in mail app","copy":"Copy message","copied":"Copied","missing":"Fill in your name, email address and message."},"still":{"facade":"Still from the film: the facade on Lijnbaanssteeg in the evening","bar":"Still from the film: the bar by candlelight","room":"Still from the film: the speakeasy behind the bookshelf"},"home":{"days":{"d1":"Monday","d2":"Tuesday","d3":"Wednesday","d4":"Thursday","d5":"Friday","d6":"Saturday","d7":"Sunday"}},"film":{"label":"Film: from the alley, through the bar and up the stairs to the room upstairs","loading":"Loading the film"},"menus":{"open":"View the menu (PDF)"}},"fy":{"nav":{"home":"Thús","menus":"Menu's","events":"Eveneminten","building":"It pân","contact":"Kontakt"},"a11y":{"mainNav":"Haadmenu","language":"Taal","skip":"Gean nei de ynhâld","logoHome":"Batavia Public House, nei de thússide","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Lyntekening fan de gevel fan Batavia Public House oan de Lijnbaanssteeg 5–7","gallery":"Foto's út de skiednis fan it pân","prev":"Foarige foto","next":"Folgjende foto"},"status":{"closed":"Ticht","openUntil":"No iepen oant {t}","opensToday":"Hjoed iepen fan {t} ôf","opensDay":"No ticht, {d} wer iepen fan {t} ôf","daysMid":{"d0":"snein","d1":"moandei","d2":"tiisdei","d3":"woansdei","d4":"tongersdei","d5":"freed","d6":"sneon"}},"form":{"ready":"Jo berjocht stiet klear, mar is noch net ferstjoerd. Iepenje it yn jo mailprogramma om it te ferstjoeren.","open":"Iepenje yn mailprogramma","copy":"Kopiearje berjocht","copied":"Kopiearre","missing":"Folje jo namme, e-mailadres en berjocht yn."},"still":{"facade":"Byld út de film: de gevel oan de Lijnbaanssteeg jûns","bar":"Byld út de film: de bar by kearsljocht","room":"Byld út de film: de speakeasy efter de boekekast"},"home":{"days":{"d1":"Moandei","d2":"Tiisdei","d3":"Woansdei","d4":"Tongersdei","d5":"Freed","d6":"Sneon","d7":"Snein"}},"film":{"label":"Film: fan de steech nei binnen, troch de bar en de trep op nei de boppeseal","loading":"De film wurdt laden"},"menus":{"open":"Besjoch de kaart (PDF)"}},"fr":{"nav":{"home":"Accueil","menus":"Cartes","events":"Événements","building":"La maison","contact":"Contact"},"a11y":{"mainNav":"Menu principal","language":"Langue","skip":"Aller au contenu","logoHome":"Batavia Public House, vers la page d'accueil","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Dessin au trait de la façade du Batavia Public House, Lijnbaanssteeg 5–7","gallery":"Photographies de l'histoire de la maison","prev":"Photo précédente","next":"Photo suivante"},"status":{"closed":"Fermé","openUntil":"Ouvert jusqu'à {t}","opensToday":"Ouvre aujourd'hui à {t}","opensDay":"Fermé pour l'instant, réouverture {d} à {t}","daysMid":{"d0":"dimanche","d1":"lundi","d2":"mardi","d3":"mercredi","d4":"jeudi","d5":"vendredi","d6":"samedi"}},"form":{"ready":"Votre message est prêt, mais il n'a pas encore été envoyé. Ouvrez-le dans votre messagerie pour l'envoyer.","open":"Ouvrir dans la messagerie","copy":"Copier le message","copied":"Copié","missing":"Indiquez votre nom, votre adresse e-mail et votre message."},"still":{"facade":"Image du film : la façade sur la Lijnbaanssteeg le soir","bar":"Image du film : le bar à la lueur des bougies","room":"Image du film : le speakeasy derrière la bibliothèque"},"home":{"days":{"d1":"Lundi","d2":"Mardi","d3":"Mercredi","d4":"Jeudi","d5":"Vendredi","d6":"Samedi","d7":"Dimanche"}},"film":{"label":"Film : de la ruelle à l'intérieur, à travers le bar et par l'escalier jusqu'à la salle de l'étage","loading":"Chargement du film"},"menus":{"open":"Voir la carte (PDF)"}},"de":{"nav":{"home":"Start","menus":"Karten","events":"Veranstaltungen","building":"Das Haus","contact":"Kontakt"},"a11y":{"mainNav":"Hauptmenü","language":"Sprache","skip":"Zum Inhalt springen","logoHome":"Batavia Public House, zur Startseite","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Strichzeichnung der Fassade des Batavia Public House in der Lijnbaanssteeg 5–7","gallery":"Fotografien aus der Geschichte des Hauses","prev":"Vorheriges Foto","next":"Nächstes Foto"},"status":{"closed":"Geschlossen","openUntil":"Jetzt geöffnet bis {t} Uhr","opensToday":"Heute ab {t} Uhr geöffnet","opensDay":"Derzeit geschlossen, am {d} wieder ab {t} Uhr geöffnet","daysMid":{"d0":"Sonntag","d1":"Montag","d2":"Dienstag","d3":"Mittwoch","d4":"Donnerstag","d5":"Freitag","d6":"Samstag"}},"form":{"ready":"Ihre Nachricht ist bereit, aber noch nicht gesendet. Öffnen Sie sie in Ihrem Mailprogramm, um sie zu senden.","open":"Im Mailprogramm öffnen","copy":"Nachricht kopieren","copied":"Kopiert","missing":"Bitte geben Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht ein."},"still":{"facade":"Standbild aus dem Film: die Fassade an der Lijnbaanssteeg am Abend","bar":"Standbild aus dem Film: die Bar bei Kerzenlicht","room":"Standbild aus dem Film: die Speakeasy hinter dem Bücherregal"},"home":{"days":{"d1":"Montag","d2":"Dienstag","d3":"Mittwoch","d4":"Donnerstag","d5":"Freitag","d6":"Samstag","d7":"Sonntag"}},"film":{"label":"Film: von der Gasse hinein, durch die Bar und die Treppe hinauf in den Saal oben","loading":"Der Film wird geladen"},"menus":{"open":"Karte ansehen (PDF)"}}};
+var CONTENT = {}, MENUS = [], PHOTOS = [];
+var UI = { nl: { menu: 'Menu', close: 'Sluiten' }, en: { menu: 'Menu', close: 'Close' }, fy: { menu: 'Menu', close: 'Slute' }, fr: { menu: 'Menu', close: 'Fermer' }, de: { menu: 'Menü', close: 'Schließen' } };
+var LANGS = ['nl', 'en', 'fy', 'fr', 'de'];
+var PAGES = ['home', 'menus', 'events', 'building', 'contact'];
+var FILM = { duration: 36.25, chapters: [0, 7, 14, 25], captions: [[0, 2.4], [9, 13], [16, 21.5], [27, 99]] };
+var SCHED = {};
+var DAYKEYS = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+function toMin(v) { var m = /^(\d{1,2})[:.](\d{2})$/.exec(String(v || '').trim()); return m ? (+m[1]) * 60 + (+m[2]) : null; }
+function buildSched(h) {
+  SCHED = {};
+  DAYKEYS.forEach(function (k, dow) {
+    var d = h && h[k];
+    if (!d || !d.open) return;
+    var a = toMin(d.from), b = toMin(d.until);
+    if (a == null || b == null) return;
+    if (b <= a) b += 1440;
+    SCHED[dow] = [a, b];
+  });
+}
+function getJSON(url) { return fetch(url, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(url + ' ' + r.status); return r.json(); }); }
+function merge(a, b) {
+  var o = {};
+  [a, b].forEach(function (src) {
+    if (!src) return;
+    Object.keys(src).forEach(function (k) {
+      var v = src[k];
+      o[k] = (v && typeof v === 'object' && !Array.isArray(v) && o[k] && typeof o[k] === 'object' && !Array.isArray(o[k])) ? merge(o[k], v) : v;
+    });
+  });
+  return o;
+}
+function loadLang(l) { return CONTENT[l] ? Promise.resolve(CONTENT[l]) : getJSON('content/' + l + '.json').then(function (j) { CONTENT[l] = j; return j; }); }
+var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function $(s, r) { return (r || document).querySelector(s); }
+function $$(s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); }
+function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+
+var lang = (function () {
+  var saved = store('bph-lang');
+  if (saved && LANGS.indexOf(saved) >= 0) return saved;
+  var prefs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'nl']);
+  for (var i = 0; i < prefs.length; i++) {
+    var p = String(prefs[i]).toLowerCase().slice(0, 2);
+    if (LANGS.indexOf(p) >= 0) return p;
+  }
+  return 'en';
+})();
+var t;
+
+function get(obj, path) {
+  return path.split('.').reduce(function (o, k) { return o == null ? o : o[k]; }, obj);
+}
+
+/* Opening hours */
+function amsterdamNow() {
+  try {
+    var parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Amsterdam', weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date());
+    var o = {};
+    parts.forEach(function (p) { o[p.type] = p.value; });
+    var dow = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(o.weekday);
+    var mins = (parseInt(o.hour, 10) % 24) * 60 + parseInt(o.minute, 10);
+    if (dow < 0 || isNaN(mins)) throw new Error('clock');
+    return { dow: dow, mins: mins };
+  } catch (e) {
+    var d = new Date();
+    return { dow: d.getDay(), mins: d.getHours() * 60 + d.getMinutes() };
+  }
+}
+function clock(m) {
+  m = ((m % 1440) + 1440) % 1440;
+  var h = Math.floor(m / 60), mm = m % 60;
+  return (h < 10 ? '0' : '') + h + ':' + (mm < 10 ? '0' : '') + mm;
+}
+function fill(s, v) { return String(s).replace('{t}', v.t || '').replace('{d}', v.d || ''); }
+function renderStatus() {
+  var now = amsterdamNow();
+  var today = SCHED[now.dow], prev = SCHED[(now.dow + 6) % 7];
+  var text = '', live = false;
+  if (prev && prev[1] > 1440 && now.mins < prev[1] - 1440) { text = fill(t.status.openUntil, { t: clock(prev[1]) }); live = true; }
+  else if (today && now.mins >= today[0] && now.mins < today[1]) { text = fill(t.status.openUntil, { t: clock(today[1]) }); live = true; }
+  else if (today && now.mins < today[0]) { text = fill(t.status.opensToday, { t: clock(today[0]) }); }
+  else {
+    for (var i = 1; i <= 7; i++) {
+      var d = (now.dow + i) % 7;
+      if (SCHED[d]) { text = fill(t.status.opensDay, { d: t.status.daysMid['d' + d], t: clock(SCHED[d][0]) }); break; }
+    }
+  }
+  ['status1', 'status2', 'status3'].forEach(function (id) {
+    var el = document.getElementById(id);
+    el.textContent = text;
+    el.classList.toggle('live', live);
+  });
+  var rows = [1, 2, 3, 4, 5, 6, 0].map(function (d) {
+    var s = SCHED[d];
+    return '<tr' + (d === now.dow ? ' class="today"' : '') + '><th scope="row">' + t.home.days['d' + (d === 0 ? 7 : d)] + '</th><td>' + (s ? clock(s[0]) + '–' + clock(s[1]) : t.status.closed) + '</td></tr>';
+  });
+  $('#hoursBody').innerHTML = rows.join('');
+}
+
+/* Text */
+function render() {
+  t = merge(FIXED[lang], CONTENT[lang] || {});
+  t.ui = UI[lang];
+  document.documentElement.lang = lang;
+  $$('[data-t]').forEach(function (el) {
+    var v = get(t, el.getAttribute('data-t'));
+    if (v != null) el.textContent = v;
+  });
+  $$('[data-ta]').forEach(function (el) {
+    el.getAttribute('data-ta').split(';').forEach(function (pair) {
+      var i = pair.indexOf(':');
+      var v = get(t, pair.slice(i + 1));
+      if (v != null) el.setAttribute(pair.slice(0, i), v);
+    });
+  });
+  $$('.langs button').forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-lang') === lang ? 'true' : 'false'); });
+  var tl = (t.building.timeline || []).map(function (e) {
+    return '<li><span class="yr">' + esc(e.year) + '</span><div><h3>' + esc(e.title) + '</h3><p>' + esc(e.text) + '</p></div></li>';
+  });
+  $('#timeline').innerHTML = tl.join('');
+  $('#menuList').innerHTML = MENUS.map(function (m) {
+    var name = (m.name && (m.name[lang] || m.name.nl || m.name.en)) || '';
+    var right = m.pdf ? '<a href="' + esc(m.pdf) + '" target="_blank" rel="noopener">' + esc(t.menus.open) + '</a>' : '<span>' + esc(t.menus.pdfNote) + '</span>';
+    return '<li><span>' + esc(name) + '</span>' + right + '</li>';
+  }).join('');
+  renderStatus();
+  showSlide(gi);
+  setMenuLabel();
+  document.title = pageTitle();
+}
+function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+function pageTitle() { return page === 'home' ? 'Batavia Public House' : t.nav[page] + ' | Batavia Public House'; }
+
+$$('.langs button').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var l = b.getAttribute('data-lang');
+    loadLang(l).then(function () { lang = l; store('bph-lang', lang); render(); }).catch(function () {});
+  });
+});
+
+/* Mobile menu */
+var nav = $('#nav'), toggle = $('#menuToggle');
+function setMenuLabel() { toggle.textContent = nav.classList.contains('open') ? t.ui.close : t.ui.menu; }
+toggle.addEventListener('click', function () {
+  var open = !nav.classList.contains('open');
+  nav.classList.toggle('open', open);
+  toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  setMenuLabel();
+});
+function closeMenu() { nav.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); setMenuLabel(); }
+document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && nav.classList.contains('open')) { closeMenu(); toggle.focus(); } });
+
+/* Pages */
+var page = 'home';
+function route() {
+  var h = (location.hash || '').replace('#', '');
+  var next = PAGES.indexOf(h) >= 0 ? h : 'home';
+  var changed = next !== page;
+  page = next;
+  $$('.view').forEach(function (v) { v.hidden = v.getAttribute('data-view') !== page; });
+  $$('.nav-links a').forEach(function (a) {
+    if (a.getAttribute('data-page') === page) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+  });
+  closeMenu();
+  if (t) document.title = pageTitle();
+  if (changed || h) window.scrollTo(0, 0);
+  if (changed) $('#main').focus({ preventScroll: true });
+  if (page === 'home') startFilm();
+  onScroll();
+}
+window.addEventListener('hashchange', route);
+
+/* Header */
+var header = $('#header');
+function updateHeader() {
+  var solid = true;
+  if (page === 'home') {
+    var r = film.getBoundingClientRect();
+    solid = r.bottom <= header.offsetHeight + 1;
+  }
+  header.classList.toggle('solid', solid);
+}
+
+/* Film */
+var film = $('#film'), stage = $('#stage'), video = $('#filmVideo');
+var caps = $$('.cap'), railBtns = $$('#rail button'), railFill = $('#railFill'), mobileFill = $('#mobileFill');
+var cue = $('#cue'), loadbar = $('#loadbar');
+var target = 0, current = 0, filmStarted = false, filmReady = false, activeCh = 0, rafId = 0;
+
+function filmProgress() {
+  var r = film.getBoundingClientRect();
+  var total = film.offsetHeight - window.innerHeight;
+  if (total <= 0) return 0;
+  return Math.min(1, Math.max(0, -r.top / total));
+}
+function chapterAt(sec) {
+  var c = 0;
+  for (var i = 0; i < FILM.chapters.length; i++) if (sec >= FILM.chapters[i]) c = i;
+  return c;
+}
+function onScroll() {
+  updateHeader();
+  if (page !== 'home') return;
+  var p = filmProgress();
+  var sec = p * FILM.duration;
+  target = sec;
+  var ch = chapterAt(sec);
+  var shown = -1;
+  FILM.captions.forEach(function (w, i) { if (sec >= w[0] && sec <= w[1]) shown = i; });
+  if (shown !== activeCh) {
+    activeCh = shown;
+    caps.forEach(function (c) { c.classList.toggle('on', +c.getAttribute('data-ch') === shown); });
+  }
+  railBtns.forEach(function (b, i) { if (i === ch) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current'); });
+  railFill.style.height = (p * 100) + '%';
+  mobileFill.style.width = (p * 100) + '%';
+  cue.classList.toggle('gone', p > 0.015);
+  if (filmReady && !rafId) rafId = requestAnimationFrame(tick);
+}
+function tick() {
+  rafId = 0;
+  if (!filmReady) return;
+  var d = target - current;
+  current = (reduced || Math.abs(d) < 0.004) ? target : current + d * 0.16;
+  var tt = Math.min(Math.max(current, 0), (video.duration || FILM.duration) - 0.05);
+  if (!video.seeking && Math.abs(video.currentTime - tt) > 0.008) video.currentTime = tt;
+  if (Math.abs(target - current) > 0.0005 || video.seeking) rafId = requestAnimationFrame(tick);
+}
+window.addEventListener('scroll', onScroll, { passive: true });
+window.addEventListener('resize', onScroll);
+
+function pickSource() { return 'media/film.mp4'; }
+function markReady() {
+  if (filmReady) return;
+  filmReady = true;
+  stage.classList.add('ready');
+  loadbar.style.width = '100%';
+  loadbar.classList.add('done');
+  current = target;
+  onScroll();
+}
+function useSource(url) {
+  video.src = url;
+  video.addEventListener('loadeddata', function once() {
+    video.removeEventListener('loadeddata', once);
+    var pr = video.play();
+    if (pr && pr.then) pr.then(function () { video.pause(); markReady(); }).catch(markReady);
+    else { video.pause(); markReady(); }
+  });
+  video.load();
+}
+function startFilm() {
+  if (filmStarted) return;
+  filmStarted = true;
+  var src = pickSource();
+  if (!window.fetch || !window.ReadableStream) { useSource(src); return; }
+  fetch(src).then(function (res) {
+    if (!res.ok || !res.body) throw new Error('film ' + res.status);
+    var total = +res.headers.get('content-length') || 0;
+    var reader = res.body.getReader(), chunks = [], got = 0;
+    function pump() {
+      return reader.read().then(function (r) {
+        if (r.done) return new Blob(chunks, { type: 'video/mp4' });
+        chunks.push(r.value);
+        got += r.value.length;
+        if (total) loadbar.style.width = Math.round(got / total * 100) + '%';
+        return pump();
+      });
+    }
+    return pump();
+  }).then(function (blob) {
+    useSource(URL.createObjectURL(blob));
+  }).catch(function () {
+    video.preload = 'auto';
+    useSource(src);
+  });
+}
+railBtns.forEach(function (b) {
+  b.addEventListener('click', function () {
+    var i = +b.getAttribute('data-go');
+    var total = film.offsetHeight - window.innerHeight;
+    var y = film.getBoundingClientRect().top + window.scrollY + (FILM.chapters[i] / FILM.duration) * total + 2;
+    window.scrollTo({ top: y, behavior: reduced ? 'auto' : 'smooth' });
+  });
+});
+$('#skipFilm').addEventListener('click', function () {
+  var intro = $('#intro');
+  window.scrollTo({ top: intro.getBoundingClientRect().top + window.scrollY - header.offsetHeight, behavior: reduced ? 'auto' : 'smooth' });
+  intro.focus({ preventScroll: true });
+});
+
+/* Gallery */
+var gi = 0, seen = {};
+function slideSrc(i) { var p = PHOTOS[i] && PHOTOS[i].photo; return p ? String(p).replace(/^\//, '') : ''; }
+function slideCap(i) { var c = PHOTOS[i] && PHOTOS[i].caption; return (c && (c[lang] || c.nl || c.en)) || ''; }
+function showSlide(i) {
+  var n = PHOTOS.length;
+  if (!n) return;
+  gi = (i + n) % n;
+  var img = $('#galImg');
+  img.src = slideSrc(gi);
+  img.alt = slideCap(gi);
+  $('#galCap').textContent = slideCap(gi);
+  $('#galCount').textContent = (gi + 1) + ' / ' + n;
+  [gi - 1, gi + 1].forEach(function (k) {
+    var j = (k + n) % n;
+    if (!seen[j]) { seen[j] = true; var pre = new Image(); pre.src = slideSrc(j); }
+  });
+}
+$('#galPrev').addEventListener('click', function () { showSlide(gi - 1); });
+$('#galNext').addEventListener('click', function () { showSlide(gi + 1); });
+
+/* Contact form */
+var form = $('#form'), mailBody = '';
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+  var name = form.name.value.trim(), email = form.email.value.trim(), msg = form.message.value.trim();
+  var err = $('#formError');
+  if (!name || !email || !msg || email.indexOf('@') < 1) {
+    err.textContent = t.form.missing;
+    err.hidden = false;
+    $('#formReady').hidden = true;
+    return;
+  }
+  err.hidden = true;
+  mailBody = msg + '\n\n' + name + '\n' + email;
+  var subject = t.contact.subject + ': ' + name;
+  $('#mailLink').href = 'mailto:info@bataviapublichouse.nl?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(mailBody);
+  $('#formReady').hidden = false;
+  $('#mailLink').focus();
+});
+$('#copyMsg').addEventListener('click', function () {
+  var b = this;
+  if (!navigator.clipboard) return;
+  navigator.clipboard.writeText('To: info@bataviapublichouse.nl\n\n' + mailBody).then(function () {
+    b.textContent = t.form.copied;
+    setTimeout(function () { b.textContent = t.form.copy; }, 2200);
+  }).catch(function () {});
+});
+
+Promise.all([
+  loadLang(lang).catch(function () { return loadLang('nl'); }),
+  getJSON('content/opening-hours.json').then(buildSched).catch(function () {}),
+  getJSON('content/menus.json').then(function (j) { MENUS = (j && j.menus) || []; }).catch(function () {}),
+  getJSON('content/history-photos.json').then(function (j) { PHOTOS = (j && j.photos) || []; }).catch(function () {})
+]).then(function () {
+  if (!CONTENT[lang]) lang = 'nl';
+  render();
+  route();
+});
+setInterval(renderStatus, 60000);
+})();
+</script>
+</body>
+</html>

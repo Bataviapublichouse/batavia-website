@@ -1,0 +1,179 @@
+{
+  "home": {
+    "lead": "In Amsterdamske brune cocktailpub yn in pân út 1734, yn de steech tusken it Singel en de Spuistraat.",
+    "ctaFind": "Sa fine jo ús",
+    "ctaMenus": "Besjoch de menu's",
+    "impTitle": "In yndruk fan de bar",
+    "impBody1": "Batavia is in húskeamer foar Amsterdammers, cocktailleafhawwers, foodies en wyndrinkers. Ynformeel en knus: de iene tafel yt wiidweidich, de oare komt foar ien drankje.",
+    "impBody2": "It pân bewarret in soad fan syn oarspronklike details: houten balken fan âlde skippen, in natuerstiennen flier en in antike bar. Dêromhinne in soad hout, sêfte donkere kleuren en waarm ljocht.",
+    "peopleTitle": "Efter de bar",
+    "peopleText": "Batavia is fan Samuel Stok en Jimmy Hu, twa bartenders dy't inoar kennen learden efter deselde Amsterdamske bar. Jimmy helle de top trije fan Best Bartender Netherlands 2024.",
+    "knowTitle": "Goed om te witten",
+    "k1Title": "Ynrinne of reservearje",
+    "k1Text": "Rin gerêst binnen. Wolle jo wis wêze fan in tafel, reservearje dan efkes.",
+    "k2Title": "Terras",
+    "k2Text": "By moai waar stiet it terras bûten, mei plak foar fyftjin gasten.",
+    "k3Title": "Binnen",
+    "k3Text": "Fjirtich sitplakken yn de pub.",
+    "k4Title": "Sûnder alkohol",
+    "k4Text": "In part fan ús cocktails meitsje wy ek alkoholfrij.",
+    "hoursTitle": "Iepeningstiden",
+    "alleyTitle": "De steech fine",
+    "alleyBody": "De Lijnbaanssteeg is in smelle steech yn de âlde binnenstêd, tusken it Singel en de Spuistraat. Jo fine ús op nûmer 5–7, likernôch tsien minuten rinnen fan it Sintraal Stasjon ôf.",
+    "alleyCta": "Rûte en parkearje",
+    "mapCaption": "Skets, net op skaal. It noarden is boppe.",
+    "mapMarker": "Batavia, nr. 5–7",
+    "linksTitle": "Sjoch fierder om",
+    "cards": {
+      "menus": {
+        "title": "Menu's",
+        "text": "Cocktails, Nederlânske winen en klassike Hollânske gerjochten fan it seizoen.",
+        "cta": "Besjoch de menu's"
+      },
+      "events": {
+        "title": "Eveneminten",
+        "text": "Romte foar op syn heechst 70 gasten, mei catering fan bar oant keuken.",
+        "cta": "Plan in evenemint"
+      },
+      "building": {
+        "title": "It pân",
+        "text": "Boud yn 1734: drukkerij, stjerrerestaurant, cocktailbar en no public house.",
+        "cta": "Lês de skiednis"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "In fraach, in reservearring of wat te fieren? Stjoer ús in berjocht.",
+        "cta": "Nim kontakt op"
+      }
+    }
+  },
+  "film": {
+    "cue": "Scroll om nei binnen te stappen",
+    "skip": "Slaan de film oer",
+    "rail": [
+      "De steech",
+      "De bar",
+      "De trep",
+      "De speakeasy"
+    ],
+    "c2": "In hûs út 1734",
+    "c3": "De trep op",
+    "c3text": "Efter yn de bar giet in steile trep nei boppen.",
+    "c4": "Efter de boekekast",
+    "c4text": "Boppe, efter in boekekast, leit ús speakeasy."
+  },
+  "menus": {
+    "title": "Menu's",
+    "lead": "Us menu's folgje de seizoenen en draaie om lokale produkten fan Nederlânske boaiem.",
+    "body": "Dêrom wikselje se troch it jier hinne. Download hjirûnder de aktuele kaarten.",
+    "barTitle": "De bar",
+    "barText": "Klassike cocktails mei Nederlânske dranken, fan jenever oant korenwijn. Dêrneist seis eigen cocktails, elk boud om in produkt fan in oare Nederlânske boer of produsint hinne. De cocktailkaart wikselet elke trije moanne.",
+    "kitchenTitle": "De keuken",
+    "kitchenText": "Klassyk Nederlânsk en hertferwaarmjend, mei in twist. In lytse kaart fan tsien oant tolve gerjochtsjes fan it seizoen, fan buorrelhapke oant diner, mei elke wike in gerjocht fan de wike.",
+    "wineTitle": "De wyn",
+    "wineText": "Allinnich Nederlânske winen: twa wyt, twa read en ien mûssearjend.",
+    "listTitle": "Aktuele kaarten",
+    "pdfNote": "Komt gau"
+  },
+  "events": {
+    "title": "Eveneminten",
+    "lead": "Wat te fieren of te organisearjen? Dat kin by ús.",
+    "fact1Title": "Oant 70 gasten",
+    "fact1Text": "Wy ûntfange eveneminten oant 70 persoanen tagelyk.",
+    "fact2Title": "Fan bar oant keuken",
+    "fact2Text": "Wy fersoargje profesjonele catering, fan bar oant keuken.",
+    "ctaTitle": "Wat yn gedachten?",
+    "ctaText": "Lit ús de datum, it tal gasten en jo winsken witte, dan tinke wy mei jo mei.",
+    "ctaContact": "Stjoer in oanfraach",
+    "ctaWhatsapp": "Stjoer in WhatsApp"
+  },
+  "building": {
+    "title": "It pân",
+    "lead": "Lijnbaanssteeg 5–7 waard boud yn 1734. Sûnt dy tiid sieten der in hannelsdrukkerij, twa restaurants en in cocktailbar. No is it in public house.",
+    "galleryTitle": "It pân yn byld",
+    "credit": "[Boarne en lisinsje fan de histoaryske foto's tafoegje]",
+    "nameTitle": "Wêrom Batavia",
+    "nameText": "Batavia is de âlde Latynske namme foar Nederlân. En public house, om't wy in pub binne yn in âld Amsterdamsk hûs, iepen foar elkenien. Net mear en net minder.",
+    "streetTitle": "In steech fan touslaggers",
+    "streetText": "De steech hat syn namme te tankjen oan de lijnbanen, de touslaggerijen dy't hjir oan de ein fan de sechstjinde iuw leine, doe't it Singel noch de râne fan de stêd wie.",
+    "insideTitle": "Wat bewarre bleaun is",
+    "insideText": "Binnen sjogge jo it noch: houten balken dy't eartiids diel wiene fan skippen, in natuerstiennen flier en in antike bar.",
+    "timelineTitle": "Under dit dak",
+    "timeline": [
+      {
+        "year": "1734",
+        "title": "It pân",
+        "text": "It pân oan de Lijnbaanssteeg 5–7 wurdt boud."
+      },
+      {
+        "year": "[jier]",
+        "title": "De hannelsdrukkerij",
+        "text": "Op nûmer 5 draait in hannelsdrukkerij. De namme stiet yn grutte letters boppe de pui."
+      },
+      {
+        "year": "1969",
+        "title": "Restaurant Gravenmolen",
+        "text": "Arsjitekt Nic. Klok tekenet yn 1968 de ferbouwing: ûnder in taperij, boppe it restaurant. Gravenmolen iepenet yn novimber 1969 en hat fan 1972 oant 1976 in Michelinstjer."
+      },
+      {
+        "year": "[jier]",
+        "title": "De Jonge Gravenmolen",
+        "text": "In nije generaasje: restaurant De Jonge Gravenmolen."
+      },
+      {
+        "year": "2012",
+        "title": "Tales & Spirits",
+        "text": "Cocktailbar Tales & Spirits lûkt deryn."
+      },
+      {
+        "year": "No",
+        "title": "Batavia Public House",
+        "text": "Hjoed geane de doarren iepen as Batavia Public House."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Stjoer in berjocht, belje ús of brûk WhatsApp. Reservearje kin op deselde wize; ynrinne mei altyd.",
+    "formTitle": "Stjoer ús in berjocht",
+    "name": "Namme",
+    "email": "E-mailadres",
+    "message": "Berjocht",
+    "send": "Ferstjoer berjocht",
+    "formNote": "Jo berjocht giet nei info@bataviapublichouse.nl.",
+    "subject": "Berjocht fia de webside",
+    "directTitle": "Direkt kontakt",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefoan",
+    "whatsapp": "Stjoer in WhatsApp",
+    "addressTitle": "Adres",
+    "mapsCta": "Iepenje yn Maps",
+    "parkingTitle": "Parkearje",
+    "parkingText": "De tichtstbye parkeargaraazje is Q-Park Nieuwendijk oan de Nieuwezijds Kolk 18. Dei en nacht iepen en in pear minuten rinnen fan de bar.",
+    "parkingCta": "Iepenje de garaazje yn Maps",
+    "routeTitle": "Te foet fan it Sintraal Stasjon ôf",
+    "routeTime": "Likernôch tsien minuten.",
+    "s1": {
+      "place": "Sintraal Stasjon",
+      "text": "Ferlit it stasjon oan de sintrumkant, by it Stationsplein."
+    },
+    "s2": {
+      "place": "Martelaarsgracht",
+      "text": "Stek de Prins Hendrikkade oer en rin de Martelaarsgracht yn."
+    },
+    "s3": {
+      "place": "Hekelveld en Spuistraat",
+      "text": "Rin troch oer it Hekelveld oant jo op de Spuistraat binne."
+    },
+    "s4": {
+      "place": "Lijnbaanssteeg",
+      "text": "Folgje de Spuistraat en gean rjochtsôf de Lijnbaanssteeg yn, in smelle steech. Wy sitte op nûmer 5–7."
+    },
+    "routeCta": "Iepenje de kuierrûte yn Maps"
+  },
+  "footer": {
+    "addressTitle": "Adres",
+    "hoursTitle": "Iepen",
+    "contactTitle": "Kontakt"
+  }
+}

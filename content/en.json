@@ -1,0 +1,179 @@
+{
+  "home": {
+    "lead": "An Amsterdam brown-café cocktail pub in a house from 1734, in the alley between Singel and Spuistraat.",
+    "ctaFind": "How to find us",
+    "ctaMenus": "View the menus",
+    "impTitle": "An impression of the bar",
+    "impBody1": "Batavia is a living room for Amsterdammers, cocktail lovers, foodies and wine drinkers. Informal and snug: one table settles in for dinner, the next drops by for a single drink.",
+    "impBody2": "The house keeps many of its original details: beams cut from old ships, a natural stone floor and an antique bar. Around them, plenty of wood, soft dark colours and warm light.",
+    "peopleTitle": "Behind the bar",
+    "peopleText": "Batavia belongs to Samuel Stok and Jimmy Hu, two bartenders who met behind the same Amsterdam bar. Jimmy reached the top three of Best Bartender Netherlands 2024.",
+    "knowTitle": "Good to know",
+    "k1Title": "Walk in or book",
+    "k1Text": "Just walk in. To be sure of a table, book ahead.",
+    "k2Title": "Terrace",
+    "k2Text": "In good weather the terrace is out, with room for fifteen guests.",
+    "k3Title": "Inside",
+    "k3Text": "Forty seats in the pub.",
+    "k4Title": "Alcohol-free",
+    "k4Text": "We make some of our cocktails without alcohol too.",
+    "hoursTitle": "Opening hours",
+    "alleyTitle": "Finding the alley",
+    "alleyBody": "Lijnbaanssteeg is a narrow alley in the old centre, between Singel and Spuistraat. You'll find us at numbers 5–7, about ten minutes on foot from Centraal Station.",
+    "alleyCta": "Route and parking",
+    "mapCaption": "Sketch, not to scale. North is up.",
+    "mapMarker": "Batavia, no. 5–7",
+    "linksTitle": "Have a look around",
+    "cards": {
+      "menus": {
+        "title": "Menus",
+        "text": "Cocktails, Dutch wines and classic Dutch dishes of the season.",
+        "cta": "View the menus"
+      },
+      "events": {
+        "title": "Events",
+        "text": "Room for up to 70 guests, with catering from bar to kitchen.",
+        "cta": "Plan an event"
+      },
+      "building": {
+        "title": "The building",
+        "text": "Built in 1734: printing works, starred restaurant, cocktail bar and now a public house.",
+        "cta": "Read the history"
+      },
+      "contact": {
+        "title": "Contact",
+        "text": "A question, a booking or something to celebrate? Send us a message.",
+        "cta": "Get in touch"
+      }
+    }
+  },
+  "film": {
+    "cue": "Scroll to step inside",
+    "skip": "Skip the film",
+    "rail": [
+      "The alley",
+      "The bar",
+      "The stairs",
+      "The speakeasy"
+    ],
+    "c2": "A house from 1734",
+    "c3": "Up the stairs",
+    "c3text": "At the back of the bar, a steep staircase leads upstairs.",
+    "c4": "Behind the bookshelf",
+    "c4text": "Upstairs, behind a bookshelf, is our speakeasy."
+  },
+  "menus": {
+    "title": "Menus",
+    "lead": "Our menus follow the seasons and are built on local Dutch produce.",
+    "body": "That is why they change through the year. Download the current menus below.",
+    "barTitle": "The bar",
+    "barText": "Classic cocktails made with Dutch spirits, from jenever to korenwijn. Alongside them, six cocktails of our own, each built around a product from a different Dutch farmer or producer. The cocktail menu changes every three months.",
+    "kitchenTitle": "The kitchen",
+    "kitchenText": "Classic Dutch and heart-warming, with a twist. A small menu of ten to twelve seasonal dishes, from bar snack to dinner, with a new dish of the week every week.",
+    "wineTitle": "The wine",
+    "wineText": "Dutch wines only: two white, two red and one sparkling.",
+    "listTitle": "Current menus",
+    "pdfNote": "Coming soon"
+  },
+  "events": {
+    "title": "Events",
+    "lead": "Something to celebrate or organise? You can do it here.",
+    "fact1Title": "Up to 70 guests",
+    "fact1Text": "We host events for up to 70 people at once.",
+    "fact2Title": "From bar to kitchen",
+    "fact2Text": "We provide professional catering, from the bar to the kitchen.",
+    "ctaTitle": "Something in mind?",
+    "ctaText": "Tell us the date, the number of guests and your wishes, and we'll think it through with you.",
+    "ctaContact": "Send an enquiry",
+    "ctaWhatsapp": "Message us on WhatsApp"
+  },
+  "building": {
+    "title": "The building",
+    "lead": "Lijnbaanssteeg 5–7 was built in 1734. Since then it has housed a commercial printing works, two restaurants and a cocktail bar. Now it is a public house.",
+    "galleryTitle": "The building in pictures",
+    "credit": "[Add the source and licence of the historic photographs]",
+    "nameTitle": "Why Batavia",
+    "nameText": "Batavia is the old Latin name for the Netherlands. And public house, because we are a pub in an old Amsterdam house, open to everyone. No more, no less.",
+    "streetTitle": "An alley of rope-makers",
+    "streetText": "The alley takes its name from the lijnbanen, the rope-walks that lay here at the end of the sixteenth century, when Singel was still the edge of the city.",
+    "insideTitle": "What survived",
+    "insideText": "You can still see it inside: beams that were once part of ships, a natural stone floor and an antique bar.",
+    "timelineTitle": "Under this roof",
+    "timeline": [
+      {
+        "year": "1734",
+        "title": "The building",
+        "text": "The building at Lijnbaanssteeg 5–7 is built."
+      },
+      {
+        "year": "[year]",
+        "title": "The printing works",
+        "text": "A commercial printing works runs at number 5. Its name is lettered large above the shopfront."
+      },
+      {
+        "year": "1969",
+        "title": "Restaurant Gravenmolen",
+        "text": "In 1968 architect Nic. Klok draws the conversion: a taproom downstairs, the restaurant above. Gravenmolen opens in November 1969 and holds a Michelin star from 1972 to 1976."
+      },
+      {
+        "year": "[year]",
+        "title": "De Jonge Gravenmolen",
+        "text": "A new generation: restaurant De Jonge Gravenmolen."
+      },
+      {
+        "year": "2012",
+        "title": "Tales & Spirits",
+        "text": "Cocktail bar Tales & Spirits moves in."
+      },
+      {
+        "year": "Now",
+        "title": "Batavia Public House",
+        "text": "Today the doors open as Batavia Public House."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Send a message, call us or use WhatsApp. You can book the same way; walking in is always fine.",
+    "formTitle": "Send us a message",
+    "name": "Name",
+    "email": "Email address",
+    "message": "Message",
+    "send": "Send message",
+    "formNote": "Your message goes to info@bataviapublichouse.nl.",
+    "subject": "Message via the website",
+    "directTitle": "Direct contact",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "whatsapp": "Message us on WhatsApp",
+    "addressTitle": "Address",
+    "mapsCta": "Open in Maps",
+    "parkingTitle": "Parking",
+    "parkingText": "The nearest car park is Q-Park Nieuwendijk at Nieuwezijds Kolk 18. It is open day and night and a few minutes' walk from the bar.",
+    "parkingCta": "Open the car park in Maps",
+    "routeTitle": "On foot from Centraal Station",
+    "routeTime": "About ten minutes.",
+    "s1": {
+      "place": "Centraal Station",
+      "text": "Leave the station on the city-centre side, at Stationsplein."
+    },
+    "s2": {
+      "place": "Martelaarsgracht",
+      "text": "Cross Prins Hendrikkade and walk into Martelaarsgracht."
+    },
+    "s3": {
+      "place": "Hekelveld and Spuistraat",
+      "text": "Carry on along Hekelveld until you reach Spuistraat."
+    },
+    "s4": {
+      "place": "Lijnbaanssteeg",
+      "text": "Follow Spuistraat and turn right into Lijnbaanssteeg, a narrow alley. We are at numbers 5–7."
+    },
+    "routeCta": "Open the walking route in Maps"
+  },
+  "footer": {
+    "addressTitle": "Address",
+    "hoursTitle": "Open",
+    "contactTitle": "Contact"
+  }
+}

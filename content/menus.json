@@ -1,0 +1,34 @@
+{
+  "menus": [
+    {
+      "name": {
+        "nl": "Drankenkaart",
+        "en": "Drinks menu",
+        "fy": "Drankekaart",
+        "fr": "Carte des boissons",
+        "de": "Getränkekarte"
+      },
+      "pdf": ""
+    },
+    {
+      "name": {
+        "nl": "Menukaart keuken",
+        "en": "Food menu",
+        "fy": "Menukaart keuken",
+        "fr": "Carte de la cuisine",
+        "de": "Speisekarte"
+      },
+      "pdf": ""
+    },
+    {
+      "name": {
+        "nl": "Seizoenskaart",
+        "en": "Seasonal menu",
+        "fy": "Seizoenskaart",
+        "fr": "Carte de saison",
+        "de": "Saisonkarte"
+      },
+      "pdf": ""
+    }
+  ]
+}
