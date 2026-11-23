@@ -221,6 +221,9 @@ content:
     - name: peopleText
       label: 'Owners: text'
       type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
     - name: knowTitle
       label: 'Good to know: title'
       type: string
@@ -458,6 +461,25 @@ content:
       - name: text
         label: Text
         type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
   - name: contact
     label: Contact page
     type: object
@@ -612,6 +634,9 @@ content:
     - name: peopleText
       label: 'Owners: text'
       type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
     - name: knowTitle
       label: 'Good to know: title'
       type: string
@@ -849,6 +874,25 @@ content:
       - name: text
         label: Text
         type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
   - name: contact
     label: Contact page
     type: object
@@ -1003,6 +1047,9 @@ content:
     - name: peopleText
       label: 'Owners: text'
       type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
     - name: knowTitle
       label: 'Good to know: title'
       type: string
@@ -1240,6 +1287,25 @@ content:
       - name: text
         label: Text
         type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
   - name: contact
     label: Contact page
     type: object
@@ -1394,6 +1460,9 @@ content:
     - name: peopleText
       label: 'Owners: text'
       type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
     - name: knowTitle
       label: 'Good to know: title'
       type: string
@@ -1631,6 +1700,25 @@ content:
       - name: text
         label: Text
         type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
   - name: contact
     label: Contact page
     type: object
@@ -1785,6 +1873,9 @@ content:
     - name: peopleText
       label: 'Owners: text'
       type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
     - name: knowTitle
       label: 'Good to know: title'
       type: string
@@ -2022,6 +2113,25 @@ content:
       - name: text
         label: Text
         type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
   - name: contact
     label: Contact page
     type: object
@@ -2160,6 +2270,132 @@ content:
         media: photos
     - name: caption
       label: Caption
+      type: object
+      fields:
+      - name: nl
+        label: Nederlands
+        type: text
+      - name: en
+        label: English
+        type: text
+      - name: fy
+        label: Frysk
+        type: text
+      - name: fr
+        label: Français
+        type: text
+      - name: de
+        label: Deutsch
+        type: text
+- name: team
+  label: Team (profiles, press and events)
+  type: file
+  path: content/team.json
+  format: json
+  fields:
+  - name: members
+    label: Team members
+    type: object
+    list: true
+    fields:
+    - name: name
+      label: Name
+      type: string
+    - name: role
+      label: Role
+      type: object
+      fields:
+      - name: nl
+        label: Nederlands
+        type: string
+      - name: en
+        label: English
+        type: string
+      - name: fy
+        label: Frysk
+        type: string
+      - name: fr
+        label: Français
+        type: string
+      - name: de
+        label: Deutsch
+        type: string
+    - name: photo
+      label: Portrait photo (upright works best; leave empty to show initials)
+      type: image
+      options:
+        media: photos
+    - name: bio
+      label: About (leave an empty line between paragraphs)
+      type: object
+      fields:
+      - name: nl
+        label: Nederlands
+        type: text
+      - name: en
+        label: English
+        type: text
+      - name: fy
+        label: Frysk
+        type: text
+      - name: fr
+        label: Français
+        type: text
+      - name: de
+        label: Deutsch
+        type: text
+    - name: milestones
+      label: Career
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: text
+        label: Text
+        type: object
+        fields:
+        - name: nl
+          label: Nederlands
+          type: string
+        - name: en
+          label: English
+          type: string
+        - name: fy
+          label: Frysk
+          type: string
+        - name: fr
+          label: Français
+          type: string
+        - name: de
+          label: Deutsch
+          type: string
+    - name: instagram
+      label: Instagram link (optional)
+      type: string
+    - name: linkedin
+      label: LinkedIn link (optional)
+      type: string
+  - name: press
+    label: Press and events (newest first)
+    type: object
+    list: true
+    fields:
+    - name: date
+      label: 'Date: year and month, for example 2025-12 (or just the year)'
+      type: string
+    - name: title
+      label: Title of the article or event
+      type: string
+    - name: source
+      label: Source (for example Entree Magazine)
+      type: string
+    - name: url
+      label: Link
+      type: string
+    - name: note
+      label: Short note
       type: object
       fields:
       - name: nl

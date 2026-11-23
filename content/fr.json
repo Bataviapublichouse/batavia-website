@@ -7,7 +7,8 @@
     "impBody1": "Batavia est un salon pour les Amstellodamois, les amateurs de cocktails, les gourmets et les amateurs de vin. Décontracté et chaleureux : une table dîne longuement, l'autre passe pour un verre.",
     "impBody2": "Nous travaillons avec des agriculteurs, des producteurs et des distillateurs locaux pour créer nos cocktails et nos plats. Chaque carte suit les saisons, et vous trouverez sur nos cartes toutes les informations sur les produits que nous utilisons.",
     "peopleTitle": "Derrière le bar",
-    "peopleText": "Batavia est la maison de Samuel Stok et Jimmy Hu, deux barmen qui se sont rencontrés derrière le même bar d'Amsterdam. Jimmy a terminé dans les trois premiers du concours Best Bartender Netherlands 2024.",
+    "peopleText": "Jimmy Hu & Samuel Stok, deux bartenders primés qui travaillent dans la restauration depuis des années.",
+    "peopleLink": "En savoir plus sur l'équipe",
     "knowTitle": "Bon à savoir",
     "k1Title": "Avec ou sans réservation",
     "k1Text": "Entrez quand vous voulez. Pour être sûr d'avoir une table, réservez.",
@@ -125,6 +126,13 @@
         "text": "Aujourd'hui, les portes s'ouvrent sous le nom de Batavia Public House."
       }
     ]
+  },
+  "team": {
+    "title": "L'équipe",
+    "lead": "Batavia appartient à Jimmy Hu et Samuel Stok, deux bartenders qui se sont rencontrés derrière le bar du Tailor, à Amsterdam.",
+    "careerTitle": "Parcours",
+    "pressTitle": "Dans la presse et sur scène",
+    "pressText": "Des articles sur leurs concours et les événements qu'ils ont animés. Les liens s'ouvrent sur le site de la source."
   },
   "contact": {
     "title": "Contact",

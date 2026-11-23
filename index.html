@@ -44,7 +44,7 @@ button { font: inherit; color: inherit; }
 .brand img { height: clamp(54px, 5.6vw, 72px); width: auto; }
 .nav { display: flex; align-items: center; gap: clamp(18px, 2.4vw, 36px); }
 .nav-links { display: flex; gap: clamp(16px, 2.2vw, 32px); margin: 0; padding: 0; list-style: none; }
-.nav-links a { text-decoration: none; font-size: 16px; letter-spacing: 0.02em; padding: 6px 0; border-bottom: 1px solid transparent; }
+.nav-links a { text-decoration: none; font-size: 16px; letter-spacing: 0.02em; padding: 6px 0; border-bottom: 1px solid transparent; white-space: nowrap; }
 .nav-links a:hover { border-bottom-color: var(--line); }
 .nav-links a[aria-current="page"] { border-bottom-color: var(--brass); }
 .langs { display: flex; gap: 2px; margin: 0; padding: 0; list-style: none; }
@@ -160,6 +160,26 @@ address { font-style: normal; }
 .timeline .yr { font-family: var(--serif); font-size: 26px; line-height: 1.2; color: var(--brass-2); font-variant-numeric: lining-nums; }
 .timeline p { color: var(--plaster-2); }
 
+.team { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(56px, 7vw, 104px); margin: 0; padding: 0; list-style: none; }
+.portrait { position: relative; width: min(100%, 340px); aspect-ratio: 4 / 5; margin-bottom: 30px; background: var(--oak-2); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.portrait img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.portrait .initials { font-family: var(--serif); font-size: clamp(72px, 8vw, 112px); line-height: 1; color: var(--brass); font-variant-numeric: lining-nums; }
+.member h2 { font-size: clamp(34px, 3.4vw, 48px); line-height: 1.05; }
+.member .role { margin-top: 8px; color: var(--muted); font-size: 17px; }
+.member .bio { margin-top: 22px; max-width: 58ch; }
+.member .bio p { color: var(--plaster-2); }
+.member .bio p + p { margin-top: 14px; }
+.member h3 { margin-top: 36px; margin-bottom: 4px; font-size: 22px; }
+.member .timeline li { grid-template-columns: 64px minmax(0, 1fr); gap: 18px; padding: 13px 0; }
+.member .timeline .yr { font-size: 20px; }
+.member .timeline p { font-size: 17px; }
+.member .socials { display: flex; gap: 22px; margin-top: 24px; font-size: 16px; }
+.press li > div h3 { font-size: 22px; line-height: 1.3; }
+.press li > div h3 a { color: var(--plaster); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 5px; text-decoration-thickness: 1px; }
+.press li > div h3 a:hover { color: var(--brass-2); text-decoration-color: var(--brass); }
+.press .src { margin-top: 4px; font-size: 15px; color: var(--muted); }
+.press .note { margin-top: 8px; }
+.press .yr { font-size: 22px; }
 .form { display: grid; gap: 20px; max-width: 560px; }
 .form label { display: grid; gap: 8px; font-size: 16px; }
 .form input, .form textarea { width: 100%; font: inherit; color: var(--plaster); background: var(--oak-2); border: 1px solid var(--line); padding: 13px 14px; border-radius: 0; }
@@ -193,6 +213,14 @@ address { font-style: normal; }
   .around li:nth-child(3) { padding-left: 0; border-left: 0; }
   .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+@media (min-width: 861px) and (max-width: 1060px) {
+  .site-header { gap: 16px; }
+  .nav { gap: 12px; }
+  .nav-links { gap: 14px; }
+  .nav-links a { font-size: 15px; letter-spacing: 0; }
+  .langs button { padding: 6px 4px; font-size: 13px; }
+  .brand img { height: 50px; }
+}
 @media (max-width: 860px) {
   :root { --header-h: 84px; }
   .menu-toggle { display: inline-block; }
@@ -201,7 +229,7 @@ address { font-style: normal; }
   .nav-links { flex-direction: column; gap: 6px; }
   .nav-links a { font-family: var(--serif); font-size: 30px; }
   .split, .split.even { grid-template-columns: minmax(0, 1fr); }
-  .trio { grid-template-columns: minmax(0, 1fr); }
+  .trio, .team { grid-template-columns: minmax(0, 1fr); }
   .rail { display: none; }
   .mobile-bar { display: block; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: rgba(237, 228, 211, 0.16); }
   .mobile-bar i { display: block; height: 100%; width: 0; background: var(--brass); }
@@ -217,6 +245,7 @@ address { font-style: normal; }
   .foot { grid-template-columns: minmax(0, 1fr); }
   .timeline li { grid-template-columns: minmax(0, 1fr); gap: 6px; }
   .gallery .controls { flex-direction: column-reverse; align-items: flex-start; }
+  .portrait { width: min(100%, 240px); margin-bottom: 24px; }
   .cue { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -237,6 +266,7 @@ address { font-style: normal; }
       <li><a href="#menus" data-page="menus" data-t="nav.menus"></a></li>
       <li><a href="#events" data-page="events" data-t="nav.events"></a></li>
       <li><a href="#building" data-page="building" data-t="nav.building"></a></li>
+      <li><a href="#team" data-page="team" data-t="nav.team"></a></li>
       <li><a href="#contact" data-page="contact" data-t="nav.contact"></a></li>
     </ul>
     <ul class="langs" data-ta="aria-label:a11y.language" role="list">
@@ -309,6 +339,7 @@ address { font-style: normal; }
           <div class="aside-note">
             <h3 data-t="home.peopleTitle"></h3>
             <p data-t="home.peopleText"></p>
+            <p style="margin-top: 14px"><a class="link" href="#team" data-t="home.peopleLink"></a></p>
           </div>
         </div>
       </div>
@@ -445,6 +476,24 @@ address { font-style: normal; }
   </div>
 </div>
 
+<!-- TEAM -->
+<div class="view" data-view="team" hidden>
+  <div class="wrap">
+    <header class="page-head">
+      <h1 class="page-title" data-t="team.title"></h1>
+      <p class="lead" data-t="team.lead"></p>
+    </header>
+    <section class="block first" style="padding-top: 0">
+      <ul class="team" id="teamList"></ul>
+    </section>
+    <section class="block" aria-labelledby="pressTitle">
+      <h2 class="title" id="pressTitle" data-t="team.pressTitle"></h2>
+      <div class="body" style="margin-bottom: 28px"><p data-t="team.pressText"></p></div>
+      <ol class="timeline press" id="pressList"></ol>
+    </section>
+  </div>
+</div>
+
 <!-- CONTACT -->
 <div class="view" data-view="contact" hidden>
   <div class="wrap">
@@ -526,11 +575,11 @@ address { font-style: normal; }
 <script>
 (function () {
 'use strict';
-var FIXED = {"nl":{"nav":{"home":"Home","menus":"Menu's","events":"Evenementen","building":"Het pand","contact":"Contact"},"a11y":{"mainNav":"Hoofdmenu","language":"Taal","skip":"Ga naar de inhoud","logoHome":"Batavia Public House, naar de homepage","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Lijntekening van de gevel van Batavia Public House aan de Lijnbaanssteeg 5–7","gallery":"Foto's uit de geschiedenis van het pand","prev":"Vorige foto","next":"Volgende foto"},"status":{"closed":"Gesloten","openUntil":"Nu open tot {t}","opensToday":"Vandaag open vanaf {t}","opensDay":"Nu gesloten, {d} weer open vanaf {t}","daysMid":{"d0":"zondag","d1":"maandag","d2":"dinsdag","d3":"woensdag","d4":"donderdag","d5":"vrijdag","d6":"zaterdag"}},"form":{"ready":"Je bericht staat klaar, maar is nog niet verstuurd. Open het in je mailprogramma om het te versturen.","open":"Open in mailprogramma","copy":"Kopieer bericht","copied":"Gekopieerd","missing":"Vul je naam, e-mailadres en bericht in."},"still":{"facade":"Beeld uit de film: de gevel aan de Lijnbaanssteeg in de avond","bar":"Beeld uit de film: de bar bij kaarslicht","room":"Beeld uit de film: de speakeasy achter de boekenkast"},"home":{"days":{"d1":"Maandag","d2":"Dinsdag","d3":"Woensdag","d4":"Donderdag","d5":"Vrijdag","d6":"Zaterdag","d7":"Zondag"}},"film":{"label":"Film: van de steeg naar binnen, door de bar en de trap op naar de bovenzaal","loading":"De film wordt geladen"},"menus":{"open":"Bekijk de kaart (PDF)"}},"en":{"nav":{"home":"Home","menus":"Menus","events":"Events","building":"The building","contact":"Contact"},"a11y":{"mainNav":"Main","language":"Language","skip":"Skip to content","logoHome":"Batavia Public House, to the home page","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Line drawing of the facade of Batavia Public House at Lijnbaanssteeg 5–7","gallery":"Photographs from the building's history","prev":"Previous photo","next":"Next photo"},"status":{"closed":"Closed","openUntil":"Open now until {t}","opensToday":"Opens today at {t}","opensDay":"Closed now, open again on {d} from {t}","daysMid":{"d0":"Sunday","d1":"Monday","d2":"Tuesday","d3":"Wednesday","d4":"Thursday","d5":"Friday","d6":"Saturday"}},"form":{"ready":"Your message is ready but has not been sent yet. Open it in your mail app to send it.","open":"Open in mail app","copy":"Copy message","copied":"Copied","missing":"Fill in your name, email address and message."},"still":{"facade":"Still from the film: the facade on Lijnbaanssteeg in the evening","bar":"Still from the film: the bar by candlelight","room":"Still from the film: the speakeasy behind the bookshelf"},"home":{"days":{"d1":"Monday","d2":"Tuesday","d3":"Wednesday","d4":"Thursday","d5":"Friday","d6":"Saturday","d7":"Sunday"}},"film":{"label":"Film: from the alley, through the bar and up the stairs to the room upstairs","loading":"Loading the film"},"menus":{"open":"View the menu (PDF)"}},"fy":{"nav":{"home":"Thús","menus":"Menu's","events":"Eveneminten","building":"It pân","contact":"Kontakt"},"a11y":{"mainNav":"Haadmenu","language":"Taal","skip":"Gean nei de ynhâld","logoHome":"Batavia Public House, nei de thússide","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Lyntekening fan de gevel fan Batavia Public House oan de Lijnbaanssteeg 5–7","gallery":"Foto's út de skiednis fan it pân","prev":"Foarige foto","next":"Folgjende foto"},"status":{"closed":"Ticht","openUntil":"No iepen oant {t}","opensToday":"Hjoed iepen fan {t} ôf","opensDay":"No ticht, {d} wer iepen fan {t} ôf","daysMid":{"d0":"snein","d1":"moandei","d2":"tiisdei","d3":"woansdei","d4":"tongersdei","d5":"freed","d6":"sneon"}},"form":{"ready":"Jo berjocht stiet klear, mar is noch net ferstjoerd. Iepenje it yn jo mailprogramma om it te ferstjoeren.","open":"Iepenje yn mailprogramma","copy":"Kopiearje berjocht","copied":"Kopiearre","missing":"Folje jo namme, e-mailadres en berjocht yn."},"still":{"facade":"Byld út de film: de gevel oan de Lijnbaanssteeg jûns","bar":"Byld út de film: de bar by kearsljocht","room":"Byld út de film: de speakeasy efter de boekekast"},"home":{"days":{"d1":"Moandei","d2":"Tiisdei","d3":"Woansdei","d4":"Tongersdei","d5":"Freed","d6":"Sneon","d7":"Snein"}},"film":{"label":"Film: fan de steech nei binnen, troch de bar en de trep op nei de boppeseal","loading":"De film wurdt laden"},"menus":{"open":"Besjoch de kaart (PDF)"}},"fr":{"nav":{"home":"Accueil","menus":"Cartes","events":"Événements","building":"La maison","contact":"Contact"},"a11y":{"mainNav":"Menu principal","language":"Langue","skip":"Aller au contenu","logoHome":"Batavia Public House, vers la page d'accueil","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Dessin au trait de la façade du Batavia Public House, Lijnbaanssteeg 5–7","gallery":"Photographies de l'histoire de la maison","prev":"Photo précédente","next":"Photo suivante"},"status":{"closed":"Fermé","openUntil":"Ouvert jusqu'à {t}","opensToday":"Ouvre aujourd'hui à {t}","opensDay":"Fermé pour l'instant, réouverture {d} à {t}","daysMid":{"d0":"dimanche","d1":"lundi","d2":"mardi","d3":"mercredi","d4":"jeudi","d5":"vendredi","d6":"samedi"}},"form":{"ready":"Votre message est prêt, mais il n'a pas encore été envoyé. Ouvrez-le dans votre messagerie pour l'envoyer.","open":"Ouvrir dans la messagerie","copy":"Copier le message","copied":"Copié","missing":"Indiquez votre nom, votre adresse e-mail et votre message."},"still":{"facade":"Image du film : la façade sur la Lijnbaanssteeg le soir","bar":"Image du film : le bar à la lueur des bougies","room":"Image du film : le speakeasy derrière la bibliothèque"},"home":{"days":{"d1":"Lundi","d2":"Mardi","d3":"Mercredi","d4":"Jeudi","d5":"Vendredi","d6":"Samedi","d7":"Dimanche"}},"film":{"label":"Film : de la ruelle à l'intérieur, à travers le bar et par l'escalier jusqu'à la salle de l'étage","loading":"Chargement du film"},"menus":{"open":"Voir la carte (PDF)"}},"de":{"nav":{"home":"Start","menus":"Karten","events":"Veranstaltungen","building":"Das Haus","contact":"Kontakt"},"a11y":{"mainNav":"Hauptmenü","language":"Sprache","skip":"Zum Inhalt springen","logoHome":"Batavia Public House, zur Startseite","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Strichzeichnung der Fassade des Batavia Public House in der Lijnbaanssteeg 5–7","gallery":"Fotografien aus der Geschichte des Hauses","prev":"Vorheriges Foto","next":"Nächstes Foto"},"status":{"closed":"Geschlossen","openUntil":"Jetzt geöffnet bis {t} Uhr","opensToday":"Heute ab {t} Uhr geöffnet","opensDay":"Derzeit geschlossen, am {d} wieder ab {t} Uhr geöffnet","daysMid":{"d0":"Sonntag","d1":"Montag","d2":"Dienstag","d3":"Mittwoch","d4":"Donnerstag","d5":"Freitag","d6":"Samstag"}},"form":{"ready":"Ihre Nachricht ist bereit, aber noch nicht gesendet. Öffnen Sie sie in Ihrem Mailprogramm, um sie zu senden.","open":"Im Mailprogramm öffnen","copy":"Nachricht kopieren","copied":"Kopiert","missing":"Bitte geben Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht ein."},"still":{"facade":"Standbild aus dem Film: die Fassade an der Lijnbaanssteeg am Abend","bar":"Standbild aus dem Film: die Bar bei Kerzenlicht","room":"Standbild aus dem Film: die Speakeasy hinter dem Bücherregal"},"home":{"days":{"d1":"Montag","d2":"Dienstag","d3":"Mittwoch","d4":"Donnerstag","d5":"Freitag","d6":"Samstag","d7":"Sonntag"}},"film":{"label":"Film: von der Gasse hinein, durch die Bar und die Treppe hinauf in den Saal oben","loading":"Der Film wird geladen"},"menus":{"open":"Karte ansehen (PDF)"}}};
-var CONTENT = {}, MENUS = [], PHOTOS = [];
+var FIXED = {"nl":{"nav":{"home":"Home","menus":"Menu's","events":"Evenementen","building":"Het pand","team":"Het team","contact":"Contact"},"a11y":{"mainNav":"Hoofdmenu","language":"Taal","skip":"Ga naar de inhoud","logoHome":"Batavia Public House, naar de homepage","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Lijntekening van de gevel van Batavia Public House aan de Lijnbaanssteeg 5–7","gallery":"Foto's uit de geschiedenis van het pand","prev":"Vorige foto","next":"Volgende foto"},"status":{"closed":"Gesloten","openUntil":"Nu open tot {t}","opensToday":"Vandaag open vanaf {t}","opensDay":"Nu gesloten, {d} weer open vanaf {t}","daysMid":{"d0":"zondag","d1":"maandag","d2":"dinsdag","d3":"woensdag","d4":"donderdag","d5":"vrijdag","d6":"zaterdag"}},"form":{"ready":"Je bericht staat klaar, maar is nog niet verstuurd. Open het in je mailprogramma om het te versturen.","open":"Open in mailprogramma","copy":"Kopieer bericht","copied":"Gekopieerd","missing":"Vul je naam, e-mailadres en bericht in."},"still":{"facade":"Beeld uit de film: de gevel aan de Lijnbaanssteeg in de avond","bar":"Beeld uit de film: de bar bij kaarslicht","room":"Beeld uit de film: de speakeasy achter de boekenkast"},"home":{"days":{"d1":"Maandag","d2":"Dinsdag","d3":"Woensdag","d4":"Donderdag","d5":"Vrijdag","d6":"Zaterdag","d7":"Zondag"}},"film":{"label":"Film: van de steeg naar binnen, door de bar en de trap op naar de bovenzaal","loading":"De film wordt geladen"},"menus":{"open":"Bekijk de kaart (PDF)"}},"en":{"nav":{"home":"Home","menus":"Menus","events":"Events","building":"The building","team":"The team","contact":"Contact"},"a11y":{"mainNav":"Main","language":"Language","skip":"Skip to content","logoHome":"Batavia Public House, to the home page","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Line drawing of the facade of Batavia Public House at Lijnbaanssteeg 5–7","gallery":"Photographs from the building's history","prev":"Previous photo","next":"Next photo"},"status":{"closed":"Closed","openUntil":"Open now until {t}","opensToday":"Opens today at {t}","opensDay":"Closed now, open again on {d} from {t}","daysMid":{"d0":"Sunday","d1":"Monday","d2":"Tuesday","d3":"Wednesday","d4":"Thursday","d5":"Friday","d6":"Saturday"}},"form":{"ready":"Your message is ready but has not been sent yet. Open it in your mail app to send it.","open":"Open in mail app","copy":"Copy message","copied":"Copied","missing":"Fill in your name, email address and message."},"still":{"facade":"Still from the film: the facade on Lijnbaanssteeg in the evening","bar":"Still from the film: the bar by candlelight","room":"Still from the film: the speakeasy behind the bookshelf"},"home":{"days":{"d1":"Monday","d2":"Tuesday","d3":"Wednesday","d4":"Thursday","d5":"Friday","d6":"Saturday","d7":"Sunday"}},"film":{"label":"Film: from the alley, through the bar and up the stairs to the room upstairs","loading":"Loading the film"},"menus":{"open":"View the menu (PDF)"}},"fy":{"nav":{"home":"Thús","menus":"Menu's","events":"Eveneminten","building":"It pân","team":"It team","contact":"Kontakt"},"a11y":{"mainNav":"Haadmenu","language":"Taal","skip":"Gean nei de ynhâld","logoHome":"Batavia Public House, nei de thússide","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Lyntekening fan de gevel fan Batavia Public House oan de Lijnbaanssteeg 5–7","gallery":"Foto's út de skiednis fan it pân","prev":"Foarige foto","next":"Folgjende foto"},"status":{"closed":"Ticht","openUntil":"No iepen oant {t}","opensToday":"Hjoed iepen fan {t} ôf","opensDay":"No ticht, {d} wer iepen fan {t} ôf","daysMid":{"d0":"snein","d1":"moandei","d2":"tiisdei","d3":"woansdei","d4":"tongersdei","d5":"freed","d6":"sneon"}},"form":{"ready":"Jo berjocht stiet klear, mar is noch net ferstjoerd. Iepenje it yn jo mailprogramma om it te ferstjoeren.","open":"Iepenje yn mailprogramma","copy":"Kopiearje berjocht","copied":"Kopiearre","missing":"Folje jo namme, e-mailadres en berjocht yn."},"still":{"facade":"Byld út de film: de gevel oan de Lijnbaanssteeg jûns","bar":"Byld út de film: de bar by kearsljocht","room":"Byld út de film: de speakeasy efter de boekekast"},"home":{"days":{"d1":"Moandei","d2":"Tiisdei","d3":"Woansdei","d4":"Tongersdei","d5":"Freed","d6":"Sneon","d7":"Snein"}},"film":{"label":"Film: fan de steech nei binnen, troch de bar en de trep op nei de boppeseal","loading":"De film wurdt laden"},"menus":{"open":"Besjoch de kaart (PDF)"}},"fr":{"nav":{"home":"Accueil","menus":"Cartes","events":"Événements","building":"La maison","team":"L'équipe","contact":"Contact"},"a11y":{"mainNav":"Menu principal","language":"Langue","skip":"Aller au contenu","logoHome":"Batavia Public House, vers la page d'accueil","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Dessin au trait de la façade du Batavia Public House, Lijnbaanssteeg 5–7","gallery":"Photographies de l'histoire de la maison","prev":"Photo précédente","next":"Photo suivante"},"status":{"closed":"Fermé","openUntil":"Ouvert jusqu'à {t}","opensToday":"Ouvre aujourd'hui à {t}","opensDay":"Fermé pour l'instant, réouverture {d} à {t}","daysMid":{"d0":"dimanche","d1":"lundi","d2":"mardi","d3":"mercredi","d4":"jeudi","d5":"vendredi","d6":"samedi"}},"form":{"ready":"Votre message est prêt, mais il n'a pas encore été envoyé. Ouvrez-le dans votre messagerie pour l'envoyer.","open":"Ouvrir dans la messagerie","copy":"Copier le message","copied":"Copié","missing":"Indiquez votre nom, votre adresse e-mail et votre message."},"still":{"facade":"Image du film : la façade sur la Lijnbaanssteeg le soir","bar":"Image du film : le bar à la lueur des bougies","room":"Image du film : le speakeasy derrière la bibliothèque"},"home":{"days":{"d1":"Lundi","d2":"Mardi","d3":"Mercredi","d4":"Jeudi","d5":"Vendredi","d6":"Samedi","d7":"Dimanche"}},"film":{"label":"Film : de la ruelle à l'intérieur, à travers le bar et par l'escalier jusqu'à la salle de l'étage","loading":"Chargement du film"},"menus":{"open":"Voir la carte (PDF)"}},"de":{"nav":{"home":"Start","menus":"Karten","events":"Veranstaltungen","building":"Das Haus","team":"Das Team","contact":"Kontakt"},"a11y":{"mainNav":"Hauptmenü","language":"Sprache","skip":"Zum Inhalt springen","logoHome":"Batavia Public House, zur Startseite","logoAlt":"Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam","facadeAlt":"Strichzeichnung der Fassade des Batavia Public House in der Lijnbaanssteeg 5–7","gallery":"Fotografien aus der Geschichte des Hauses","prev":"Vorheriges Foto","next":"Nächstes Foto"},"status":{"closed":"Geschlossen","openUntil":"Jetzt geöffnet bis {t} Uhr","opensToday":"Heute ab {t} Uhr geöffnet","opensDay":"Derzeit geschlossen, am {d} wieder ab {t} Uhr geöffnet","daysMid":{"d0":"Sonntag","d1":"Montag","d2":"Dienstag","d3":"Mittwoch","d4":"Donnerstag","d5":"Freitag","d6":"Samstag"}},"form":{"ready":"Ihre Nachricht ist bereit, aber noch nicht gesendet. Öffnen Sie sie in Ihrem Mailprogramm, um sie zu senden.","open":"Im Mailprogramm öffnen","copy":"Nachricht kopieren","copied":"Kopiert","missing":"Bitte geben Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht ein."},"still":{"facade":"Standbild aus dem Film: die Fassade an der Lijnbaanssteeg am Abend","bar":"Standbild aus dem Film: die Bar bei Kerzenlicht","room":"Standbild aus dem Film: die Speakeasy hinter dem Bücherregal"},"home":{"days":{"d1":"Montag","d2":"Dienstag","d3":"Mittwoch","d4":"Donnerstag","d5":"Freitag","d6":"Samstag","d7":"Sonntag"}},"film":{"label":"Film: von der Gasse hinein, durch die Bar und die Treppe hinauf in den Saal oben","loading":"Der Film wird geladen"},"menus":{"open":"Karte ansehen (PDF)"}}};
+var CONTENT = {}, MENUS = [], PHOTOS = [], TEAM = { members: [], press: [] };
 var UI = { nl: { menu: 'Menu', close: 'Sluiten' }, en: { menu: 'Menu', close: 'Close' }, fy: { menu: 'Menu', close: 'Slute' }, fr: { menu: 'Menu', close: 'Fermer' }, de: { menu: 'Menü', close: 'Schließen' } };
 var LANGS = ['nl', 'en', 'fy', 'fr', 'de'];
-var PAGES = ['home', 'menus', 'events', 'building', 'contact'];
+var PAGES = ['home', 'menus', 'events', 'building', 'team', 'contact'];
 var FILM = { duration: 36.25, chapters: [0, 7, 14, 25], captions: [[0, 2.4], [9, 13], [16, 21.5], [27, 99]] };
 var SCHED = {};
 var DAYKEYS = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
@@ -647,6 +696,7 @@ function renderStatus() {
 function render() {
   t = merge(FIXED[lang], CONTENT[lang] || {});
   t.ui = UI[lang];
+  if (t.team && t.team.title) t.nav.team = t.team.title;
   document.documentElement.lang = lang;
   $$('[data-t]').forEach(function (el) {
     var v = get(t, el.getAttribute('data-t'));
@@ -664,6 +714,7 @@ function render() {
     return '<li><span class="yr">' + esc(e.year) + '</span><div><h3>' + esc(e.title) + '</h3><p>' + esc(e.text) + '</p></div></li>';
   });
   $('#timeline').innerHTML = tl.join('');
+  renderTeam();
   $('#menuList').innerHTML = MENUS.map(function (m) {
     var name = (m.name && (m.name[lang] || m.name.nl || m.name.en)) || '';
     var right = m.pdf ? '<a href="' + esc(m.pdf) + '" target="_blank" rel="noopener">' + esc(t.menus.open) + '</a>' : '<span>' + esc(t.menus.pdfNote) + '</span>';
@@ -673,6 +724,43 @@ function render() {
   showSlide(gi);
   setMenuLabel();
   document.title = pageTitle();
+}
+function paras(s) { return String(s || '').split(/\n\s*\n/).map(function (p) { return p.trim(); }).filter(Boolean).map(function (p) { return '<p>' + esc(p) + '</p>'; }).join(''); }
+function initials(n) { var w = String(n || '').trim().split(/\s+/).filter(Boolean); return w.length ? (w[0][0] + (w.length > 1 ? w[w.length - 1][0] : '')).toUpperCase() : ''; }
+function safeUrl(u) { u = String(u || '').trim(); return /^https?:\/\//i.test(u) ? u : ''; }
+function monthYear(d) {
+  var m = /^(\d{4})(?:-(\d{1,2}))?/.exec(String(d || '').trim());
+  if (!m) return esc(d || '');
+  if (!m[2]) return m[1];
+  var loc = lang;
+  try { if (!Intl.DateTimeFormat.supportedLocalesOf([lang]).length) loc = 'nl'; } catch (e) { loc = 'nl'; }
+  try { return new Intl.DateTimeFormat(loc, { month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(Date.UTC(+m[1], +m[2] - 1, 1))); } catch (e) { return m[1] + '-' + m[2]; }
+}
+function renderTeam() {
+  var tt = t.team || {};
+  $('#teamList').innerHTML = (TEAM.members || []).map(function (m) {
+    var photo = m.photo ? String(m.photo).replace(/^\//, '') : '';
+    var pic = photo ? '<img src="' + esc(photo) + '" alt="' + esc(m.name || '') + '" loading="lazy">' : '<span class="initials" aria-hidden="true">' + esc(initials(m.name)) + '</span>';
+    var ms = (m.milestones || []).filter(function (x) { return x && (x.year || pick(x.text)); }).map(function (x) {
+      return '<li><span class="yr">' + esc(x.year || '') + '</span><div><p>' + esc(pick(x.text)) + '</p></div></li>';
+    }).join('');
+    var links = [['Instagram', safeUrl(m.instagram)], ['LinkedIn', safeUrl(m.linkedin)]].filter(function (x) { return x[1]; }).map(function (x) {
+      return '<a class="link" href="' + esc(x[1]) + '" target="_blank" rel="noopener">' + x[0] + '</a>';
+    }).join('');
+    return '<li class="member"><div class="portrait">' + pic + '</div>' +
+      '<h2>' + esc(m.name || '') + '</h2>' +
+      (pick(m.role) ? '<p class="role">' + esc(pick(m.role)) + '</p>' : '') +
+      '<div class="bio">' + paras(pick(m.bio)) + '</div>' +
+      (ms ? '<h3>' + esc(tt.careerTitle || '') + '</h3><ol class="timeline">' + ms + '</ol>' : '') +
+      (links ? '<p class="socials">' + links + '</p>' : '') + '</li>';
+  }).join('');
+  $('#pressList').innerHTML = (TEAM.press || []).filter(function (p) { return p && p.title; }).map(function (p) {
+    var url = safeUrl(p.url);
+    var title = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a>' : esc(p.title);
+    return '<li><span class="yr">' + monthYear(p.date) + '</span><div><h3>' + title + '</h3>' +
+      (p.source ? '<p class="src">' + esc(p.source) + '</p>' : '') +
+      (pick(p.note) ? '<p class="note">' + esc(pick(p.note)) + '</p>' : '') + '</div></li>';
+  }).join('');
 }
 function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 function pageTitle() { return page === 'home' ? 'Batavia Public House' : t.nav[page] + ' | Batavia Public House'; }
@@ -888,7 +976,8 @@ Promise.all([
   loadLang(lang).catch(function () { return loadLang('nl'); }),
   getJSON('content/opening-hours.json').then(buildSched).catch(function () {}),
   getJSON('content/menus.json').then(function (j) { MENUS = (j && j.menus) || []; }).catch(function () {}),
-  getJSON('content/history-photos.json').then(function (j) { PHOTOS = (j && j.photos) || []; }).catch(function () {})
+  getJSON('content/history-photos.json').then(function (j) { PHOTOS = (j && j.photos) || []; }).catch(function () {}),
+  getJSON('content/team.json').then(function (j) { TEAM = { members: (j && j.members) || [], press: (j && j.press) || [] }; }).catch(function () {})
 ]).then(function () {
   if (!CONTENT[lang]) lang = 'nl';
   render();

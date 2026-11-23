@@ -1,0 +1,300 @@
+{
+  "members": [
+    {
+      "name": "Jimmy Hu",
+      "role": {
+        "nl": "Mede-eigenaar en bartender",
+        "en": "Co-owner and bartender",
+        "fy": "Mei-eigener en bartender",
+        "fr": "Copropriétaire et bartender",
+        "de": "Mitinhaber und Bartender"
+      },
+      "photo": "",
+      "bio": {
+        "nl": "Jimmy groeide op in Hengelo, in een ondernemersfamilie met meerdere horecazaken. In 2018 volgde hij de European Bartender School in Thailand, waarna hij in bars in Azië werkte. In 2021 verhuisde hij naar Amsterdam, waar hij eerst als freelancer de stad leerde kennen en zich daarna richtte op de high-end cocktailbars.\n\nHij werkte onder meer bij Axis Bar in het Hilton Amsterdam Schiphol, Bar The Tailor in het Krasnapolsky en Bar TwentySeven aan de Dam. In 2024 haalde hij de finale van Best Bartender van Entree Magazine, een jaar later won hij de titel. In 2026 zit hij zelf in de jury.",
+        "en": "Jimmy grew up in Hengelo, in a family that runs several hospitality businesses. In 2018 he trained at the European Bartender School in Thailand and went on to work in bars across Asia. In 2021 he moved to Amsterdam, freelancing behind the city's bars before settling into its high-end cocktail scene.\n\nHe has worked at Axis Bar in the Hilton Amsterdam Schiphol, Bar The Tailor at the Krasnapolsky and Bar TwentySeven on Dam Square. In 2024 he reached the final of Entree Magazine's Best Bartender competition, and a year later he won the title. In 2026 he sits on the jury himself.",
+        "fy": "Jimmy groeide op yn Hengelo, yn in ûndernimmersfamylje mei ferskate horekasaken. Yn 2018 folge er de European Bartender School yn Tailân, en dêrnei wurke er yn bars yn Aazje. Yn 2021 ferhuze er nei Amsterdam, dêr't er earst as freelancer de stêd kennen learde en him dêrnei rjochte op de high-end cocktailbars.\n\nHy wurke ûnder oaren by Axis Bar yn it Hilton Amsterdam Schiphol, Bar The Tailor yn it Krasnapolsky en Bar TwentySeven oan de Dam. Yn 2024 helle er de finale fan Best Bartender fan Entree Magazine, in jier letter wûn er de titel. Yn 2026 sit er sels yn de sjuery.",
+        "fr": "Jimmy a grandi à Hengelo, dans une famille d'entrepreneurs qui tient plusieurs établissements. En 2018, il suit la European Bartender School en Thaïlande, puis travaille dans des bars en Asie. En 2021, il s'installe à Amsterdam, d'abord comme bartender freelance, avant de se consacrer aux bars à cocktails haut de gamme de la ville.\n\nIl a travaillé notamment à l'Axis Bar du Hilton Amsterdam Schiphol, au Bar The Tailor du Krasnapolsky et au Bar TwentySeven, sur le Dam. En 2024, il atteint la finale du concours Best Bartender d'Entree Magazine ; un an plus tard, il remporte le titre. En 2026, il siège lui-même dans le jury.",
+        "de": "Jimmy wuchs in Hengelo in einer Unternehmerfamilie mit mehreren Gastronomiebetrieben auf. 2018 absolvierte er die European Bartender School in Thailand und arbeitete danach in Bars in Asien. 2021 zog er nach Amsterdam, wo er zunächst als freiberuflicher Bartender die Stadt kennenlernte und sich dann den gehobenen Cocktailbars zuwandte.\n\nEr arbeitete unter anderem in der Axis Bar im Hilton Amsterdam Schiphol, in der Bar The Tailor im Krasnapolsky und in der Bar TwentySeven am Dam. 2024 erreichte er das Finale des Wettbewerbs Best Bartender von Entree Magazine, ein Jahr später gewann er den Titel. 2026 sitzt er selbst in der Jury."
+      },
+      "milestones": [
+        {
+          "year": "2018",
+          "text": {
+            "nl": "European Bartender School in Thailand, daarna bars in Azië",
+            "en": "European Bartender School in Thailand, then bars across Asia",
+            "fy": "European Bartender School yn Tailân, dêrnei bars yn Aazje",
+            "fr": "European Bartender School en Thaïlande, puis des bars en Asie",
+            "de": "European Bartender School in Thailand, danach Bars in Asien"
+          }
+        },
+        {
+          "year": "2021",
+          "text": {
+            "nl": "Naar Amsterdam, als freelance bartender",
+            "en": "Moves to Amsterdam as a freelance bartender",
+            "fy": "Nei Amsterdam, as freelance bartender",
+            "fr": "Arrivée à Amsterdam, comme bartender freelance",
+            "de": "Umzug nach Amsterdam, als freiberuflicher Bartender"
+          }
+        },
+        {
+          "year": "2023",
+          "text": {
+            "nl": "Axis Bar, Hilton Amsterdam Schiphol",
+            "en": "Axis Bar, Hilton Amsterdam Schiphol",
+            "fy": "Axis Bar, Hilton Amsterdam Schiphol",
+            "fr": "Axis Bar, Hilton Amsterdam Schiphol",
+            "de": "Axis Bar, Hilton Amsterdam Schiphol"
+          }
+        },
+        {
+          "year": "2024",
+          "text": {
+            "nl": "Bar The Tailor, Grand Hotel Krasnapolsky; finalist Best Bartender 2024 van Entree Magazine",
+            "en": "Bar The Tailor, Grand Hotel Krasnapolsky; finalist in Entree Magazine's Best Bartender 2024",
+            "fy": "Bar The Tailor, Grand Hotel Krasnapolsky; finalist Best Bartender 2024 fan Entree Magazine",
+            "fr": "Bar The Tailor, Grand Hotel Krasnapolsky ; finaliste de Best Bartender 2024 d'Entree Magazine",
+            "de": "Bar The Tailor, Grand Hotel Krasnapolsky; Finalist bei Best Bartender 2024 von Entree Magazine"
+          }
+        },
+        {
+          "year": "2025",
+          "text": {
+            "nl": "Bar TwentySeven; winnaar Best Bartender 2025 van Entree Magazine",
+            "en": "Bar TwentySeven; wins Entree Magazine's Best Bartender 2025",
+            "fy": "Bar TwentySeven; winner Best Bartender 2025 fan Entree Magazine",
+            "fr": "Bar TwentySeven ; lauréat de Best Bartender 2025 d'Entree Magazine",
+            "de": "Bar TwentySeven; Gewinner von Best Bartender 2025 von Entree Magazine"
+          }
+        },
+        {
+          "year": "2026",
+          "text": {
+            "nl": "Jurylid Best Bartender 2026; richt Batavia op met Samuel",
+            "en": "Judge for Best Bartender 2026; founds Batavia with Samuel",
+            "fy": "Sjuerylid Best Bartender 2026; rjochtet Batavia op mei Samuel",
+            "fr": "Membre du jury de Best Bartender 2026 ; fonde Batavia avec Samuel",
+            "de": "Jurymitglied bei Best Bartender 2026; gründet Batavia mit Samuel"
+          }
+        }
+      ],
+      "instagram": "https://www.instagram.com/whosjimmyhu/",
+      "linkedin": "https://www.linkedin.com/in/jimmy-hu-a6a96211a/"
+    },
+    {
+      "name": "Samuel Stok",
+      "role": {
+        "nl": "Mede-eigenaar en bartender",
+        "en": "Co-owner and bartender",
+        "fy": "Mei-eigener en bartender",
+        "fr": "Copropriétaire et bartender",
+        "de": "Mitinhaber und Bartender"
+      },
+      "photo": "",
+      "bio": {
+        "nl": "Samuel komt uit Lelystad en ging op zijn zeventiende naar de hotelschool in Den Haag. Hij begon in de keuken, ging daarna de bediening in en vond uiteindelijk zijn vak achter de bar, waar smaak maken en gastvrijheid samenkomen. Als head bartender was hij vaak ook verantwoordelijk voor inkoop, menu's en het trainen van het team.\n\nHij werkte bijna tweeënhalf jaar in het buitenland, van Malta tot Curaçao en Bonaire, en haalde onder meer WSET Level 2 in wijn met merit. Terug in Amsterdam stond hij achter de bar van The Tailor in het Krasnapolsky en werd hij in 2026 derde op het NK Cocktails van de Nederlandse Bartenders Club.",
+        "en": "Samuel is from Lelystad and started hotel school in The Hague at seventeen. He began in the kitchen, moved on to the floor and found his craft behind the bar, where making flavour and looking after guests come together. As head bartender he was often also in charge of purchasing, menus and training the team.\n\nHe spent nearly two and a half years abroad, from Malta to Curaçao and Bonaire, and holds a WSET Level 2 in Wines with merit. Back in Amsterdam he worked behind the bar at The Tailor in the Krasnapolsky, and in 2026 he finished third at the Dutch Cocktail Championship of the Nederlandse Bartenders Club.",
+        "fy": "Samuel komt út Lelystad en gie op syn santjinde nei de hotelskoalle yn De Haach. Hy begûn yn 'e keuken, gie dêrnei de betsjinning yn en fûn úteinlik syn fak efter de bar, dêr't smaak meitsjen en gastfrijheid gearkomme. As head bartender wie er faak ek ferantwurdlik foar ynkeap, menu's en it trenen fan it team.\n\nHy wurke hast twa en in heal jier yn it bûtenlân, fan Malta oant Curaçao en Bonaire, en helle ûnder oaren WSET Level 2 yn wyn mei merit. Werom yn Amsterdam stie er efter de bar fan The Tailor yn it Krasnapolsky en waard er yn 2026 tredde op it NK Cocktails fan de Nederlandse Bartenders Club.",
+        "fr": "Samuel est originaire de Lelystad et entre à l'école hôtelière de La Haye à dix-sept ans. Il commence en cuisine, passe ensuite en salle et trouve finalement sa voie derrière le bar, là où se rejoignent le goût et l'hospitalité. Comme head bartender, il gère souvent aussi les achats, les cartes et la formation de l'équipe.\n\nIl a passé près de deux ans et demi à l'étranger, de Malte à Curaçao et Bonaire, et détient notamment le WSET Level 2 en vins avec mention. De retour à Amsterdam, il travaille derrière le bar du Tailor au Krasnapolsky ; en 2026, il termine troisième du championnat néerlandais de cocktails de la Nederlandse Bartenders Club.",
+        "de": "Samuel stammt aus Lelystad und ging mit siebzehn auf die Hotelfachschule in Den Haag. Er begann in der Küche, wechselte in den Service und fand schließlich hinter der Bar seinen Beruf, wo Geschmack und Gastfreundschaft zusammenkommen. Als Head Bartender war er oft auch für Einkauf, Karten und die Schulung des Teams verantwortlich.\n\nEr verbrachte fast zweieinhalb Jahre im Ausland, von Malta bis Curaçao und Bonaire, und hat unter anderem das WSET Level 2 in Wein mit Auszeichnung (merit). Zurück in Amsterdam stand er hinter der Bar des Tailor im Krasnapolsky und wurde 2026 Dritter bei der niederländischen Cocktailmeisterschaft der Nederlandse Bartenders Club."
+      },
+      "milestones": [
+        {
+          "year": "2020",
+          "text": {
+            "nl": "Hotelschool in Den Haag (ROC Mondriaan)",
+            "en": "Hotel school in The Hague (ROC Mondriaan)",
+            "fy": "Hotelskoalle yn De Haach (ROC Mondriaan)",
+            "fr": "École hôtelière à La Haye (ROC Mondriaan)",
+            "de": "Hotelfachschule in Den Haag (ROC Mondriaan)"
+          }
+        },
+        {
+          "year": "2022",
+          "text": {
+            "nl": "Grand Hotel Excelsior op Malta; European Bartender School op Kos",
+            "en": "Grand Hotel Excelsior in Malta; European Bartender School on Kos",
+            "fy": "Grand Hotel Excelsior op Malta; European Bartender School op Kos",
+            "fr": "Grand Hotel Excelsior à Malte ; European Bartender School à Kos",
+            "de": "Grand Hotel Excelsior auf Malta; European Bartender School auf Kos"
+          }
+        },
+        {
+          "year": "2023",
+          "text": {
+            "nl": "Head bartender, MosaCaña Bar & Kitchen, Curaçao",
+            "en": "Head bartender, MosaCaña Bar & Kitchen, Curaçao",
+            "fy": "Head bartender, MosaCaña Bar & Kitchen, Curaçao",
+            "fr": "Head bartender, MosaCaña Bar & Kitchen, Curaçao",
+            "de": "Head Bartender, MosaCaña Bar & Kitchen, Curaçao"
+          }
+        },
+        {
+          "year": "2024",
+          "text": {
+            "nl": "Head bartender, Brass Boer en Club Tropicana, Bonaire",
+            "en": "Head bartender, Brass Boer and Club Tropicana, Bonaire",
+            "fy": "Head bartender, Brass Boer en Club Tropicana, Bonaire",
+            "fr": "Head bartender, Brass Boer et Club Tropicana, Bonaire",
+            "de": "Head Bartender, Brass Boer und Club Tropicana, Bonaire"
+          }
+        },
+        {
+          "year": "2025",
+          "text": {
+            "nl": "Bar The Tailor, Grand Hotel Krasnapolsky",
+            "en": "Bar The Tailor, Grand Hotel Krasnapolsky",
+            "fy": "Bar The Tailor, Grand Hotel Krasnapolsky",
+            "fr": "Bar The Tailor, Grand Hotel Krasnapolsky",
+            "de": "Bar The Tailor, Grand Hotel Krasnapolsky"
+          }
+        },
+        {
+          "year": "2026",
+          "text": {
+            "nl": "Derde op het NK Cocktails van de Nederlandse Bartenders Club; richt Batavia op met Jimmy",
+            "en": "Third at the Dutch Cocktail Championship (Nederlandse Bartenders Club); founds Batavia with Jimmy",
+            "fy": "Tredde op it NK Cocktails fan de Nederlandse Bartenders Club; rjochtet Batavia op mei Jimmy",
+            "fr": "Troisième du championnat néerlandais de cocktails (Nederlandse Bartenders Club) ; fonde Batavia avec Jimmy",
+            "de": "Dritter bei der niederländischen Cocktailmeisterschaft (Nederlandse Bartenders Club); gründet Batavia mit Jimmy"
+          }
+        }
+      ],
+      "instagram": "",
+      "linkedin": "https://nl.linkedin.com/in/samuel-stok-563b41207"
+    }
+  ],
+  "press": [
+    {
+      "date": "2026-11",
+      "title": "Jimmy Hu en Samuel Stok openen 'cocktailpub' op plek Tales & Spirits",
+      "source": "Entree Magazine",
+      "url": "https://www.entreemagazine.nl/openingen-design/jimmy-hu-en-samuel-stok-openen-cocktailpub-op-plek-tales-spirits",
+      "note": {
+        "nl": "Over Batavia Public House en de twee oprichters.",
+        "en": "On Batavia Public House and its two founders.",
+        "fy": "Oer Batavia Public House en de twa oprjochters.",
+        "fr": "Sur Batavia Public House et ses deux fondateurs.",
+        "de": "Über Batavia Public House und seine beiden Gründer."
+      }
+    },
+    {
+      "date": "2026-11",
+      "title": "Best Bartender 2026: deze bartenders staan in de top 3",
+      "source": "Entree Magazine",
+      "url": "https://www.entreemagazine.nl/dranken/best-bartender-2026-deze-bartenders-staan-in-de-top-3",
+      "note": {
+        "nl": "Jimmy zit dit jaar in de jury.",
+        "en": "Jimmy sits on this year's jury.",
+        "fy": "Jimmy sit dit jier yn de sjuery.",
+        "fr": "Jimmy fait partie du jury cette année.",
+        "de": "Jimmy sitzt dieses Jahr in der Jury."
+      }
+    },
+    {
+      "date": "2026-05",
+      "title": "Masterclass: New scene, new city, new opportunities",
+      "source": "Bart's Bottles",
+      "url": "https://bartsbottles.nl/evenementen",
+      "note": {
+        "nl": "Masterclass van Jimmy over zijn stap naar de Amsterdamse cocktailscene en hoe je een grote wedstrijd aanpakt.",
+        "en": "Jimmy's masterclass on moving into Amsterdam's cocktail scene and how to approach a major competition.",
+        "fy": "Masterclass fan Jimmy oer syn stap nei de Amsterdamske cocktailsêne en hoe't jo in grutte wedstriid oanpakke.",
+        "fr": "Masterclass de Jimmy sur son arrivée dans la scène cocktail d'Amsterdam et sur la façon d'aborder un grand concours.",
+        "de": "Masterclass von Jimmy über seinen Schritt in die Amsterdamer Cocktailszene und wie man einen großen Wettbewerb angeht."
+      }
+    },
+    {
+      "date": "2026-05",
+      "title": "The Lost Explorer Blanco x Bar TwentySeven: A Night at 1920",
+      "source": "Bart's Bottles",
+      "url": "https://bartsbottles.nl/evenementen",
+      "note": {
+        "nl": "Eenmalige guest shift van Jimmy in 1920 Speakeasy.",
+        "en": "A one-night guest shift by Jimmy at 1920 Speakeasy.",
+        "fy": "Ienmalige guest shift fan Jimmy yn 1920 Speakeasy.",
+        "fr": "Un guest shift d'un soir de Jimmy au 1920 Speakeasy.",
+        "de": "Ein einmaliger Guest Shift von Jimmy im 1920 Speakeasy."
+      }
+    },
+    {
+      "date": "2026-01",
+      "title": "NK Cocktails & Longdrinks keert succesvol terug op Horecava",
+      "source": "Horecava",
+      "url": "https://www.horecava.nl/nieuws/winnaars-nk-cocktail",
+      "note": {
+        "nl": "Samuel wordt derde op het NK Cocktails.",
+        "en": "Samuel finishes third at the Dutch Cocktail Championship.",
+        "fy": "Samuel wurdt tredde op it NK Cocktails.",
+        "fr": "Samuel termine troisième du championnat néerlandais de cocktails.",
+        "de": "Samuel wird Dritter bei der niederländischen Cocktailmeisterschaft."
+      }
+    },
+    {
+      "date": "2025-12",
+      "title": "Jimmy Hu: The Relentless Rise of the Netherlands' Best Bartender 2025",
+      "source": "Mister Cocktail",
+      "url": "https://mistercocktail.nl/jimmy-hu-the-relentless-rise-of-the-netherlands-best-bartender-2025/",
+      "note": {
+        "nl": "Portret van Jimmy na zijn titel.",
+        "en": "A profile of Jimmy after his title.",
+        "fy": "Portret fan Jimmy nei syn titel.",
+        "fr": "Portrait de Jimmy après son titre.",
+        "de": "Porträt von Jimmy nach seinem Titel."
+      }
+    },
+    {
+      "date": "2025-12",
+      "title": "Jimmy Hu is Best Bartender 2025",
+      "source": "Entree Magazine",
+      "url": "https://www.entreemagazine.nl/entreeawards/jimmy-hu-is-best-bartender-2025",
+      "note": {
+        "nl": "Jimmy wint de titel tijdens de Entree Awards.",
+        "en": "Jimmy wins the title at the Entree Awards.",
+        "fy": "Jimmy wint de titel by de Entree Awards.",
+        "fr": "Jimmy remporte le titre aux Entree Awards.",
+        "de": "Jimmy gewinnt den Titel bei den Entree Awards."
+      }
+    },
+    {
+      "date": "2025-11",
+      "title": "Best Bartender 2025: deze bartenders staan in de top 3",
+      "source": "Entree Magazine",
+      "url": "https://www.entreemagazine.nl/dranken/top-3-best-bartender-2025",
+      "note": {
+        "nl": "Jimmy staat in de top drie.",
+        "en": "Jimmy makes the top three.",
+        "fy": "Jimmy stiet yn de top trije.",
+        "fr": "Jimmy figure dans le top trois.",
+        "de": "Jimmy ist unter den besten drei."
+      }
+    },
+    {
+      "date": "2025",
+      "title": "Bartender Jimmy Hu over NL'se cocktailscene: 'Nog in de beginfase'",
+      "source": "Entree Magazine",
+      "url": "https://www.entreemagazine.nl/dranken/finalist-best-bartender-jimmy-hu-over-de-nederlandse-cocktailscene-we-staan-nog-in-de-beginfase",
+      "note": {
+        "nl": "Interview met Jimmy over de Nederlandse cocktailscene.",
+        "en": "An interview with Jimmy about the Dutch cocktail scene.",
+        "fy": "Ynterview mei Jimmy oer de Nederlânske cocktailsêne.",
+        "fr": "Entretien avec Jimmy sur la scène cocktail néerlandaise.",
+        "de": "Interview mit Jimmy über die niederländische Cocktailszene."
+      }
+    },
+    {
+      "date": "2024-11",
+      "title": "Best Bartender 2024: deze drie bartenders zijn genomineerd",
+      "source": "Entree Magazine",
+      "url": "https://www.entreemagazine.nl/entreeawards/best-bartender-2024-deze-drie-bartenders-zijn-genomineerd",
+      "note": {
+        "nl": "Jimmy is een van de drie finalisten.",
+        "en": "Jimmy is one of the three finalists.",
+        "fy": "Jimmy is ien fan de trije finalisten.",
+        "fr": "Jimmy est l'un des trois finalistes.",
+        "de": "Jimmy ist einer der drei Finalisten."
+      }
+    }
+  ]
+}
