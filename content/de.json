@@ -1,11 +1,11 @@
 {
   "home": {
-    "lead": "Ein Amsterdamer Cocktail-Pub im Stil der braunen Kneipen, in einem Haus von 1734, in der Gasse zwischen Singel und Spuistraat.",
+    "lead": "Ein Brown Cocktail Pub in einem Haus von 1734, in der Gasse zwischen Singel und Spuistraat.",
     "ctaFind": "So finden Sie uns",
     "ctaMenus": "Karten ansehen",
     "impTitle": "Ein Eindruck von der Bar",
-    "impBody1": "Das Batavia ist ein Wohnzimmer für Amsterdamer, Cocktailfans, Foodies und Weintrinker. Ungezwungen und gemütlich: Am einen Tisch wird ausgiebig gegessen, am anderen nur ein Drink genommen.",
-    "impBody2": "Das Haus hat viele ursprüngliche Details bewahrt: Balken aus dem Holz alter Schiffe, einen Natursteinboden und eine antike Bar. Dazu viel Holz, sanfte dunkle Farben und warmes Licht.",
+    "impBody1": "Das Batavia ist ein Wohnzimmer für Amsterdamer, Cocktailfans, Foodies und Weintrinker. Ungezwungen und gemütlich: Am einen Tisch wird ausgiebig gegessen, am anderen auf einen Drink vorbeigeschaut.",
+    "impBody2": "Für unsere Cocktails und Gerichte arbeiten wir mit lokalen Bauern, Produzenten und Brennereien zusammen. Jede Karte folgt den Jahreszeiten, und auf unseren Karten finden Sie alle Informationen zu den Produkten, die wir verwenden.",
     "peopleTitle": "Hinter der Bar",
     "peopleText": "Das Batavia gehört Samuel Stok und Jimmy Hu, zwei Bartendern, die sich hinter derselben Amsterdamer Bar kennengelernt haben. Jimmy kam bei Best Bartender Netherlands 2024 unter die besten drei.",
     "knowTitle": "Gut zu wissen",
@@ -16,7 +16,7 @@
     "k3Title": "Drinnen",
     "k3Text": "Vierzig Sitzplätze im Pub.",
     "k4Title": "Ohne Alkohol",
-    "k4Text": "Einen Teil unserer Cocktails gibt es auch alkoholfrei.",
+    "k4Text": "Ob Sie auf einen Drink mit oder ohne Alkohol kommen: Wir haben eine einzigartige Auswahl hausgemachter alkoholfreier Cocktails aus lokalen Produkten.",
     "hoursTitle": "Öffnungszeiten",
     "alleyTitle": "Die Gasse finden",
     "alleyBody": "Die Lijnbaanssteeg ist eine schmale Gasse in der Altstadt, zwischen Singel und Spuistraat. Sie finden uns in Nummer 5–7, etwa zehn Minuten zu Fuß vom Hauptbahnhof (Centraal Station).",
@@ -56,22 +56,16 @@
       "Die Treppe",
       "Die Speakeasy"
     ],
-    "c2": "Ein Haus von 1734",
+    "c2": "In zwei Häusern, fertiggestellt 1734",
     "c3": "Die Treppe hinauf",
     "c3text": "Hinten in der Bar führt eine steile Treppe nach oben.",
     "c4": "Hinter dem Bücherregal",
-    "c4text": "Oben, hinter einem Bücherregal, liegt unsere Speakeasy."
+    "c4text": "Hinter unserem Bücherregal verbirgt sich noch mehr Geschichte."
   },
   "menus": {
     "title": "Karten",
     "lead": "Unsere Karten folgen den Jahreszeiten und setzen auf regionale Produkte aus den Niederlanden.",
     "body": "Deshalb wechseln sie im Laufe des Jahres. Laden Sie unten die aktuellen Karten herunter.",
-    "barTitle": "Die Bar",
-    "barText": "Klassische Cocktails mit niederländischen Spirituosen, von Genever bis Korenwijn. Dazu sechs eigene Cocktails, jeder rund um ein Produkt eines anderen niederländischen Bauern oder Erzeugers. Die Cocktailkarte wechselt alle drei Monate.",
-    "kitchenTitle": "Die Küche",
-    "kitchenText": "Klassisch niederländisch und herzerwärmend, mit einem Twist. Eine kleine Karte mit zehn bis zwölf saisonalen Gerichten, vom Snack bis zum Abendessen, dazu jede Woche ein Gericht der Woche.",
-    "wineTitle": "Der Wein",
-    "wineText": "Ausschließlich niederländische Weine: zwei weiße, zwei rote und ein Schaumwein.",
     "listTitle": "Aktuelle Karten",
     "pdfNote": "Folgt in Kürze"
   },
@@ -91,7 +85,7 @@
     "title": "Das Haus",
     "lead": "Die Lijnbaanssteeg 5–7 wurde 1734 erbaut. Seitdem beherbergte das Haus eine Handelsdruckerei, zwei Restaurants und eine Cocktailbar. Heute ist es ein Public House.",
     "galleryTitle": "Das Haus in Bildern",
-    "credit": "[Quelle und Lizenz der historischen Fotos ergänzen]",
+    "credit": "Historische Fotos:",
     "nameTitle": "Warum Batavia",
     "nameText": "Batavia ist der alte lateinische Name der Niederlande. Und Public House, weil wir ein Pub in einem alten Amsterdamer Haus sind, offen für alle. Nicht mehr und nicht weniger.",
     "streetTitle": "Eine Gasse der Seiler",
@@ -106,7 +100,7 @@
         "text": "Das Haus an der Lijnbaanssteeg 5–7 wird erbaut."
       },
       {
-        "year": "[Jahr]",
+        "year": "Unbekannt–1960er",
         "title": "Die Handelsdruckerei",
         "text": "In Nummer 5 arbeitet eine Handelsdruckerei. Ihr Name steht in großen Buchstaben über der Ladenfront."
       },
@@ -116,7 +110,7 @@
         "text": "1968 zeichnet der Architekt Nic. Klok den Umbau: unten eine Schankstube, oben das Restaurant. Gravenmolen eröffnet im November 1969 und trägt von 1972 bis 1976 einen Michelin-Stern."
       },
       {
-        "year": "[Jahr]",
+        "year": "1990–2010",
         "title": "De Jonge Gravenmolen",
         "text": "Eine neue Generation: das Restaurant De Jonge Gravenmolen."
       },

@@ -1,11 +1,11 @@
 {
   "home": {
-    "lead": "Un pub à cocktails façon café brun amstellodamois, dans une maison de 1734, dans la ruelle entre le Singel et la Spuistraat.",
+    "lead": "Un Brown Cocktail Pub dans une maison de 1734, dans la ruelle entre le Singel et la Spuistraat.",
     "ctaFind": "Comment nous trouver",
     "ctaMenus": "Voir les cartes",
     "impTitle": "Un aperçu du bar",
-    "impBody1": "Batavia est un salon pour les Amstellodamois, les amateurs de cocktails, les gourmets et les amateurs de vin. Décontracté et chaleureux : une table dîne longuement, l'autre passe pour un seul verre.",
-    "impBody2": "La maison a gardé nombre de ses détails d'origine : des poutres taillées dans d'anciens navires, un sol en pierre naturelle et un bar ancien. Autour, beaucoup de bois, des teintes sombres et douces, une lumière chaude.",
+    "impBody1": "Batavia est un salon pour les Amstellodamois, les amateurs de cocktails, les gourmets et les amateurs de vin. Décontracté et chaleureux : une table dîne longuement, l'autre passe pour un verre.",
+    "impBody2": "Nous travaillons avec des agriculteurs, des producteurs et des distillateurs locaux pour créer nos cocktails et nos plats. Chaque carte suit les saisons, et vous trouverez sur nos cartes toutes les informations sur les produits que nous utilisons.",
     "peopleTitle": "Derrière le bar",
     "peopleText": "Batavia est la maison de Samuel Stok et Jimmy Hu, deux barmen qui se sont rencontrés derrière le même bar d'Amsterdam. Jimmy a terminé dans les trois premiers du concours Best Bartender Netherlands 2024.",
     "knowTitle": "Bon à savoir",
@@ -16,7 +16,7 @@
     "k3Title": "À l'intérieur",
     "k3Text": "Quarante places assises dans le pub.",
     "k4Title": "Sans alcool",
-    "k4Text": "Une partie de nos cocktails existe aussi sans alcool.",
+    "k4Text": "Que vous veniez pour une boisson avec ou sans alcool, nous proposons une sélection unique de cocktails sans alcool faits maison avec des produits locaux.",
     "hoursTitle": "Horaires d'ouverture",
     "alleyTitle": "Trouver la ruelle",
     "alleyBody": "La Lijnbaanssteeg est une ruelle étroite du centre ancien, entre le Singel et la Spuistraat. Nous sommes aux numéros 5–7, à une dizaine de minutes à pied de la gare centrale.",
@@ -56,22 +56,16 @@
       "L'escalier",
       "Le speakeasy"
     ],
-    "c2": "Une maison de 1734",
+    "c2": "Installé dans deux maisons achevées en 1734",
     "c3": "Par l'escalier",
     "c3text": "Au fond du bar, un escalier raide mène à l'étage.",
     "c4": "Derrière la bibliothèque",
-    "c4text": "À l'étage, derrière une bibliothèque, se cache notre speakeasy."
+    "c4text": "Derrière notre bibliothèque se cache encore plus d'histoire."
   },
   "menus": {
     "title": "Cartes",
     "lead": "Nos cartes suivent les saisons et reposent sur des produits locaux néerlandais.",
     "body": "C'est pourquoi elles changent au fil de l'année. Téléchargez ci-dessous les cartes du moment.",
-    "barTitle": "Le bar",
-    "barText": "Des cocktails classiques aux spiritueux néerlandais, du genièvre au korenwijn. Et six créations maison, chacune autour d'un produit d'un agriculteur ou d'un producteur néerlandais différent. La carte des cocktails change tous les trois mois.",
-    "kitchenTitle": "La cuisine",
-    "kitchenText": "Néerlandaise, classique et réconfortante, avec une touche d'originalité. Une petite carte de dix à douze plats de saison, de l'apéritif au dîner, et chaque semaine un plat de la semaine.",
-    "wineTitle": "Le vin",
-    "wineText": "Uniquement des vins néerlandais : deux blancs, deux rouges et un effervescent.",
     "listTitle": "Cartes du moment",
     "pdfNote": "Bientôt disponible"
   },
@@ -91,7 +85,7 @@
     "title": "La maison",
     "lead": "Le 5–7 de la Lijnbaanssteeg a été construit en 1734. Depuis, la maison a abrité une imprimerie commerciale, deux restaurants et un bar à cocktails. C'est aujourd'hui un public house.",
     "galleryTitle": "La maison en images",
-    "credit": "[Ajouter la source et la licence des photographies historiques]",
+    "credit": "Photographies historiques :",
     "nameTitle": "Pourquoi Batavia",
     "nameText": "Batavia est l'ancien nom latin des Pays-Bas. Et public house, parce que nous sommes un pub dans une vieille maison d'Amsterdam, ouvert à tous. Ni plus, ni moins.",
     "streetTitle": "Une ruelle de cordiers",
@@ -106,7 +100,7 @@
         "text": "La maison du 5–7 Lijnbaanssteeg est construite."
       },
       {
-        "year": "[année]",
+        "year": "Inconnu–années 1960",
         "title": "L'imprimerie",
         "text": "Une imprimerie commerciale occupe le numéro 5. Son nom s'étale en grandes lettres au-dessus de la devanture."
       },
@@ -116,7 +110,7 @@
         "text": "En 1968, l'architecte Nic. Klok dessine la transformation : une taverne au rez-de-chaussée, le restaurant à l'étage. Gravenmolen ouvre en novembre 1969 et détient une étoile Michelin de 1972 à 1976."
       },
       {
-        "year": "[année]",
+        "year": "1990–2010",
         "title": "De Jonge Gravenmolen",
         "text": "Une nouvelle génération : le restaurant De Jonge Gravenmolen."
       },

@@ -1,11 +1,11 @@
 {
   "home": {
-    "lead": "In Amsterdamske brune cocktailpub yn in pân út 1734, yn de steech tusken it Singel en de Spuistraat.",
+    "lead": "In Brown Cocktail Pub yn in pân út 1734, yn de steech tusken it Singel en de Spuistraat.",
     "ctaFind": "Sa fine jo ús",
     "ctaMenus": "Besjoch de menu's",
     "impTitle": "In yndruk fan de bar",
-    "impBody1": "Batavia is in húskeamer foar Amsterdammers, cocktailleafhawwers, foodies en wyndrinkers. Ynformeel en knus: de iene tafel yt wiidweidich, de oare komt foar ien drankje.",
-    "impBody2": "It pân bewarret in soad fan syn oarspronklike details: houten balken fan âlde skippen, in natuerstiennen flier en in antike bar. Dêromhinne in soad hout, sêfte donkere kleuren en waarm ljocht.",
+    "impBody1": "Batavia is in húskeamer foar Amsterdammers, cocktailleafhawwers, foodies en wyndrinkers. Ynformeel en knus: de iene tafel yt wiidweidich, de oare komt foar in drankje.",
+    "impBody2": "Wy wurkje gear mei pleatslike boeren, produsinten en destillateurs foar ús cocktails en gerjochten. Elke kaart folget de seizoenen, en op ús menukaarten fine jo alle ynformaasje oer de produkten dy't wy brûke.",
     "peopleTitle": "Efter de bar",
     "peopleText": "Batavia is fan Samuel Stok en Jimmy Hu, twa bartenders dy't inoar kennen learden efter deselde Amsterdamske bar. Jimmy helle de top trije fan Best Bartender Netherlands 2024.",
     "knowTitle": "Goed om te witten",
@@ -16,7 +16,7 @@
     "k3Title": "Binnen",
     "k3Text": "Fjirtich sitplakken yn de pub.",
     "k4Title": "Sûnder alkohol",
-    "k4Text": "In part fan ús cocktails meitsje wy ek alkoholfrij.",
+    "k4Text": "Oft jo no komme foar in drankje mei of sûnder alkohol: wy hawwe in unike seleksje selsmakke alkoholfrije cocktails, makke mei pleatslike produkten.",
     "hoursTitle": "Iepeningstiden",
     "alleyTitle": "De steech fine",
     "alleyBody": "De Lijnbaanssteeg is in smelle steech yn de âlde binnenstêd, tusken it Singel en de Spuistraat. Jo fine ús op nûmer 5–7, likernôch tsien minuten rinnen fan it Sintraal Stasjon ôf.",
@@ -56,22 +56,16 @@
       "De trep",
       "De speakeasy"
     ],
-    "c2": "In hûs út 1734",
+    "c2": "Fêstige yn twa huzen, klear yn 1734",
     "c3": "De trep op",
     "c3text": "Efter yn de bar giet in steile trep nei boppen.",
     "c4": "Efter de boekekast",
-    "c4text": "Boppe, efter in boekekast, leit ús speakeasy."
+    "c4text": "Efter ús boekekast leit noch mear skiednis ferstoppe."
   },
   "menus": {
     "title": "Menu's",
     "lead": "Us menu's folgje de seizoenen en draaie om lokale produkten fan Nederlânske boaiem.",
     "body": "Dêrom wikselje se troch it jier hinne. Download hjirûnder de aktuele kaarten.",
-    "barTitle": "De bar",
-    "barText": "Klassike cocktails mei Nederlânske dranken, fan jenever oant korenwijn. Dêrneist seis eigen cocktails, elk boud om in produkt fan in oare Nederlânske boer of produsint hinne. De cocktailkaart wikselet elke trije moanne.",
-    "kitchenTitle": "De keuken",
-    "kitchenText": "Klassyk Nederlânsk en hertferwaarmjend, mei in twist. In lytse kaart fan tsien oant tolve gerjochtsjes fan it seizoen, fan buorrelhapke oant diner, mei elke wike in gerjocht fan de wike.",
-    "wineTitle": "De wyn",
-    "wineText": "Allinnich Nederlânske winen: twa wyt, twa read en ien mûssearjend.",
     "listTitle": "Aktuele kaarten",
     "pdfNote": "Komt gau"
   },
@@ -91,7 +85,7 @@
     "title": "It pân",
     "lead": "Lijnbaanssteeg 5–7 waard boud yn 1734. Sûnt dy tiid sieten der in hannelsdrukkerij, twa restaurants en in cocktailbar. No is it in public house.",
     "galleryTitle": "It pân yn byld",
-    "credit": "[Boarne en lisinsje fan de histoaryske foto's tafoegje]",
+    "credit": "Histoaryske foto's:",
     "nameTitle": "Wêrom Batavia",
     "nameText": "Batavia is de âlde Latynske namme foar Nederlân. En public house, om't wy in pub binne yn in âld Amsterdamsk hûs, iepen foar elkenien. Net mear en net minder.",
     "streetTitle": "In steech fan touslaggers",
@@ -106,7 +100,7 @@
         "text": "It pân oan de Lijnbaanssteeg 5–7 wurdt boud."
       },
       {
-        "year": "[jier]",
+        "year": "Ûnbekend–jierren 60",
         "title": "De hannelsdrukkerij",
         "text": "Op nûmer 5 draait in hannelsdrukkerij. De namme stiet yn grutte letters boppe de pui."
       },
@@ -116,7 +110,7 @@
         "text": "Arsjitekt Nic. Klok tekenet yn 1968 de ferbouwing: ûnder in taperij, boppe it restaurant. Gravenmolen iepenet yn novimber 1969 en hat fan 1972 oant 1976 in Michelinstjer."
       },
       {
-        "year": "[jier]",
+        "year": "1990–2010",
         "title": "De Jonge Gravenmolen",
         "text": "In nije generaasje: restaurant De Jonge Gravenmolen."
       },

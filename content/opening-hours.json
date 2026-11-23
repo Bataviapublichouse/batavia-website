@@ -1,4 +1,19 @@
 {
+  "preopening": true,
+  "announcement": {
+    "nl": "Opening medio december 2026",
+    "en": "Opening mid-December 2026",
+    "fy": "Iepening medio desimber 2026",
+    "fr": "Ouverture mi-décembre 2026",
+    "de": "Eröffnung Mitte Dezember 2026"
+  },
+  "tba": {
+    "nl": "Volgt nog",
+    "en": "To be announced",
+    "fy": "Wurdt noch bekend makke",
+    "fr": "À annoncer",
+    "de": "Wird noch bekannt gegeben"
+  },
   "monday": {
     "open": false,
     "from": "17:00",

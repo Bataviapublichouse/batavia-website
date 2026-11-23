@@ -1,11 +1,11 @@
 {
   "home": {
-    "lead": "An Amsterdam brown-café cocktail pub in a house from 1734, in the alley between Singel and Spuistraat.",
+    "lead": "A Brown Cocktail Pub in a house from 1734, in the alley between Singel and Spuistraat.",
     "ctaFind": "How to find us",
     "ctaMenus": "View the menus",
     "impTitle": "An impression of the bar",
-    "impBody1": "Batavia is a living room for Amsterdammers, cocktail lovers, foodies and wine drinkers. Informal and snug: one table settles in for dinner, the next drops by for a single drink.",
-    "impBody2": "The house keeps many of its original details: beams cut from old ships, a natural stone floor and an antique bar. Around them, plenty of wood, soft dark colours and warm light.",
+    "impBody1": "Batavia is a living room for Amsterdammers, cocktail lovers, foodies and wine drinkers. Informal and snug: one table settles in for dinner, the next drops by for a drink.",
+    "impBody2": "We work together with local farmers, producers and distillers to make our cocktails and dishes. Every menu is seasonal, and you can find all the information about the products we use on our menus.",
     "peopleTitle": "Behind the bar",
     "peopleText": "Batavia belongs to Samuel Stok and Jimmy Hu, two bartenders who met behind the same Amsterdam bar. Jimmy reached the top three of Best Bartender Netherlands 2024.",
     "knowTitle": "Good to know",
@@ -16,7 +16,7 @@
     "k3Title": "Inside",
     "k3Text": "Forty seats in the pub.",
     "k4Title": "Alcohol-free",
-    "k4Text": "We make some of our cocktails without alcohol too.",
+    "k4Text": "Whether you come in for an alcoholic or a non-alcoholic drink, we have a unique selection of homemade non-alcoholic cocktails made with local products.",
     "hoursTitle": "Opening hours",
     "alleyTitle": "Finding the alley",
     "alleyBody": "Lijnbaanssteeg is a narrow alley in the old centre, between Singel and Spuistraat. You'll find us at numbers 5–7, about ten minutes on foot from Centraal Station.",
@@ -56,22 +56,16 @@
       "The stairs",
       "The speakeasy"
     ],
-    "c2": "A house from 1734",
+    "c2": "Located in two houses finished in 1734",
     "c3": "Up the stairs",
     "c3text": "At the back of the bar, a steep staircase leads upstairs.",
     "c4": "Behind the bookshelf",
-    "c4text": "Upstairs, behind a bookshelf, is our speakeasy."
+    "c4text": "More history is hidden behind our bookshelf."
   },
   "menus": {
     "title": "Menus",
     "lead": "Our menus follow the seasons and are built on local Dutch produce.",
     "body": "That is why they change through the year. Download the current menus below.",
-    "barTitle": "The bar",
-    "barText": "Classic cocktails made with Dutch spirits, from jenever to korenwijn. Alongside them, six cocktails of our own, each built around a product from a different Dutch farmer or producer. The cocktail menu changes every three months.",
-    "kitchenTitle": "The kitchen",
-    "kitchenText": "Classic Dutch and heart-warming, with a twist. A small menu of ten to twelve seasonal dishes, from bar snack to dinner, with a new dish of the week every week.",
-    "wineTitle": "The wine",
-    "wineText": "Dutch wines only: two white, two red and one sparkling.",
     "listTitle": "Current menus",
     "pdfNote": "Coming soon"
   },
@@ -91,7 +85,7 @@
     "title": "The building",
     "lead": "Lijnbaanssteeg 5–7 was built in 1734. Since then it has housed a commercial printing works, two restaurants and a cocktail bar. Now it is a public house.",
     "galleryTitle": "The building in pictures",
-    "credit": "[Add the source and licence of the historic photographs]",
+    "credit": "Historic photographs:",
     "nameTitle": "Why Batavia",
     "nameText": "Batavia is the old Latin name for the Netherlands. And public house, because we are a pub in an old Amsterdam house, open to everyone. No more, no less.",
     "streetTitle": "An alley of rope-makers",
@@ -106,7 +100,7 @@
         "text": "The building at Lijnbaanssteeg 5–7 is built."
       },
       {
-        "year": "[year]",
+        "year": "Unknown–1960s",
         "title": "The printing works",
         "text": "A commercial printing works runs at number 5. Its name is lettered large above the shopfront."
       },
@@ -116,7 +110,7 @@
         "text": "In 1968 architect Nic. Klok draws the conversion: a taproom downstairs, the restaurant above. Gravenmolen opens in November 1969 and holds a Michelin star from 1972 to 1976."
       },
       {
-        "year": "[year]",
+        "year": "1990–2010",
         "title": "De Jonge Gravenmolen",
         "text": "A new generation: restaurant De Jonge Gravenmolen."
       },

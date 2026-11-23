@@ -156,8 +156,8 @@ address { font-style: normal; }
 .arrow:hover { border-color: var(--brass); }
 .arrow svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5; }
 .timeline { margin: 0; padding: 0; list-style: none; max-width: 820px; }
-.timeline li { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; padding: 26px 0; border-top: 1px solid var(--line); }
-.timeline .yr { font-family: var(--serif); font-size: 28px; color: var(--brass-2); font-variant-numeric: lining-nums; }
+.timeline li { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 28px; padding: 26px 0; border-top: 1px solid var(--line); }
+.timeline .yr { font-family: var(--serif); font-size: 26px; line-height: 1.2; color: var(--brass-2); font-variant-numeric: lining-nums; }
 .timeline p { color: var(--plaster-2); }
 
 .form { display: grid; gap: 20px; max-width: 560px; }
@@ -377,14 +377,6 @@ address { font-style: normal; }
       <p class="lead" data-t="menus.lead"></p>
       <div class="body" style="margin-top: 18px"><p data-t="menus.body"></p></div>
     </header>
-    <figure class="still"><img src="media/still-bar.jpg" alt="" width="1280" height="720" loading="lazy" data-ta="alt:still.bar"><figcaption data-t="still.bar"></figcaption></figure>
-    <section class="block first">
-      <ul class="trio">
-        <li><h3 data-t="menus.barTitle"></h3><p data-t="menus.barText"></p></li>
-        <li><h3 data-t="menus.kitchenTitle"></h3><p data-t="menus.kitchenText"></p></li>
-        <li><h3 data-t="menus.wineTitle"></h3><p data-t="menus.wineText"></p></li>
-      </ul>
-    </section>
     <section class="block" aria-labelledby="menuListTitle">
       <h2 class="title" id="menuListTitle" data-t="menus.listTitle"></h2>
       <ul class="menu-list" id="menuList"></ul>
@@ -436,7 +428,7 @@ address { font-style: normal; }
             <button class="arrow" type="button" id="galNext" data-ta="aria-label:a11y.next"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
           </div>
         </div>
-        <p class="caption" data-t="building.credit"></p>
+        <p class="caption"><span data-t="building.credit"></span> <a class="link" href="https://archief.amsterdam/beeldbank/" target="_blank" rel="noopener">Beeldbank Amsterdam</a> &amp; <a class="link" href="https://archief.amsterdam/" target="_blank" rel="noopener">Archief Amsterdam</a></p>
       </div>
     </section>
     <section class="block" style="margin-top: clamp(56px, 8vw, 96px)">
@@ -543,7 +535,9 @@ var FILM = { duration: 36.25, chapters: [0, 7, 14, 25], captions: [[0, 2.4], [9,
 var SCHED = {};
 var DAYKEYS = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 function toMin(v) { var m = /^(\d{1,2})[:.](\d{2})$/.exec(String(v || '').trim()); return m ? (+m[1]) * 60 + (+m[2]) : null; }
+var HOURS = null;
 function buildSched(h) {
+  HOURS = h || null;
   SCHED = {};
   DAYKEYS.forEach(function (k, dow) {
     var d = h && h[k];
@@ -576,6 +570,7 @@ function store(k, v) { try { if (v === undefined) return localStorage.getItem(k)
 var lang = (function () {
   var saved = store('bph-lang');
   if (saved && LANGS.indexOf(saved) >= 0) return saved;
+  try { if (Intl.DateTimeFormat().resolvedOptions().timeZone === 'Europe/Amsterdam') return 'nl'; } catch (e) {}
   var prefs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'nl']);
   for (var i = 0; i < prefs.length; i++) {
     var p = String(prefs[i]).toLowerCase().slice(0, 2);
@@ -610,8 +605,21 @@ function clock(m) {
   return (h < 10 ? '0' : '') + h + ':' + (mm < 10 ? '0' : '') + mm;
 }
 function fill(s, v) { return String(s).replace('{t}', v.t || '').replace('{d}', v.d || ''); }
+function pick(o) { return o ? (o[lang] || o.nl || o.en || '') : ''; }
 function renderStatus() {
   var now = amsterdamNow();
+  if (HOURS && HOURS.preopening) {
+    var note = pick(HOURS.announcement), tba = pick(HOURS.tba);
+    ['status1', 'status2', 'status3'].forEach(function (id) {
+      var el = document.getElementById(id);
+      el.textContent = note;
+      el.classList.remove('live');
+    });
+    $('#hoursBody').innerHTML = [1, 2, 3, 4, 5, 6, 0].map(function (d) {
+      return '<tr><th scope="row">' + t.home.days['d' + (d === 0 ? 7 : d)] + '</th><td>' + esc(tba) + '</td></tr>';
+    }).join('');
+    return;
+  }
   var today = SCHED[now.dow], prev = SCHED[(now.dow + 6) % 7];
   var text = '', live = false;
   if (prev && prev[1] > 1440 && now.mins < prev[1] - 1440) { text = fill(t.status.openUntil, { t: clock(prev[1]) }); live = true; }

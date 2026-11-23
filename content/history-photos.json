@@ -1,6 +1,16 @@
 {
   "photos": [
     {
+      "photo": "/media/fotos/s10.jpg",
+      "caption": {
+        "nl": "Bouwtekening uit 1968 van architect Nic. Klok: beneden een tapperij, boven het restaurant.",
+        "en": "Building plans from 1968 by architect Nic. Klok: a taproom downstairs, the restaurant above.",
+        "fy": "Boutekening út 1968 fan arsjitekt Nic. Klok: ûnder in taperij, boppe it restaurant.",
+        "fr": "Plans de 1968 de l'architecte Nic. Klok : une taverne au rez-de-chaussée, le restaurant à l'étage.",
+        "de": "Bauzeichnung von 1968 des Architekten Nic. Klok: unten eine Schankstube, oben das Restaurant."
+      }
+    },
+    {
       "photo": "/media/fotos/s01.jpg",
       "caption": {
         "nl": "Singel 83, gezien over het water. Rechts ervan begint de steeg.",
@@ -88,16 +98,6 @@
         "fy": "In byldhoude geveltop by de restauraasje.",
         "fr": "Un couronnement de pignon sculpté pendant la restauration.",
         "de": "Eine gemeißelte Giebelbekrönung während der Restaurierung."
-      }
-    },
-    {
-      "photo": "/media/fotos/s10.jpg",
-      "caption": {
-        "nl": "Bouwtekening uit 1968 van architect Nic. Klok: beneden een tapperij, boven het restaurant.",
-        "en": "Building plans from 1968 by architect Nic. Klok: a taproom downstairs, the restaurant above.",
-        "fy": "Boutekening út 1968 fan arsjitekt Nic. Klok: ûnder in taperij, boppe it restaurant.",
-        "fr": "Plans de 1968 de l'architecte Nic. Klok : une taverne au rez-de-chaussée, le restaurant à l'étage.",
-        "de": "Bauzeichnung von 1968 des Architekten Nic. Klok: unten eine Schankstube, oben das Restaurant."
       }
     },
     {

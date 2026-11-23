@@ -18,6 +18,47 @@ content:
   path: content/opening-hours.json
   format: json
   fields:
+  - name: preopening
+    label: 'Not open yet: show the announcement instead of the times'
+    type: boolean
+  - name: announcement
+    label: Announcement (shown while not open yet)
+    type: object
+    fields:
+    - name: nl
+      label: Nederlands
+      type: string
+    - name: en
+      label: English
+      type: string
+    - name: fy
+      label: Frysk
+      type: string
+    - name: fr
+      label: Français
+      type: string
+    - name: de
+      label: Deutsch
+      type: string
+  - name: tba
+    label: Text shown for each day while not open yet
+    type: object
+    fields:
+    - name: nl
+      label: Nederlands
+      type: string
+    - name: en
+      label: English
+      type: string
+    - name: fy
+      label: Frysk
+      type: string
+    - name: fr
+      label: Français
+      type: string
+    - name: de
+      label: Deutsch
+      type: string
   - name: monday
     label: Monday
     type: object
@@ -326,24 +367,6 @@ content:
     - name: body
       label: 'Intro: small text'
       type: text
-    - name: barTitle
-      label: 'The bar: title'
-      type: string
-    - name: barText
-      label: 'The bar: text'
-      type: text
-    - name: kitchenTitle
-      label: 'The kitchen: title'
-      type: string
-    - name: kitchenText
-      label: 'The kitchen: text'
-      type: text
-    - name: wineTitle
-      label: 'The wine: title'
-      type: string
-    - name: wineText
-      label: 'The wine: text'
-      type: text
     - name: listTitle
       label: 'Menu list: title'
       type: string
@@ -398,7 +421,7 @@ content:
       label: 'Photo slideshow: title (for screen readers)'
       type: string
     - name: credit
-      label: Photo credits (under the slideshow)
+      label: 'Photo credits: text before the archive links'
       type: string
     - name: nameTitle
       label: 'Block 1: title'
@@ -735,24 +758,6 @@ content:
     - name: body
       label: 'Intro: small text'
       type: text
-    - name: barTitle
-      label: 'The bar: title'
-      type: string
-    - name: barText
-      label: 'The bar: text'
-      type: text
-    - name: kitchenTitle
-      label: 'The kitchen: title'
-      type: string
-    - name: kitchenText
-      label: 'The kitchen: text'
-      type: text
-    - name: wineTitle
-      label: 'The wine: title'
-      type: string
-    - name: wineText
-      label: 'The wine: text'
-      type: text
     - name: listTitle
       label: 'Menu list: title'
       type: string
@@ -807,7 +812,7 @@ content:
       label: 'Photo slideshow: title (for screen readers)'
       type: string
     - name: credit
-      label: Photo credits (under the slideshow)
+      label: 'Photo credits: text before the archive links'
       type: string
     - name: nameTitle
       label: 'Block 1: title'
@@ -1144,24 +1149,6 @@ content:
     - name: body
       label: 'Intro: small text'
       type: text
-    - name: barTitle
-      label: 'The bar: title'
-      type: string
-    - name: barText
-      label: 'The bar: text'
-      type: text
-    - name: kitchenTitle
-      label: 'The kitchen: title'
-      type: string
-    - name: kitchenText
-      label: 'The kitchen: text'
-      type: text
-    - name: wineTitle
-      label: 'The wine: title'
-      type: string
-    - name: wineText
-      label: 'The wine: text'
-      type: text
     - name: listTitle
       label: 'Menu list: title'
       type: string
@@ -1216,7 +1203,7 @@ content:
       label: 'Photo slideshow: title (for screen readers)'
       type: string
     - name: credit
-      label: Photo credits (under the slideshow)
+      label: 'Photo credits: text before the archive links'
       type: string
     - name: nameTitle
       label: 'Block 1: title'
@@ -1553,24 +1540,6 @@ content:
     - name: body
       label: 'Intro: small text'
       type: text
-    - name: barTitle
-      label: 'The bar: title'
-      type: string
-    - name: barText
-      label: 'The bar: text'
-      type: text
-    - name: kitchenTitle
-      label: 'The kitchen: title'
-      type: string
-    - name: kitchenText
-      label: 'The kitchen: text'
-      type: text
-    - name: wineTitle
-      label: 'The wine: title'
-      type: string
-    - name: wineText
-      label: 'The wine: text'
-      type: text
     - name: listTitle
       label: 'Menu list: title'
       type: string
@@ -1625,7 +1594,7 @@ content:
       label: 'Photo slideshow: title (for screen readers)'
       type: string
     - name: credit
-      label: Photo credits (under the slideshow)
+      label: 'Photo credits: text before the archive links'
       type: string
     - name: nameTitle
       label: 'Block 1: title'
@@ -1962,24 +1931,6 @@ content:
     - name: body
       label: 'Intro: small text'
       type: text
-    - name: barTitle
-      label: 'The bar: title'
-      type: string
-    - name: barText
-      label: 'The bar: text'
-      type: text
-    - name: kitchenTitle
-      label: 'The kitchen: title'
-      type: string
-    - name: kitchenText
-      label: 'The kitchen: text'
-      type: text
-    - name: wineTitle
-      label: 'The wine: title'
-      type: string
-    - name: wineText
-      label: 'The wine: text'
-      type: text
     - name: listTitle
       label: 'Menu list: title'
       type: string
@@ -2034,7 +1985,7 @@ content:
       label: 'Photo slideshow: title (for screen readers)'
       type: string
     - name: credit
-      label: Photo credits (under the slideshow)
+      label: 'Photo credits: text before the archive links'
       type: string
     - name: nameTitle
       label: 'Block 1: title'
