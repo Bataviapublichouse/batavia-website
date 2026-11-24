@@ -7,7 +7,20 @@
         "en": "Building plans from 1968 by architect Nic. Klok: a taproom downstairs, the restaurant above.",
         "fy": "Boutekening út 1968 fan arsjitekt Nic. Klok: ûnder in taperij, boppe it restaurant.",
         "fr": "Plans de 1968 de l'architecte Nic. Klok : une taverne au rez-de-chaussée, le restaurant à l'étage.",
-        "de": "Bauzeichnung von 1968 des Architekten Nic. Klok: unten eine Schankstube, oben das Restaurant."
+        "de": "Bauzeichnung von 1968 des Architekten Nic. Klok: unten eine Schankstube, oben das Restaurant.",
+        "es": "Planos de 1968 del arquitecto Nic. Klok: una taberna abajo y el restaurante arriba.",
+        "it": "Progetti del 1968 dell'architetto Nic. Klok: una taverna al piano terra e il ristorante sopra.",
+        "pt": "Plantas de 1968 do arquiteto Nic. Klok: uma taberna em baixo e o restaurante em cima.",
+        "zh": "建筑师 Nic. Klok 于1968年绘制的图纸：楼下是酒馆，楼上是餐厅。",
+        "ja": "建築家 Nic. Klok による1968年の図面：1階は酒場、上階はレストラン。",
+        "ar": "مخططات عام 1968 للمهندس المعماري Nic. Klok: حانة في الأسفل والمطعم في الأعلى.",
+        "hi": "आर्किटेक्ट Nic. Klok के 1968 के नक्शे: नीचे शराबख़ाना, ऊपर रेस्तराँ।",
+        "ru": "Чертежи 1968 года архитектора Ника Клока: внизу таверна, наверху ресторан.",
+        "pl": "Plany z 1968 roku autorstwa architekta Nic. Kloka: na dole szynk, na górze restauracja.",
+        "tr": "Mimar Nic. Klok'un 1968 tarihli planları: altta bir meyhane, üstte restoran.",
+        "el": "Σχέδια του 1968 από τον αρχιτέκτονα Nic. Klok: κάτω μια ταβέρνα, πάνω το εστιατόριο.",
+        "da": "Tegninger fra 1968 af arkitekt Nic. Klok: en skænkestue nedenunder og restauranten ovenpå.",
+        "sv": "Ritningar från 1968 av arkitekten Nic. Klok: en krog på nedervåningen och restaurangen ovanför."
       }
     },
     {
@@ -17,7 +30,20 @@
         "en": "Singel 83 seen across the water. The alley starts just to its right.",
         "fy": "Singel 83, sjoen oer it wetter. Rjochts dêrfan begjint de steech.",
         "fr": "Le Singel 83, vu de l'autre côté de l'eau. La ruelle commence juste à sa droite.",
-        "de": "Singel 83, über das Wasser gesehen. Rechts daneben beginnt die Gasse."
+        "de": "Singel 83, über das Wasser gesehen. Rechts daneben beginnt die Gasse.",
+        "es": "El Singel 83 visto desde el otro lado del agua. El callejón empieza justo a su derecha.",
+        "it": "Il Singel 83 visto dall'altra parte dell'acqua. Il vicolo inizia subito alla sua destra.",
+        "pt": "O Singel 83 visto do outro lado da água. A viela começa logo à sua direita.",
+        "zh": "隔着运河看 Singel 83号。小巷就从它右边开始。",
+        "ja": "運河の向こうから見たシンゲル83番地。そのすぐ右から路地が始まる。",
+        "ar": "‏Singel 83 من الضفة المقابلة. يبدأ الزقاق إلى يمينه مباشرة.",
+        "hi": "पानी के उस पार से Singel 83। गली इसके ठीक दाईं ओर से शुरू होती है।",
+        "ru": "Сингел 83 с другой стороны воды. Переулок начинается сразу справа.",
+        "pl": "Singel 83 widziany z drugiej strony wody. Zaułek zaczyna się tuż po jego prawej stronie.",
+        "tr": "Suyun karşısından Singel 83. Sokak hemen sağından başlıyor.",
+        "el": "Το Singel 83 από την απέναντι όχθη. Το σοκάκι ξεκινά ακριβώς στα δεξιά του.",
+        "da": "Singel 83 set fra den anden side af vandet. Gyden begynder lige til højre for det.",
+        "sv": "Singel 83 sett från andra sidan vattnet. Gränden börjar precis till höger om det."
       }
     },
     {
@@ -27,7 +53,20 @@
         "en": "The entrance to the alley, seen from the bridge over the Singel.",
         "fy": "De yngong fan de steech, sjoen fan de brêge oer it Singel ôf.",
         "fr": "L'entrée de la ruelle, vue du pont sur le Singel.",
-        "de": "Der Eingang der Gasse, von der Brücke über den Singel gesehen."
+        "de": "Der Eingang der Gasse, von der Brücke über den Singel gesehen.",
+        "es": "La entrada del callejón, vista desde el puente sobre el Singel.",
+        "it": "L'ingresso del vicolo, visto dal ponte sul Singel.",
+        "pt": "A entrada da viela, vista da ponte sobre o Singel.",
+        "zh": "从 Singel 运河桥上看小巷入口。",
+        "ja": "シンゲル運河の橋から見た路地の入口。",
+        "ar": "مدخل الزقاق كما يبدو من الجسر فوق قناة سينغل.",
+        "hi": "सिंगल नहर के पुल से गली का प्रवेश।",
+        "ru": "Вход в переулок, вид с моста через Сингел.",
+        "pl": "Wejście do zaułka widziane z mostu nad Singel.",
+        "tr": "Singel üzerindeki köprüden sokağın girişi.",
+        "el": "Η είσοδος του σοκακιού από τη γέφυρα πάνω από το Σίνγκελ.",
+        "da": "Indgangen til gyden set fra broen over Singel.",
+        "sv": "Ingången till gränden sedd från bron över Singel."
       }
     },
     {
@@ -37,7 +76,20 @@
         "en": "The corner of the Singel and the alley, when it housed a bookshop.",
         "fy": "De hoeke fan it Singel en de steech, doe't der in boekhannel siet.",
         "fr": "L'angle du Singel et de la ruelle, à l'époque d'une librairie.",
-        "de": "Die Ecke von Singel und Gasse, als dort eine Buchhandlung war."
+        "de": "Die Ecke von Singel und Gasse, als dort eine Buchhandlung war.",
+        "es": "La esquina del Singel con el callejón, cuando albergaba una librería.",
+        "it": "L'angolo tra il Singel e il vicolo, quando ospitava una libreria.",
+        "pt": "A esquina do Singel com a viela, quando ali havia uma livraria.",
+        "zh": "Singel 运河与小巷的转角，当时这里是一家书店。",
+        "ja": "シンゲル運河と路地の角。当時は書店が入っていた。",
+        "ar": "زاوية قناة سينغل والزقاق، حين كانت تضم مكتبة لبيع الكتب.",
+        "hi": "सिंगल और गली का कोना, जब यहाँ किताबों की दुकान थी।",
+        "ru": "Угол Сингела и переулка, когда здесь был книжный магазин.",
+        "pl": "Narożnik Singel i zaułka, gdy mieściła się tu księgarnia.",
+        "tr": "Singel ile sokağın köşesi, burada bir kitapçı varken.",
+        "el": "Η γωνία του Σίνγκελ με το σοκάκι, όταν στεγαζόταν εκεί ένα βιβλιοπωλείο.",
+        "da": "Hjørnet af Singel og gyden, da der lå en boghandel.",
+        "sv": "Hörnet av Singel och gränden, när där låg en bokhandel."
       }
     },
     {
@@ -47,7 +99,20 @@
         "en": "The alley from above.",
         "fy": "De steech fan boppen ôf.",
         "fr": "La ruelle vue d'en haut.",
-        "de": "Die Gasse von oben."
+        "de": "Die Gasse von oben.",
+        "es": "El callejón visto desde arriba.",
+        "it": "Il vicolo visto dall'alto.",
+        "pt": "A viela vista de cima.",
+        "zh": "从高处俯瞰小巷。",
+        "ja": "上から見た路地。",
+        "ar": "الزقاق من الأعلى.",
+        "hi": "ऊपर से गली।",
+        "ru": "Переулок сверху.",
+        "pl": "Zaułek z góry.",
+        "tr": "Yukarıdan sokak.",
+        "el": "Το σοκάκι από ψηλά.",
+        "da": "Gyden set ovenfra.",
+        "sv": "Gränden uppifrån."
       }
     },
     {
@@ -57,7 +122,20 @@
         "en": "Number 5 closes the view, with ‘Handelsdrukkerij’ lettered above the shopfront.",
         "fy": "Nûmer 5 slút it strjitbyld ôf, mei ‘Handelsdrukkerij’ boppe de pui.",
         "fr": "Le numéro 5 ferme la perspective, avec « Handelsdrukkerij » au-dessus de la devanture.",
-        "de": "Nummer 5 schließt den Blick ab, mit „Handelsdrukkerij“ über der Ladenfront."
+        "de": "Nummer 5 schließt den Blick ab, mit „Handelsdrukkerij“ über der Ladenfront.",
+        "es": "El número 5 cierra la vista, con ‘Handelsdrukkerij’ rotulado sobre el escaparate.",
+        "it": "Il numero 5 chiude la vista, con la scritta ‘Handelsdrukkerij’ sopra la vetrina.",
+        "pt": "O número 5 fecha a vista, com ‘Handelsdrukkerij’ pintado por cima da montra.",
+        "zh": "5号位于视线尽头，店面上方写着 ‘Handelsdrukkerij’（商业印刷厂）。",
+        "ja": "突き当たりの5番地。店先の上に ‘Handelsdrukkerij’（商業印刷所）の文字。",
+        "ar": "الرقم 5 في نهاية المشهد، وفوق واجهته كلمة ‘Handelsdrukkerij’ (مطبعة تجارية).",
+        "hi": "दृश्य के अंत में नंबर 5, जिसकी दुकान के ऊपर ‘Handelsdrukkerij’ (व्यावसायिक छापाखाना) लिखा है।",
+        "ru": "Дом 5 замыкает вид, над витриной надпись ‘Handelsdrukkerij’ (коммерческая типография).",
+        "pl": "Numer 5 zamyka widok, z napisem ‘Handelsdrukkerij’ nad witryną.",
+        "tr": "5 numara görüntüyü kapatıyor, vitrinin üstünde ‘Handelsdrukkerij’ (ticari matbaa) yazısı.",
+        "el": "Το νούμερο 5 κλείνει τη θέα, με την επιγραφή ‘Handelsdrukkerij’ (εμπορικό τυπογραφείο) πάνω από τη βιτρίνα.",
+        "da": "Nummer 5 afslutter udsigten, med ‘Handelsdrukkerij’ skrevet over butiksfacaden.",
+        "sv": "Nummer 5 avslutar vyn, med ‘Handelsdrukkerij’ skrivet ovanför skyltfönstret."
       }
     },
     {
@@ -67,7 +145,20 @@
         "en": "The bell gable of number 5 above its small-paned shopfront.",
         "fy": "De klokgevel fan nûmer 5 boppe de pui mei lytse rútsjes.",
         "fr": "Le pignon en cloche du numéro 5 au-dessus de sa devanture à petits carreaux.",
-        "de": "Der Glockengiebel von Nummer 5 über der kleinteilig verglasten Ladenfront."
+        "de": "Der Glockengiebel von Nummer 5 über der kleinteilig verglasten Ladenfront.",
+        "es": "El frontón de campana del número 5 sobre su escaparate de cristales pequeños.",
+        "it": "Il frontone a campana del numero 5 sopra la vetrina a piccoli vetri.",
+        "pt": "A empena em sino do número 5 por cima da montra de vidros pequenos.",
+        "zh": "5号的钟形山墙，下方是小格窗的店面。",
+        "ja": "小さな窓ガラスの店先の上にある、5番地のベル型の破風。",
+        "ar": "الجملون الجرسي للرقم 5 فوق واجهته ذات الألواح الزجاجية الصغيرة.",
+        "hi": "छोटे-छोटे शीशों वाली दुकान के ऊपर नंबर 5 का घंटी के आकार का गेबल।",
+        "ru": "Колоколообразный фронтон дома 5 над витриной с мелкой расстекловкой.",
+        "pl": "Dzwonowy szczyt numeru 5 nad witryną z drobnymi szybkami.",
+        "tr": "5 numaranın küçük camlı vitrininin üstündeki çan biçimli alınlık.",
+        "el": "Το καμπανόσχημο αέτωμα του νούμερου 5 πάνω από τη βιτρίνα με τα μικρά τζάμια.",
+        "da": "Klokkegavlen på nummer 5 over den småtternede butiksfacade.",
+        "sv": "Klockgaveln på nummer 5 ovanför det småspröjsade skyltfönstret."
       }
     },
     {
@@ -77,7 +168,20 @@
         "en": "Numbers 5 and 7 side by side.",
         "fy": "Nûmer 5 en 7 neist inoar.",
         "fr": "Les numéros 5 et 7 côte à côte.",
-        "de": "Nummer 5 und 7 nebeneinander."
+        "de": "Nummer 5 und 7 nebeneinander.",
+        "es": "Los números 5 y 7, uno al lado del otro.",
+        "it": "I numeri 5 e 7 uno accanto all'altro.",
+        "pt": "Os números 5 e 7 lado a lado.",
+        "zh": "5号和7号并排而立。",
+        "ja": "並んで建つ5番地と7番地。",
+        "ar": "الرقمان 5 و7 جنبًا إلى جنب.",
+        "hi": "नंबर 5 और 7 अगल-बगल।",
+        "ru": "Дома 5 и 7 рядом.",
+        "pl": "Numery 5 i 7 obok siebie.",
+        "tr": "5 ve 7 numara yan yana.",
+        "el": "Τα νούμερα 5 και 7 δίπλα δίπλα.",
+        "da": "Nummer 5 og 7 side om side.",
+        "sv": "Nummer 5 och 7 sida vid sida."
       }
     },
     {
@@ -87,7 +191,20 @@
         "en": "The facade in scaffolding during the restoration.",
         "fy": "De gevel yn de steigers by de restauraasje.",
         "fr": "La façade sous les échafaudages pendant la restauration.",
-        "de": "Die Fassade im Gerüst während der Restaurierung."
+        "de": "Die Fassade im Gerüst während der Restaurierung.",
+        "es": "La fachada con andamios durante la restauración.",
+        "it": "La facciata con le impalcature durante il restauro.",
+        "pt": "A fachada com andaimes durante o restauro.",
+        "zh": "修复期间搭着脚手架的立面。",
+        "ja": "修復中、足場に覆われたファサード。",
+        "ar": "الواجهة محاطة بالسقالات أثناء الترميم.",
+        "hi": "मरम्मत के दौरान मचान से घिरा अग्रभाग।",
+        "ru": "Фасад в лесах во время реставрации.",
+        "pl": "Fasada w rusztowaniach podczas renowacji.",
+        "tr": "Restorasyon sırasında iskelelerle çevrili cephe.",
+        "el": "Η πρόσοψη με σκαλωσιές κατά την αναστήλωση.",
+        "da": "Facaden i stillads under restaureringen.",
+        "sv": "Fasaden i byggnadsställningar under restaureringen."
       }
     },
     {
@@ -97,7 +214,20 @@
         "en": "A carved gable top during the restoration.",
         "fy": "In byldhoude geveltop by de restauraasje.",
         "fr": "Un couronnement de pignon sculpté pendant la restauration.",
-        "de": "Eine gemeißelte Giebelbekrönung während der Restaurierung."
+        "de": "Eine gemeißelte Giebelbekrönung während der Restaurierung.",
+        "es": "Un remate de frontón tallado durante la restauración.",
+        "it": "Un coronamento di frontone scolpito durante il restauro.",
+        "pt": "Um remate de empena esculpido durante o restauro.",
+        "zh": "修复期间一处雕刻的山墙顶饰。",
+        "ja": "修復中の、彫刻が施された破風の頂部。",
+        "ar": "قمة جملون منحوتة أثناء الترميم.",
+        "hi": "मरम्मत के दौरान नक़्क़ाशीदार गेबल का शिखर।",
+        "ru": "Резное навершие фронтона во время реставрации.",
+        "pl": "Rzeźbione zwieńczenie szczytu podczas renowacji.",
+        "tr": "Restorasyon sırasında oymalı bir alınlık tepeliği.",
+        "el": "Μια σκαλιστή κορυφή αετώματος κατά την αναστήλωση.",
+        "da": "En udskåret gavltop under restaureringen.",
+        "sv": "Ett snidat gavelkrön under restaureringen."
       }
     },
     {
@@ -107,7 +237,20 @@
         "en": "The corner of Singel and Lijnbaanssteeg, with both street signs.",
         "fy": "De hoeke fan it Singel en de Lijnbaanssteeg, mei beide strjitnammebuordsjes.",
         "fr": "L'angle du Singel et de la Lijnbaanssteeg, avec les deux plaques de rue.",
-        "de": "Die Ecke von Singel und Lijnbaanssteeg, mit beiden Straßenschildern."
+        "de": "Die Ecke von Singel und Lijnbaanssteeg, mit beiden Straßenschildern.",
+        "es": "La esquina del Singel con la Lijnbaanssteeg, con las dos placas de la calle.",
+        "it": "L'angolo tra il Singel e la Lijnbaanssteeg, con entrambe le targhe stradali.",
+        "pt": "A esquina do Singel com a Lijnbaanssteeg, com as duas placas da rua.",
+        "zh": "Singel 与 Lijnbaanssteeg 的转角，两块路牌都清晰可见。",
+        "ja": "シンゲルと Lijnbaanssteeg の角。二つの通りの表示板が見える。",
+        "ar": "زاوية سينغل وLijnbaanssteeg، مع لافتتي الشارعين.",
+        "hi": "Singel और Lijnbaanssteeg का कोना, दोनों सड़कों के नामपट्ट के साथ।",
+        "ru": "Угол Сингела и Лейнбансстех с табличками обеих улиц.",
+        "pl": "Narożnik Singel i Lijnbaanssteeg z tabliczkami obu ulic.",
+        "tr": "Singel ile Lijnbaanssteeg'in köşesi, iki sokak tabelasıyla.",
+        "el": "Η γωνία Σίνγκελ και Lijnbaanssteeg, με τις πινακίδες και των δύο δρόμων.",
+        "da": "Hjørnet af Singel og Lijnbaanssteeg med begge gadeskilte.",
+        "sv": "Hörnet av Singel och Lijnbaanssteeg, med båda gatuskyltarna."
       }
     }
   ]

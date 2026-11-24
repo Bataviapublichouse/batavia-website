@@ -1,0 +1,189 @@
+{
+  "seo": {
+    "title": "Batavia Public House | Bar de cócteles y pub en el centro de Ámsterdam",
+    "description": "Nuevo bar de cócteles y pub en el centro de Ámsterdam, en un edificio de 1734. Cócteles con productos neerlandeses locales, comida neerlandesa y servicio de primera."
+  },
+  "home": {
+    "lead": "Un Brown Cocktail Pub en el centro de Ámsterdam, en dos casas de 1734 entre el Singel y la Spuistraat.",
+    "ctaFind": "Cómo llegar",
+    "ctaMenus": "Ver las cartas",
+    "impTitle": "Una impresión del bar",
+    "impBody1": "Batavia es a la vez bar de cócteles y pub clásico de Ámsterdam: el bar de barrio y la sala de estar de los amsterdameses, los amantes de los cócteles, los foodies y los aficionados al vino. Informal y acogedor, con un servicio de primer nivel: una mesa cena sin prisas, la de al lado viene a tomar una copa.",
+    "impBody2": "Trabajamos con agricultores, productores y destiladores locales para nuestros cócteles y nuestra comida neerlandesa. Cada carta sigue las estaciones, y en nuestras cartas encontrarás toda la información sobre los productos que usamos.",
+    "peopleTitle": "Detrás de la barra",
+    "peopleText": "Jimmy Hu y Samuel Stok, dos bartenders premiados con muchos años de experiencia en hostelería.",
+    "peopleLink": "Más sobre el equipo",
+    "knowTitle": "Bueno saber",
+    "k1Title": "Sin reserva o con reserva",
+    "k1Text": "Puedes entrar sin más. Si quieres asegurarte una mesa, reserva con antelación.",
+    "k2Title": "Terraza",
+    "k2Text": "Con buen tiempo sacamos la terraza, con sitio para quince personas.",
+    "k3Title": "Dentro",
+    "k3Text": "Sitio para setenta personas.",
+    "k4Title": "Sin alcohol",
+    "k4Text": "Tanto si vienes a tomar algo con alcohol como sin él, tenemos una selección única de cócteles sin alcohol caseros, hechos con productos locales.",
+    "k5Title": "Para todos",
+    "k5Text": "Accesible en silla de ruedas, y las mascotas son bienvenidas.",
+    "k6Title": "Precios y pago",
+    "k6Text": "Los cócteles cuestan entre 15 y 17 €. Se puede pagar con tarjeta o en efectivo.",
+    "hoursTitle": "Horario",
+    "alleyTitle": "Cómo encontrar el callejón",
+    "alleyBody": "La Lijnbaanssteeg es un callejón estrecho del casco antiguo, entre el Singel y la Spuistraat. Nos encontrarás en los números 5–7, a unos diez minutos a pie de la estación Centraal.",
+    "alleyCta": "Ruta y aparcamiento",
+    "mapCaption": "Croquis, sin escala. El norte está arriba.",
+    "mapMarker": "Batavia, n.º 5–7",
+    "linksTitle": "Echa un vistazo",
+    "cards": {
+      "menus": {
+        "title": "Cartas",
+        "text": "Cócteles, vinos neerlandeses y platos neerlandeses clásicos de temporada.",
+        "cta": "Ver las cartas"
+      },
+      "events": {
+        "title": "Eventos",
+        "text": "Espacio para hasta 70 invitados, con catering de la barra a la cocina.",
+        "cta": "Organiza un evento"
+      },
+      "building": {
+        "title": "El edificio",
+        "text": "Construido en 1734: imprenta, restaurante con estrella, bar de cócteles y ahora un public house.",
+        "cta": "Lee la historia"
+      },
+      "contact": {
+        "title": "Contacto",
+        "text": "¿Una pregunta, una reserva o algo que celebrar? Escríbenos.",
+        "cta": "Ponte en contacto"
+      }
+    }
+  },
+  "film": {
+    "cue": "Desplázate para entrar",
+    "skip": "Saltar la película",
+    "rail": [
+      "El callejón",
+      "El bar",
+      "La escalera",
+      "El speakeasy"
+    ],
+    "c2": "En dos casas terminadas en 1734",
+    "c3": "Escaleras arriba",
+    "c3text": "Al fondo del bar, una escalera empinada sube al piso de arriba.",
+    "c4": "Detrás de la estantería",
+    "c4text": "Detrás de nuestra estantería se esconde aún más historia."
+  },
+  "menus": {
+    "title": "Cartas",
+    "lead": "Nuestras cartas siguen las estaciones y se basan en productos locales neerlandeses.",
+    "body": "Por eso cambian a lo largo del año. Descarga aquí las cartas actuales.",
+    "listTitle": "Cartas actuales",
+    "pdfNote": "Próximamente"
+  },
+  "events": {
+    "title": "Eventos",
+    "lead": "¿Algo que celebrar u organizar? Puedes hacerlo aquí.",
+    "fact1Title": "Hasta 70 invitados",
+    "fact1Text": "Acogemos eventos de hasta 70 personas a la vez.",
+    "fact2Title": "De la barra a la cocina",
+    "fact2Text": "Ofrecemos catering profesional, de la barra a la cocina.",
+    "ctaTitle": "¿Tienes algo en mente?",
+    "ctaText": "Cuéntanos la fecha, el número de invitados y tus deseos, y lo pensamos contigo.",
+    "ctaContact": "Envía una solicitud",
+    "ctaWhatsapp": "Escríbenos por WhatsApp"
+  },
+  "building": {
+    "title": "El edificio",
+    "lead": "La Lijnbaanssteeg 5–7 se construyó en 1734. Desde entonces ha albergado una imprenta comercial, dos restaurantes y un bar de cócteles. Hoy es un public house: un bar histórico en el corazón de Ámsterdam.",
+    "galleryTitle": "El edificio en imágenes",
+    "credit": "Fotografías históricas:",
+    "nameTitle": "Por qué Batavia",
+    "nameText": "Batavia es el antiguo nombre latino de los Países Bajos. Y public house, porque somos un pub en una vieja casa de Ámsterdam, abierto a todo el mundo. Ni más ni menos.",
+    "streetTitle": "Un callejón de cordeleros",
+    "streetText": "El callejón debe su nombre a las lijnbanen, las cordelerías que había aquí a finales del siglo XVI, cuando el Singel aún era el límite de la ciudad.",
+    "insideTitle": "Lo que se conserva",
+    "insideText": "Dentro todavía se ve: vigas que un día formaron parte de barcos, un suelo de piedra natural y una barra antigua.",
+    "timelineTitle": "Bajo este techo",
+    "timeline": [
+      {
+        "year": "1734",
+        "title": "El edificio",
+        "text": "Se construye el edificio de la Lijnbaanssteeg 5–7."
+      },
+      {
+        "year": "Fecha desconocida–años 60",
+        "title": "La imprenta",
+        "text": "En el número 5 funciona una imprenta comercial. Su nombre aparece en grandes letras sobre el escaparate."
+      },
+      {
+        "year": "1969",
+        "title": "Restaurante Gravenmolen",
+        "text": "En 1968 el arquitecto Nic. Klok diseña la reforma: una taberna abajo y el restaurante arriba. Gravenmolen abre en noviembre de 1969 y tiene una estrella Michelin de 1972 a 1976."
+      },
+      {
+        "year": "1990–2010",
+        "title": "De Jonge Gravenmolen",
+        "text": "Una nueva generación: el restaurante De Jonge Gravenmolen."
+      },
+      {
+        "year": "2012",
+        "title": "Tales & Spirits",
+        "text": "Se instala el bar de cócteles Tales & Spirits."
+      },
+      {
+        "year": "Hoy",
+        "title": "Batavia Public House",
+        "text": "Hoy las puertas se abren como Batavia Public House."
+      }
+    ]
+  },
+  "team": {
+    "title": "El equipo",
+    "lead": "Batavia es de Jimmy Hu y Samuel Stok, dos bartenders que se conocieron detrás de la barra de The Tailor, en Ámsterdam.",
+    "careerTitle": "Trayectoria",
+    "pressTitle": "En la prensa y en el escenario",
+    "pressText": "Artículos sobre sus competiciones y eventos que ellos mismos organizaron. Los enlaces se abren en la web de la fuente."
+  },
+  "contact": {
+    "title": "Contacto",
+    "lead": "Envíanos un mensaje, llámanos o usa WhatsApp. Para reservar, igual; entrar sin reserva siempre es posible.",
+    "formTitle": "Envíanos un mensaje",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "formNote": "Tu mensaje llega a info@bataviapublichouse.nl.",
+    "subject": "Mensaje desde la web",
+    "directTitle": "Contacto directo",
+    "emailLabel": "Correo",
+    "phoneLabel": "Teléfono",
+    "whatsapp": "Escríbenos por WhatsApp",
+    "addressTitle": "Dirección",
+    "mapsCta": "Abrir en Maps",
+    "parkingTitle": "Aparcamiento",
+    "parkingText": "El aparcamiento más cercano es Q-Park Nieuwendijk, en Nieuwezijds Kolk 18. Abre día y noche y está a pocos minutos a pie del bar.",
+    "parkingCta": "Abrir el aparcamiento en Maps",
+    "routeTitle": "A pie desde la estación Centraal",
+    "routeTime": "Unos diez minutos.",
+    "s1": {
+      "place": "Estación Centraal",
+      "text": "Sal de la estación por el lado del centro, en la Stationsplein."
+    },
+    "s2": {
+      "place": "Martelaarsgracht",
+      "text": "Cruza la Prins Hendrikkade y entra en la Martelaarsgracht."
+    },
+    "s3": {
+      "place": "Hekelveld y Spuistraat",
+      "text": "Sigue por el Hekelveld hasta llegar a la Spuistraat."
+    },
+    "s4": {
+      "place": "Lijnbaanssteeg",
+      "text": "Sigue la Spuistraat y gira a la derecha en la Lijnbaanssteeg, un callejón estrecho. Estamos en los números 5–7."
+    },
+    "routeCta": "Abrir la ruta a pie en Maps"
+  },
+  "footer": {
+    "addressTitle": "Dirección",
+    "hoursTitle": "Abierto",
+    "contactTitle": "Contacto"
+  }
+}

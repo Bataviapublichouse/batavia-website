@@ -1,15 +1,15 @@
 {
   "seo": {
-    "title": "Batavia Public House | Brown Cocktail Pub yn Amsterdam sintrum",
-    "description": "Cocktailbar fan Jimmy Hu en Samuel Stok yn twa panden út 1734, tusken Singel en Spuistraat. Seizoenscocktails, ek alkoholfrij, en gerjochten mei lokale produkten."
+    "title": "Batavia Public House | Cocktailbar & brune kroech Amsterdam sintrum",
+    "description": "Nije cocktailbar en brune kroech yn Amsterdam sintrum, yn in pân út 1734. Cocktails fan lokale Nederlânske produkten en toptsjinst yn kroechsfear."
   },
   "home": {
-    "lead": "In Brown Cocktail Pub yn twa panden út 1734, yn de steech tusken it Singel en de Spuistraat.",
+    "lead": "In Brown Cocktail Pub yn Amsterdam sintrum, yn twa panden út 1734 tusken it Singel en de Spuistraat.",
     "ctaFind": "Sa fine jo ús",
     "ctaMenus": "Besjoch de menu's",
     "impTitle": "In yndruk fan de bar",
-    "impBody1": "Batavia is in húskeamer foar Amsterdammers, cocktailleafhawwers, foodies en wyndrinkers. Ynformeel en knus: de iene tafel yt wiidweidich, de oare komt foar in drankje.",
-    "impBody2": "Wy wurkje gear mei pleatslike boeren, produsinten en destillateurs foar ús cocktails en gerjochten. Elke kaart folget de seizoenen, en op ús menukaarten fine jo alle ynformaasje oer de produkten dy't wy brûke.",
+    "impBody1": "Batavia is cocktailbar en brune kroech yn ien: de lokale bar en húskeamer foar Amsterdammers, cocktailleafhawwers, foodies en wyndrinkers. Ynformeel en knus, mei tsjinst op topnivo: de iene tafel yt wiidweidich, de oare komt foar in drankje.",
+    "impBody2": "Wy wurkje gear mei pleatslike boeren, produsinten en destillateurs foar ús cocktails en Hollânske gerjochten. Elke kaart folget de seizoenen, en op ús menukaarten fine jo alle ynformaasje oer de produkten dy't wy brûke.",
     "peopleTitle": "Efter de bar",
     "peopleText": "Jimmy Hu & Samuel Stok, twa priiswinnende bartenders dy't al jierren yn 'e horeka wurkje.",
     "peopleLink": "Lês hjir mear oer it team",
@@ -19,9 +19,13 @@
     "k2Title": "Terras",
     "k2Text": "By moai waar stiet it terras bûten, mei plak foar fyftjin gasten.",
     "k3Title": "Binnen",
-    "k3Text": "Fjirtich sitplakken yn de pub.",
+    "k3Text": "Plak foar santich gasten.",
     "k4Title": "Sûnder alkohol",
     "k4Text": "Oft jo no komme foar in drankje mei of sûnder alkohol: wy hawwe in unike seleksje selsmakke alkoholfrije cocktails, makke mei pleatslike produkten.",
+    "k5Title": "Foar elkenien",
+    "k5Text": "Tagonklik mei in rolstoel, en húsdieren binne wolkom.",
+    "k6Title": "Prizen en beteljen",
+    "k6Text": "Cocktails kostje €15–17. Pinne en kontant beteljen kin allebeide.",
     "hoursTitle": "Iepeningstiden",
     "alleyTitle": "De steech fine",
     "alleyBody": "De Lijnbaanssteeg is in smelle steech yn de âlde binnenstêd, tusken it Singel en de Spuistraat. Jo fine ús op nûmer 5–7, likernôch tsien minuten rinnen fan it Sintraal Stasjon ôf.",
@@ -88,7 +92,7 @@
   },
   "building": {
     "title": "It pân",
-    "lead": "Lijnbaanssteeg 5–7 waard boud yn 1734. Sûnt dy tiid sieten der in hannelsdrukkerij, twa restaurants en in cocktailbar. No is it in public house.",
+    "lead": "Lijnbaanssteeg 5–7 waard boud yn 1734. Sûnt dy tiid sieten der in hannelsdrukkerij, twa restaurants en in cocktailbar. No is it in public house: in histoaryske bar yn it hert fan Amsterdam.",
     "galleryTitle": "It pân yn byld",
     "credit": "Histoaryske foto's:",
     "nameTitle": "Wêrom Batavia",

@@ -31,14 +31,53 @@ content:
     - name: en
       label: English
       type: string
-    - name: fy
-      label: Frysk
+    - name: de
+      label: Deutsch
       type: string
     - name: fr
       label: Français
       type: string
-    - name: de
-      label: Deutsch
+    - name: es
+      label: Español
+      type: string
+    - name: it
+      label: Italiano
+      type: string
+    - name: pt
+      label: Português
+      type: string
+    - name: zh
+      label: 中文 (Chinese)
+      type: string
+    - name: ja
+      label: 日本語 (Japanese)
+      type: string
+    - name: ar
+      label: العربية (Arabic)
+      type: string
+    - name: hi
+      label: हिन्दी (Hindi)
+      type: string
+    - name: ru
+      label: Русский (Russian)
+      type: string
+    - name: pl
+      label: Polski
+      type: string
+    - name: tr
+      label: Türkçe
+      type: string
+    - name: el
+      label: Ελληνικά (Greek)
+      type: string
+    - name: da
+      label: Dansk
+      type: string
+    - name: sv
+      label: Svenska
+      type: string
+    - name: fy
+      label: Frysk
       type: string
   - name: tba
     label: Text shown for each day while not open yet
@@ -50,14 +89,53 @@ content:
     - name: en
       label: English
       type: string
-    - name: fy
-      label: Frysk
+    - name: de
+      label: Deutsch
       type: string
     - name: fr
       label: Français
       type: string
-    - name: de
-      label: Deutsch
+    - name: es
+      label: Español
+      type: string
+    - name: it
+      label: Italiano
+      type: string
+    - name: pt
+      label: Português
+      type: string
+    - name: zh
+      label: 中文 (Chinese)
+      type: string
+    - name: ja
+      label: 日本語 (Japanese)
+      type: string
+    - name: ar
+      label: العربية (Arabic)
+      type: string
+    - name: hi
+      label: हिन्दी (Hindi)
+      type: string
+    - name: ru
+      label: Русский (Russian)
+      type: string
+    - name: pl
+      label: Polski
+      type: string
+    - name: tr
+      label: Türkçe
+      type: string
+    - name: el
+      label: Ελληνικά (Greek)
+      type: string
+    - name: da
+      label: Dansk
+      type: string
+    - name: sv
+      label: Svenska
+      type: string
+    - name: fy
+      label: Frysk
       type: string
   - name: monday
     label: Monday
@@ -171,14 +249,53 @@ content:
       - name: en
         label: English
         type: string
-      - name: fy
-        label: Frysk
+      - name: de
+        label: Deutsch
         type: string
       - name: fr
         label: Français
         type: string
-      - name: de
-        label: Deutsch
+      - name: es
+        label: Español
+        type: string
+      - name: it
+        label: Italiano
+        type: string
+      - name: pt
+        label: Português
+        type: string
+      - name: zh
+        label: 中文 (Chinese)
+        type: string
+      - name: ja
+        label: 日本語 (Japanese)
+        type: string
+      - name: ar
+        label: العربية (Arabic)
+        type: string
+      - name: hi
+        label: हिन्दी (Hindi)
+        type: string
+      - name: ru
+        label: Русский (Russian)
+        type: string
+      - name: pl
+        label: Polski
+        type: string
+      - name: tr
+        label: Türkçe
+        type: string
+      - name: el
+        label: Ελληνικά (Greek)
+        type: string
+      - name: da
+        label: Dansk
+        type: string
+      - name: sv
+        label: Svenska
+        type: string
+      - name: fy
+        label: Frysk
         type: string
     - name: pdf
       label: PDF file (leave empty if not ready yet)
@@ -261,6 +378,18 @@ content:
     - name: k4Text
       label: 'Good to know 4: text'
       type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
     - name: hoursTitle
       label: 'Opening hours: title'
       type: string
@@ -684,852 +813,18 @@ content:
     - name: k4Text
       label: 'Good to know 4: text'
       type: string
-    - name: hoursTitle
-      label: 'Opening hours: title'
+    - name: k5Title
+      label: 'Good to know 5: title'
       type: string
-    - name: alleyTitle
-      label: 'Finding the alley: title'
-      type: string
-    - name: alleyBody
-      label: 'Finding the alley: text'
+    - name: k5Text
+      label: 'Good to know 5: text'
       type: text
-    - name: alleyCta
-      label: 'Finding the alley: button'
+    - name: k6Title
+      label: 'Good to know 6: title'
       type: string
-    - name: mapCaption
-      label: 'Map: caption'
-      type: string
-    - name: mapMarker
-      label: 'Map: label on the pin'
-      type: string
-    - name: linksTitle
-      label: 'Links to the pages: title'
-      type: string
-    - name: cards
-      label: Links to the pages
-      type: object
-      fields:
-      - name: menus
-        label: 'Link: menus'
-        type: object
-        fields:
-        - name: title
-          label: Title
-          type: string
-        - name: text
-          label: Text
-          type: text
-        - name: cta
-          label: Link text
-          type: string
-      - name: events
-        label: 'Link: events'
-        type: object
-        fields:
-        - name: title
-          label: Title
-          type: string
-        - name: text
-          label: Text
-          type: text
-        - name: cta
-          label: Link text
-          type: string
-      - name: building
-        label: 'Link: building'
-        type: object
-        fields:
-        - name: title
-          label: Title
-          type: string
-        - name: text
-          label: Text
-          type: text
-        - name: cta
-          label: Link text
-          type: string
-      - name: contact
-        label: 'Link: contact'
-        type: object
-        fields:
-        - name: title
-          label: Title
-          type: string
-        - name: text
-          label: Text
-          type: string
-        - name: cta
-          label: Link text
-          type: string
-  - name: film
-    label: Captions in the film (homepage)
-    type: object
-    fields:
-    - name: cue
-      label: Scroll hint at the start
-      type: string
-    - name: skip
-      label: '"Skip the film" link'
-      type: string
-    - name: rail
-      label: Chapter names on the right (4)
-      type: string
-      list: true
-    - name: c2
-      label: 'Caption 2 (bar): title'
-      type: string
-    - name: c3
-      label: 'Caption 3 (stairs): title'
-      type: string
-    - name: c3text
-      label: 'Caption 3 (stairs): text'
-      type: string
-    - name: c4
-      label: 'Caption 4 (speakeasy): title'
-      type: string
-    - name: c4text
-      label: 'Caption 4 (speakeasy): text'
-      type: string
-  - name: menus
-    label: Menus page
-    type: object
-    fields:
-    - name: title
-      label: Page title
-      type: string
-    - name: lead
-      label: 'Intro: large text'
+    - name: k6Text
+      label: 'Good to know 6: text'
       type: text
-    - name: body
-      label: 'Intro: small text'
-      type: text
-    - name: listTitle
-      label: 'Menu list: title'
-      type: string
-    - name: pdfNote
-      label: Shown when a menu has no PDF yet
-      type: string
-  - name: events
-    label: Events page
-    type: object
-    fields:
-    - name: title
-      label: Page title
-      type: string
-    - name: lead
-      label: Intro
-      type: string
-    - name: fact1Title
-      label: 'Fact 1: title'
-      type: string
-    - name: fact1Text
-      label: 'Fact 1: text'
-      type: string
-    - name: fact2Title
-      label: 'Fact 2: title'
-      type: string
-    - name: fact2Text
-      label: 'Fact 2: text'
-      type: string
-    - name: ctaTitle
-      label: 'Enquiry block: title'
-      type: string
-    - name: ctaText
-      label: 'Enquiry block: text'
-      type: text
-    - name: ctaContact
-      label: 'Button: enquiry'
-      type: string
-    - name: ctaWhatsapp
-      label: 'Button: WhatsApp'
-      type: string
-  - name: building
-    label: Building page
-    type: object
-    fields:
-    - name: title
-      label: Page title
-      type: string
-    - name: lead
-      label: Intro
-      type: text
-    - name: galleryTitle
-      label: 'Photo slideshow: title (for screen readers)'
-      type: string
-    - name: credit
-      label: 'Photo credits: text before the archive links'
-      type: string
-    - name: nameTitle
-      label: 'Block 1: title'
-      type: string
-    - name: nameText
-      label: 'Block 1: text'
-      type: text
-    - name: streetTitle
-      label: 'Block 2: title'
-      type: string
-    - name: streetText
-      label: 'Block 2: text'
-      type: text
-    - name: insideTitle
-      label: 'Block 3: title'
-      type: string
-    - name: insideText
-      label: 'Block 3: text (also caption 2 in the film)'
-      type: text
-    - name: timelineTitle
-      label: 'Timeline: title'
-      type: string
-    - name: timeline
-      label: Timeline
-      type: object
-      list: true
-      fields:
-      - name: year
-        label: Year
-        type: string
-      - name: title
-        label: Title
-        type: string
-      - name: text
-        label: Text
-        type: text
-  - name: team
-    label: Team page
-    type: object
-    fields:
-    - name: title
-      label: Page title (also the menu item)
-      type: string
-    - name: lead
-      label: Intro
-      type: text
-    - name: careerTitle
-      label: Title above each career list
-      type: string
-    - name: pressTitle
-      label: 'Press and events: title'
-      type: string
-    - name: pressText
-      label: 'Press and events: intro'
-      type: text
-  - name: contact
-    label: Contact page
-    type: object
-    fields:
-    - name: title
-      label: Page title
-      type: string
-    - name: lead
-      label: Intro
-      type: text
-    - name: formTitle
-      label: 'Form: title'
-      type: string
-    - name: name
-      label: 'Form: name label'
-      type: string
-    - name: email
-      label: 'Form: email label'
-      type: string
-    - name: message
-      label: 'Form: message label'
-      type: string
-    - name: send
-      label: 'Form: button'
-      type: string
-    - name: formNote
-      label: 'Form: note under the button'
-      type: string
-    - name: subject
-      label: Email subject line
-      type: string
-    - name: directTitle
-      label: 'Direct contact: title'
-      type: string
-    - name: emailLabel
-      label: 'Label: email'
-      type: string
-    - name: phoneLabel
-      label: 'Label: phone'
-      type: string
-    - name: whatsapp
-      label: 'Button: WhatsApp'
-      type: string
-    - name: addressTitle
-      label: 'Address: title'
-      type: string
-    - name: mapsCta
-      label: 'Address: map link'
-      type: string
-    - name: parkingTitle
-      label: 'Parking: title'
-      type: string
-    - name: parkingText
-      label: 'Parking: text'
-      type: text
-    - name: parkingCta
-      label: 'Parking: map link'
-      type: string
-    - name: routeTitle
-      label: 'Walking route: title'
-      type: string
-    - name: routeTime
-      label: 'Walking route: time'
-      type: string
-    - name: s1
-      label: Route step 1
-      type: object
-      fields:
-      - name: place
-        label: Place
-        type: string
-      - name: text
-        label: Text
-        type: string
-    - name: s2
-      label: Route step 2
-      type: object
-      fields:
-      - name: place
-        label: Place
-        type: string
-      - name: text
-        label: Text
-        type: text
-    - name: s3
-      label: Route step 3
-      type: object
-      fields:
-      - name: place
-        label: Place
-        type: string
-      - name: text
-        label: Text
-        type: string
-    - name: s4
-      label: Route step 4
-      type: object
-      fields:
-      - name: place
-        label: Place
-        type: string
-      - name: text
-        label: Text
-        type: text
-    - name: routeCta
-      label: 'Walking route: map link'
-      type: string
-  - name: footer
-    label: Footer (bottom of every page)
-    type: object
-    fields:
-    - name: addressTitle
-      label: 'Address: title'
-      type: string
-    - name: hoursTitle
-      label: 'Opening hours: title'
-      type: string
-    - name: contactTitle
-      label: 'Contact: title'
-      type: string
-- name: text_fy
-  label: 'Texts: Frysk'
-  type: file
-  path: content/fy.json
-  format: json
-  fields:
-  - name: seo
-    label: Google and AI search
-    type: object
-    fields:
-    - name: title
-      label: Title in search results (about 50–60 characters)
-      type: string
-    - name: description
-      label: Description in search results (about 140–160 characters)
-      type: text
-  - name: home
-    label: Homepage
-    type: object
-    fields:
-    - name: lead
-      label: Opening sentence (over the film)
-      type: text
-    - name: ctaFind
-      label: 'Button: how to find us'
-      type: string
-    - name: ctaMenus
-      label: 'Button: view the menus'
-      type: string
-    - name: impTitle
-      label: 'Impression: title'
-      type: string
-    - name: impBody1
-      label: 'Impression: large text'
-      type: text
-    - name: impBody2
-      label: 'Impression: small text'
-      type: text
-    - name: peopleTitle
-      label: 'Owners: title'
-      type: string
-    - name: peopleText
-      label: 'Owners: text'
-      type: text
-    - name: peopleLink
-      label: 'Owners: link to the team page'
-      type: string
-    - name: knowTitle
-      label: 'Good to know: title'
-      type: string
-    - name: k1Title
-      label: 'Good to know 1: title'
-      type: string
-    - name: k1Text
-      label: 'Good to know 1: text'
-      type: text
-    - name: k2Title
-      label: 'Good to know 2: title'
-      type: string
-    - name: k2Text
-      label: 'Good to know 2: text'
-      type: text
-    - name: k3Title
-      label: 'Good to know 3: title'
-      type: string
-    - name: k3Text
-      label: 'Good to know 3: text'
-      type: string
-    - name: k4Title
-      label: 'Good to know 4: title'
-      type: string
-    - name: k4Text
-      label: 'Good to know 4: text'
-      type: string
-    - name: hoursTitle
-      label: 'Opening hours: title'
-      type: string
-    - name: alleyTitle
-      label: 'Finding the alley: title'
-      type: string
-    - name: alleyBody
-      label: 'Finding the alley: text'
-      type: text
-    - name: alleyCta
-      label: 'Finding the alley: button'
-      type: string
-    - name: mapCaption
-      label: 'Map: caption'
-      type: string
-    - name: mapMarker
-      label: 'Map: label on the pin'
-      type: string
-    - name: linksTitle
-      label: 'Links to the pages: title'
-      type: string
-    - name: cards
-      label: Links to the pages
-      type: object
-      fields:
-      - name: menus
-        label: 'Link: menus'
-        type: object
-        fields:
-        - name: title
-          label: Title
-          type: string
-        - name: text
-          label: Text
-          type: text
-        - name: cta
-          label: Link text
-          type: string
-      - name: events
-        label: 'Link: events'
-        type: object
-        fields:
-        - name: title
-          label: Title
-          type: string
-        - name: text
-          label: Text
-          type: text
-        - name: cta
-          label: Link text
-          type: string
-      - name: building
-        label: 'Link: building'
-        type: object
-        fields:
-        - name: title
-          label: Title
-          type: string
-        - name: text
-          label: Text
-          type: text
-        - name: cta
-          label: Link text
-          type: string
-      - name: contact
-        label: 'Link: contact'
-        type: object
-        fields:
-        - name: title
-          label: Title
-          type: string
-        - name: text
-          label: Text
-          type: string
-        - name: cta
-          label: Link text
-          type: string
-  - name: film
-    label: Captions in the film (homepage)
-    type: object
-    fields:
-    - name: cue
-      label: Scroll hint at the start
-      type: string
-    - name: skip
-      label: '"Skip the film" link'
-      type: string
-    - name: rail
-      label: Chapter names on the right (4)
-      type: string
-      list: true
-    - name: c2
-      label: 'Caption 2 (bar): title'
-      type: string
-    - name: c3
-      label: 'Caption 3 (stairs): title'
-      type: string
-    - name: c3text
-      label: 'Caption 3 (stairs): text'
-      type: string
-    - name: c4
-      label: 'Caption 4 (speakeasy): title'
-      type: string
-    - name: c4text
-      label: 'Caption 4 (speakeasy): text'
-      type: string
-  - name: menus
-    label: Menus page
-    type: object
-    fields:
-    - name: title
-      label: Page title
-      type: string
-    - name: lead
-      label: 'Intro: large text'
-      type: text
-    - name: body
-      label: 'Intro: small text'
-      type: text
-    - name: listTitle
-      label: 'Menu list: title'
-      type: string
-    - name: pdfNote
-      label: Shown when a menu has no PDF yet
-      type: string
-  - name: events
-    label: Events page
-    type: object
-    fields:
-    - name: title
-      label: Page title
-      type: string
-    - name: lead
-      label: Intro
-      type: string
-    - name: fact1Title
-      label: 'Fact 1: title'
-      type: string
-    - name: fact1Text
-      label: 'Fact 1: text'
-      type: string
-    - name: fact2Title
-      label: 'Fact 2: title'
-      type: string
-    - name: fact2Text
-      label: 'Fact 2: text'
-      type: string
-    - name: ctaTitle
-      label: 'Enquiry block: title'
-      type: string
-    - name: ctaText
-      label: 'Enquiry block: text'
-      type: text
-    - name: ctaContact
-      label: 'Button: enquiry'
-      type: string
-    - name: ctaWhatsapp
-      label: 'Button: WhatsApp'
-      type: string
-  - name: building
-    label: Building page
-    type: object
-    fields:
-    - name: title
-      label: Page title
-      type: string
-    - name: lead
-      label: Intro
-      type: text
-    - name: galleryTitle
-      label: 'Photo slideshow: title (for screen readers)'
-      type: string
-    - name: credit
-      label: 'Photo credits: text before the archive links'
-      type: string
-    - name: nameTitle
-      label: 'Block 1: title'
-      type: string
-    - name: nameText
-      label: 'Block 1: text'
-      type: text
-    - name: streetTitle
-      label: 'Block 2: title'
-      type: string
-    - name: streetText
-      label: 'Block 2: text'
-      type: text
-    - name: insideTitle
-      label: 'Block 3: title'
-      type: string
-    - name: insideText
-      label: 'Block 3: text (also caption 2 in the film)'
-      type: text
-    - name: timelineTitle
-      label: 'Timeline: title'
-      type: string
-    - name: timeline
-      label: Timeline
-      type: object
-      list: true
-      fields:
-      - name: year
-        label: Year
-        type: string
-      - name: title
-        label: Title
-        type: string
-      - name: text
-        label: Text
-        type: text
-  - name: team
-    label: Team page
-    type: object
-    fields:
-    - name: title
-      label: Page title (also the menu item)
-      type: string
-    - name: lead
-      label: Intro
-      type: text
-    - name: careerTitle
-      label: Title above each career list
-      type: string
-    - name: pressTitle
-      label: 'Press and events: title'
-      type: string
-    - name: pressText
-      label: 'Press and events: intro'
-      type: text
-  - name: contact
-    label: Contact page
-    type: object
-    fields:
-    - name: title
-      label: Page title
-      type: string
-    - name: lead
-      label: Intro
-      type: text
-    - name: formTitle
-      label: 'Form: title'
-      type: string
-    - name: name
-      label: 'Form: name label'
-      type: string
-    - name: email
-      label: 'Form: email label'
-      type: string
-    - name: message
-      label: 'Form: message label'
-      type: string
-    - name: send
-      label: 'Form: button'
-      type: string
-    - name: formNote
-      label: 'Form: note under the button'
-      type: string
-    - name: subject
-      label: Email subject line
-      type: string
-    - name: directTitle
-      label: 'Direct contact: title'
-      type: string
-    - name: emailLabel
-      label: 'Label: email'
-      type: string
-    - name: phoneLabel
-      label: 'Label: phone'
-      type: string
-    - name: whatsapp
-      label: 'Button: WhatsApp'
-      type: string
-    - name: addressTitle
-      label: 'Address: title'
-      type: string
-    - name: mapsCta
-      label: 'Address: map link'
-      type: string
-    - name: parkingTitle
-      label: 'Parking: title'
-      type: string
-    - name: parkingText
-      label: 'Parking: text'
-      type: text
-    - name: parkingCta
-      label: 'Parking: map link'
-      type: string
-    - name: routeTitle
-      label: 'Walking route: title'
-      type: string
-    - name: routeTime
-      label: 'Walking route: time'
-      type: string
-    - name: s1
-      label: Route step 1
-      type: object
-      fields:
-      - name: place
-        label: Place
-        type: string
-      - name: text
-        label: Text
-        type: string
-    - name: s2
-      label: Route step 2
-      type: object
-      fields:
-      - name: place
-        label: Place
-        type: string
-      - name: text
-        label: Text
-        type: text
-    - name: s3
-      label: Route step 3
-      type: object
-      fields:
-      - name: place
-        label: Place
-        type: string
-      - name: text
-        label: Text
-        type: string
-    - name: s4
-      label: Route step 4
-      type: object
-      fields:
-      - name: place
-        label: Place
-        type: string
-      - name: text
-        label: Text
-        type: text
-    - name: routeCta
-      label: 'Walking route: map link'
-      type: string
-  - name: footer
-    label: Footer (bottom of every page)
-    type: object
-    fields:
-    - name: addressTitle
-      label: 'Address: title'
-      type: string
-    - name: hoursTitle
-      label: 'Opening hours: title'
-      type: string
-    - name: contactTitle
-      label: 'Contact: title'
-      type: string
-- name: text_fr
-  label: 'Texts: Français'
-  type: file
-  path: content/fr.json
-  format: json
-  fields:
-  - name: seo
-    label: Google and AI search
-    type: object
-    fields:
-    - name: title
-      label: Title in search results (about 50–60 characters)
-      type: string
-    - name: description
-      label: Description in search results (about 140–160 characters)
-      type: text
-  - name: home
-    label: Homepage
-    type: object
-    fields:
-    - name: lead
-      label: Opening sentence (over the film)
-      type: text
-    - name: ctaFind
-      label: 'Button: how to find us'
-      type: string
-    - name: ctaMenus
-      label: 'Button: view the menus'
-      type: string
-    - name: impTitle
-      label: 'Impression: title'
-      type: string
-    - name: impBody1
-      label: 'Impression: large text'
-      type: text
-    - name: impBody2
-      label: 'Impression: small text'
-      type: text
-    - name: peopleTitle
-      label: 'Owners: title'
-      type: string
-    - name: peopleText
-      label: 'Owners: text'
-      type: text
-    - name: peopleLink
-      label: 'Owners: link to the team page'
-      type: string
-    - name: knowTitle
-      label: 'Good to know: title'
-      type: string
-    - name: k1Title
-      label: 'Good to know 1: title'
-      type: string
-    - name: k1Text
-      label: 'Good to know 1: text'
-      type: text
-    - name: k2Title
-      label: 'Good to know 2: title'
-      type: string
-    - name: k2Text
-      label: 'Good to know 2: text'
-      type: text
-    - name: k3Title
-      label: 'Good to know 3: title'
-      type: string
-    - name: k3Text
-      label: 'Good to know 3: text'
-      type: string
-    - name: k4Title
-      label: 'Good to know 4: title'
-      type: string
-    - name: k4Text
-      label: 'Good to know 4: text'
-      type: string
     - name: hoursTitle
       label: 'Opening hours: title'
       type: string
@@ -1953,6 +1248,6543 @@ content:
     - name: k4Text
       label: 'Good to know 4: text'
       type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_fr
+  label: 'Texts: Français'
+  type: file
+  path: content/fr.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_es
+  label: 'Texts: Español'
+  type: file
+  path: content/es.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_it
+  label: 'Texts: Italiano'
+  type: file
+  path: content/it.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_pt
+  label: 'Texts: Português'
+  type: file
+  path: content/pt.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_zh
+  label: 'Texts: 中文 (Chinese)'
+  type: file
+  path: content/zh.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_ja
+  label: 'Texts: 日本語 (Japanese)'
+  type: file
+  path: content/ja.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_ar
+  label: 'Texts: العربية (Arabic)'
+  type: file
+  path: content/ar.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_hi
+  label: 'Texts: हिन्दी (Hindi)'
+  type: file
+  path: content/hi.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_ru
+  label: 'Texts: Русский (Russian)'
+  type: file
+  path: content/ru.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_pl
+  label: 'Texts: Polski'
+  type: file
+  path: content/pl.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_tr
+  label: 'Texts: Türkçe'
+  type: file
+  path: content/tr.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_el
+  label: 'Texts: Ελληνικά (Greek)'
+  type: file
+  path: content/el.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_da
+  label: 'Texts: Dansk'
+  type: file
+  path: content/da.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_sv
+  label: 'Texts: Svenska'
+  type: file
+  path: content/sv.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: alleyTitle
+      label: 'Finding the alley: title'
+      type: string
+    - name: alleyBody
+      label: 'Finding the alley: text'
+      type: text
+    - name: alleyCta
+      label: 'Finding the alley: button'
+      type: string
+    - name: mapCaption
+      label: 'Map: caption'
+      type: string
+    - name: mapMarker
+      label: 'Map: label on the pin'
+      type: string
+    - name: linksTitle
+      label: 'Links to the pages: title'
+      type: string
+    - name: cards
+      label: Links to the pages
+      type: object
+      fields:
+      - name: menus
+        label: 'Link: menus'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: events
+        label: 'Link: events'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: building
+        label: 'Link: building'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: text
+        - name: cta
+          label: Link text
+          type: string
+      - name: contact
+        label: 'Link: contact'
+        type: object
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: text
+          label: Text
+          type: string
+        - name: cta
+          label: Link text
+          type: string
+  - name: film
+    label: Captions in the film (homepage)
+    type: object
+    fields:
+    - name: cue
+      label: Scroll hint at the start
+      type: string
+    - name: skip
+      label: '"Skip the film" link'
+      type: string
+    - name: rail
+      label: Chapter names on the right (4)
+      type: string
+      list: true
+    - name: c2
+      label: 'Caption 2 (bar): title'
+      type: string
+    - name: c3
+      label: 'Caption 3 (stairs): title'
+      type: string
+    - name: c3text
+      label: 'Caption 3 (stairs): text'
+      type: string
+    - name: c4
+      label: 'Caption 4 (speakeasy): title'
+      type: string
+    - name: c4text
+      label: 'Caption 4 (speakeasy): text'
+      type: string
+  - name: menus
+    label: Menus page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: 'Intro: large text'
+      type: text
+    - name: body
+      label: 'Intro: small text'
+      type: text
+    - name: listTitle
+      label: 'Menu list: title'
+      type: string
+    - name: pdfNote
+      label: Shown when a menu has no PDF yet
+      type: string
+  - name: events
+    label: Events page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: string
+    - name: fact1Title
+      label: 'Fact 1: title'
+      type: string
+    - name: fact1Text
+      label: 'Fact 1: text'
+      type: string
+    - name: fact2Title
+      label: 'Fact 2: title'
+      type: string
+    - name: fact2Text
+      label: 'Fact 2: text'
+      type: string
+    - name: ctaTitle
+      label: 'Enquiry block: title'
+      type: string
+    - name: ctaText
+      label: 'Enquiry block: text'
+      type: text
+    - name: ctaContact
+      label: 'Button: enquiry'
+      type: string
+    - name: ctaWhatsapp
+      label: 'Button: WhatsApp'
+      type: string
+  - name: building
+    label: Building page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: galleryTitle
+      label: 'Photo slideshow: title (for screen readers)'
+      type: string
+    - name: credit
+      label: 'Photo credits: text before the archive links'
+      type: string
+    - name: nameTitle
+      label: 'Block 1: title'
+      type: string
+    - name: nameText
+      label: 'Block 1: text'
+      type: text
+    - name: streetTitle
+      label: 'Block 2: title'
+      type: string
+    - name: streetText
+      label: 'Block 2: text'
+      type: text
+    - name: insideTitle
+      label: 'Block 3: title'
+      type: string
+    - name: insideText
+      label: 'Block 3: text (also caption 2 in the film)'
+      type: text
+    - name: timelineTitle
+      label: 'Timeline: title'
+      type: string
+    - name: timeline
+      label: Timeline
+      type: object
+      list: true
+      fields:
+      - name: year
+        label: Year
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+  - name: team
+    label: Team page
+    type: object
+    fields:
+    - name: title
+      label: Page title (also the menu item)
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: careerTitle
+      label: Title above each career list
+      type: string
+    - name: pressTitle
+      label: 'Press and events: title'
+      type: string
+    - name: pressText
+      label: 'Press and events: intro'
+      type: text
+  - name: contact
+    label: Contact page
+    type: object
+    fields:
+    - name: title
+      label: Page title
+      type: string
+    - name: lead
+      label: Intro
+      type: text
+    - name: formTitle
+      label: 'Form: title'
+      type: string
+    - name: name
+      label: 'Form: name label'
+      type: string
+    - name: email
+      label: 'Form: email label'
+      type: string
+    - name: message
+      label: 'Form: message label'
+      type: string
+    - name: send
+      label: 'Form: button'
+      type: string
+    - name: formNote
+      label: 'Form: note under the button'
+      type: string
+    - name: subject
+      label: Email subject line
+      type: string
+    - name: directTitle
+      label: 'Direct contact: title'
+      type: string
+    - name: emailLabel
+      label: 'Label: email'
+      type: string
+    - name: phoneLabel
+      label: 'Label: phone'
+      type: string
+    - name: whatsapp
+      label: 'Button: WhatsApp'
+      type: string
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: mapsCta
+      label: 'Address: map link'
+      type: string
+    - name: parkingTitle
+      label: 'Parking: title'
+      type: string
+    - name: parkingText
+      label: 'Parking: text'
+      type: text
+    - name: parkingCta
+      label: 'Parking: map link'
+      type: string
+    - name: routeTitle
+      label: 'Walking route: title'
+      type: string
+    - name: routeTime
+      label: 'Walking route: time'
+      type: string
+    - name: s1
+      label: Route step 1
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s2
+      label: Route step 2
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: s3
+      label: Route step 3
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: string
+    - name: s4
+      label: Route step 4
+      type: object
+      fields:
+      - name: place
+        label: Place
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: routeCta
+      label: 'Walking route: map link'
+      type: string
+  - name: footer
+    label: Footer (bottom of every page)
+    type: object
+    fields:
+    - name: addressTitle
+      label: 'Address: title'
+      type: string
+    - name: hoursTitle
+      label: 'Opening hours: title'
+      type: string
+    - name: contactTitle
+      label: 'Contact: title'
+      type: string
+- name: text_fy
+  label: 'Texts: Frysk'
+  type: file
+  path: content/fy.json
+  format: json
+  fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
+  - name: home
+    label: Homepage
+    type: object
+    fields:
+    - name: lead
+      label: Opening sentence (over the film)
+      type: text
+    - name: ctaFind
+      label: 'Button: how to find us'
+      type: string
+    - name: ctaMenus
+      label: 'Button: view the menus'
+      type: string
+    - name: impTitle
+      label: 'Impression: title'
+      type: string
+    - name: impBody1
+      label: 'Impression: large text'
+      type: text
+    - name: impBody2
+      label: 'Impression: small text'
+      type: text
+    - name: peopleTitle
+      label: 'Owners: title'
+      type: string
+    - name: peopleText
+      label: 'Owners: text'
+      type: text
+    - name: peopleLink
+      label: 'Owners: link to the team page'
+      type: string
+    - name: knowTitle
+      label: 'Good to know: title'
+      type: string
+    - name: k1Title
+      label: 'Good to know 1: title'
+      type: string
+    - name: k1Text
+      label: 'Good to know 1: text'
+      type: text
+    - name: k2Title
+      label: 'Good to know 2: title'
+      type: string
+    - name: k2Text
+      label: 'Good to know 2: text'
+      type: text
+    - name: k3Title
+      label: 'Good to know 3: title'
+      type: string
+    - name: k3Text
+      label: 'Good to know 3: text'
+      type: string
+    - name: k4Title
+      label: 'Good to know 4: title'
+      type: string
+    - name: k4Text
+      label: 'Good to know 4: text'
+      type: string
+    - name: k5Title
+      label: 'Good to know 5: title'
+      type: string
+    - name: k5Text
+      label: 'Good to know 5: text'
+      type: text
+    - name: k6Title
+      label: 'Good to know 6: title'
+      type: string
+    - name: k6Text
+      label: 'Good to know 6: text'
+      type: text
     - name: hoursTitle
       label: 'Opening hours: title'
       type: string
@@ -2328,14 +8160,53 @@ content:
       - name: en
         label: English
         type: text
-      - name: fy
-        label: Frysk
+      - name: de
+        label: Deutsch
         type: text
       - name: fr
         label: Français
         type: text
-      - name: de
-        label: Deutsch
+      - name: es
+        label: Español
+        type: text
+      - name: it
+        label: Italiano
+        type: text
+      - name: pt
+        label: Português
+        type: text
+      - name: zh
+        label: 中文 (Chinese)
+        type: text
+      - name: ja
+        label: 日本語 (Japanese)
+        type: text
+      - name: ar
+        label: العربية (Arabic)
+        type: text
+      - name: hi
+        label: हिन्दी (Hindi)
+        type: text
+      - name: ru
+        label: Русский (Russian)
+        type: text
+      - name: pl
+        label: Polski
+        type: text
+      - name: tr
+        label: Türkçe
+        type: text
+      - name: el
+        label: Ελληνικά (Greek)
+        type: text
+      - name: da
+        label: Dansk
+        type: text
+      - name: sv
+        label: Svenska
+        type: text
+      - name: fy
+        label: Frysk
         type: text
 - name: team
   label: Team (profiles, press and events)
@@ -2364,14 +8235,53 @@ content:
       - name: en
         label: English
         type: string
-      - name: fy
-        label: Frysk
+      - name: de
+        label: Deutsch
         type: string
       - name: fr
         label: Français
         type: string
-      - name: de
-        label: Deutsch
+      - name: es
+        label: Español
+        type: string
+      - name: it
+        label: Italiano
+        type: string
+      - name: pt
+        label: Português
+        type: string
+      - name: zh
+        label: 中文 (Chinese)
+        type: string
+      - name: ja
+        label: 日本語 (Japanese)
+        type: string
+      - name: ar
+        label: العربية (Arabic)
+        type: string
+      - name: hi
+        label: हिन्दी (Hindi)
+        type: string
+      - name: ru
+        label: Русский (Russian)
+        type: string
+      - name: pl
+        label: Polski
+        type: string
+      - name: tr
+        label: Türkçe
+        type: string
+      - name: el
+        label: Ελληνικά (Greek)
+        type: string
+      - name: da
+        label: Dansk
+        type: string
+      - name: sv
+        label: Svenska
+        type: string
+      - name: fy
+        label: Frysk
         type: string
     - name: photo
       label: Portrait photo (upright works best; leave empty to show initials)
@@ -2388,14 +8298,53 @@ content:
       - name: en
         label: English
         type: text
-      - name: fy
-        label: Frysk
+      - name: de
+        label: Deutsch
         type: text
       - name: fr
         label: Français
         type: text
-      - name: de
-        label: Deutsch
+      - name: es
+        label: Español
+        type: text
+      - name: it
+        label: Italiano
+        type: text
+      - name: pt
+        label: Português
+        type: text
+      - name: zh
+        label: 中文 (Chinese)
+        type: text
+      - name: ja
+        label: 日本語 (Japanese)
+        type: text
+      - name: ar
+        label: العربية (Arabic)
+        type: text
+      - name: hi
+        label: हिन्दी (Hindi)
+        type: text
+      - name: ru
+        label: Русский (Russian)
+        type: text
+      - name: pl
+        label: Polski
+        type: text
+      - name: tr
+        label: Türkçe
+        type: text
+      - name: el
+        label: Ελληνικά (Greek)
+        type: text
+      - name: da
+        label: Dansk
+        type: text
+      - name: sv
+        label: Svenska
+        type: text
+      - name: fy
+        label: Frysk
         type: text
     - name: milestones
       label: Career
@@ -2415,14 +8364,53 @@ content:
         - name: en
           label: English
           type: string
-        - name: fy
-          label: Frysk
+        - name: de
+          label: Deutsch
           type: string
         - name: fr
           label: Français
           type: string
-        - name: de
-          label: Deutsch
+        - name: es
+          label: Español
+          type: string
+        - name: it
+          label: Italiano
+          type: string
+        - name: pt
+          label: Português
+          type: string
+        - name: zh
+          label: 中文 (Chinese)
+          type: string
+        - name: ja
+          label: 日本語 (Japanese)
+          type: string
+        - name: ar
+          label: العربية (Arabic)
+          type: string
+        - name: hi
+          label: हिन्दी (Hindi)
+          type: string
+        - name: ru
+          label: Русский (Russian)
+          type: string
+        - name: pl
+          label: Polski
+          type: string
+        - name: tr
+          label: Türkçe
+          type: string
+        - name: el
+          label: Ελληνικά (Greek)
+          type: string
+        - name: da
+          label: Dansk
+          type: string
+        - name: sv
+          label: Svenska
+          type: string
+        - name: fy
+          label: Frysk
           type: string
     - name: instagram
       label: Instagram link (optional)
@@ -2457,14 +8445,53 @@ content:
       - name: en
         label: English
         type: text
-      - name: fy
-        label: Frysk
+      - name: de
+        label: Deutsch
         type: text
       - name: fr
         label: Français
         type: text
-      - name: de
-        label: Deutsch
+      - name: es
+        label: Español
+        type: text
+      - name: it
+        label: Italiano
+        type: text
+      - name: pt
+        label: Português
+        type: text
+      - name: zh
+        label: 中文 (Chinese)
+        type: text
+      - name: ja
+        label: 日本語 (Japanese)
+        type: text
+      - name: ar
+        label: العربية (Arabic)
+        type: text
+      - name: hi
+        label: हिन्दी (Hindi)
+        type: text
+      - name: ru
+        label: Русский (Russian)
+        type: text
+      - name: pl
+        label: Polski
+        type: text
+      - name: tr
+        label: Türkçe
+        type: text
+      - name: el
+        label: Ελληνικά (Greek)
+        type: text
+      - name: da
+        label: Dansk
+        type: text
+      - name: sv
+        label: Svenska
+        type: text
+      - name: fy
+        label: Frysk
         type: text
 - name: business
   label: Business details for Google and AI
@@ -2473,11 +8500,26 @@ content:
   format: json
   fields:
   - name: priceRange
-    label: Price level, for example €€ (leave empty if unsure)
+    label: 'Price level, for example: €15–17 per cocktail'
     type: string
   - name: acceptsReservations
     label: Accepts reservations
     type: boolean
+  - name: walkIns
+    label: Walk-ins welcome
+    type: boolean
+  - name: seats
+    label: Number of seats
+    type: number
+  - name: wheelchairAccessible
+    label: Wheelchair accessible
+    type: boolean
+  - name: petsAllowed
+    label: Pets allowed
+    type: boolean
+  - name: paymentAccepted
+    label: 'Payment, for example: Cash, Card'
+    type: string
   - name: servesCuisine
     label: What you serve (one item per line, in English)
     type: string

@@ -1,9 +1,17 @@
 {
-  "priceRange": "",
+  "priceRange": "€15–17 per cocktail",
   "acceptsReservations": true,
+  "walkIns": true,
+  "seats": 70,
+  "wheelchairAccessible": true,
+  "petsAllowed": true,
+  "paymentAccepted": "Cash, Card",
   "servesCuisine": [
     "Cocktails",
-    "Seasonal Dutch dishes"
+    "Dutch"
   ],
-  "links": []
+  "links": [
+    "https://www.instagram.com/bataviapublichouse/",
+    "https://share.google/hQAT7jbEkVGcq5KIG"
+  ]
 }

@@ -6,7 +6,20 @@
         "en": "Drinks menu",
         "fy": "Drankekaart",
         "fr": "Carte des boissons",
-        "de": "Getränkekarte"
+        "de": "Getränkekarte",
+        "es": "Carta de bebidas",
+        "it": "Menu delle bevande",
+        "pt": "Carta de bebidas",
+        "zh": "饮品菜单",
+        "ja": "ドリンクメニュー",
+        "ar": "قائمة المشروبات",
+        "hi": "ड्रिंक्स मेन्यू",
+        "ru": "Барное меню",
+        "pl": "Karta napojów",
+        "tr": "İçecek menüsü",
+        "el": "Κατάλογος ποτών",
+        "da": "Drinksmenu",
+        "sv": "Dryckesmeny"
       },
       "pdf": ""
     },
@@ -16,7 +29,20 @@
         "en": "Food menu",
         "fy": "Menukaart keuken",
         "fr": "Carte de la cuisine",
-        "de": "Speisekarte"
+        "de": "Speisekarte",
+        "es": "Carta de comida",
+        "it": "Menu del cibo",
+        "pt": "Carta de comida",
+        "zh": "餐食菜单",
+        "ja": "フードメニュー",
+        "ar": "قائمة الطعام",
+        "hi": "खाने का मेन्यू",
+        "ru": "Меню блюд",
+        "pl": "Karta dań",
+        "tr": "Yemek menüsü",
+        "el": "Κατάλογος φαγητού",
+        "da": "Madmenu",
+        "sv": "Matmeny"
       },
       "pdf": ""
     },
@@ -26,7 +52,20 @@
         "en": "Seasonal menu",
         "fy": "Seizoenskaart",
         "fr": "Carte de saison",
-        "de": "Saisonkarte"
+        "de": "Saisonkarte",
+        "es": "Carta de temporada",
+        "it": "Menu stagionale",
+        "pt": "Carta da estação",
+        "zh": "季节菜单",
+        "ja": "季節のメニュー",
+        "ar": "قائمة الموسم",
+        "hi": "मौसमी मेन्यू",
+        "ru": "Сезонное меню",
+        "pl": "Karta sezonowa",
+        "tr": "Mevsim menüsü",
+        "el": "Εποχικός κατάλογος",
+        "da": "Sæsonmenu",
+        "sv": "Säsongsmeny"
       },
       "pdf": ""
     }

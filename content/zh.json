@@ -1,0 +1,189 @@
+{
+  "seo": {
+    "title": "Batavia Public House | 阿姆斯特丹市中心鸡尾酒吧与酒馆",
+    "description": "阿姆斯特丹市中心的全新鸡尾酒吧与酒馆，坐落于建于1734年的老建筑中。以荷兰本地食材调制鸡尾酒，供应荷兰美食，在酒馆氛围中提供一流服务。"
+  },
+  "home": {
+    "lead": "阿姆斯特丹市中心的一家 Brown Cocktail Pub，位于 Singel 运河与 Spuistraat 之间两栋建于1734年的房子里。",
+    "ctaFind": "如何找到我们",
+    "ctaMenus": "查看菜单",
+    "impTitle": "酒吧印象",
+    "impBody1": "Batavia 既是鸡尾酒吧，也是经典的阿姆斯特丹酒馆：是阿姆斯特丹人、鸡尾酒爱好者、美食家和葡萄酒爱好者的街坊酒吧和客厅。轻松随意又温馨舒适，同时提供一流的服务：这一桌慢慢享用晚餐，那一桌只是进来喝一杯。",
+    "impBody2": "我们与本地农户、生产商和酿酒师合作，打造我们的鸡尾酒和荷兰美食。每一份菜单都随季节变化，菜单上可以找到我们所用食材的全部信息。",
+    "peopleTitle": "吧台背后",
+    "peopleText": "Jimmy Hu 和 Samuel Stok，两位屡获殊荣的调酒师，在餐饮业深耕多年。",
+    "peopleLink": "了解我们的团队",
+    "knowTitle": "实用信息",
+    "k1Title": "可直接光临，也可预订",
+    "k1Text": "欢迎直接光临。如想确保有座位，请提前预订。",
+    "k2Title": "露台",
+    "k2Text": "天气好时开放露台，可容纳十五位客人。",
+    "k3Title": "室内",
+    "k3Text": "可容纳七十位客人。",
+    "k4Title": "无酒精",
+    "k4Text": "无论您想喝含酒精还是不含酒精的饮品，我们都有一系列独特的自制无酒精鸡尾酒，均以本地食材制作。",
+    "k5Title": "欢迎所有人",
+    "k5Text": "轮椅可通行，也欢迎携带宠物。",
+    "k6Title": "价格与付款",
+    "k6Text": "鸡尾酒价格为15–17欧元。可刷卡或现金支付。",
+    "hoursTitle": "营业时间",
+    "alleyTitle": "找到这条小巷",
+    "alleyBody": "Lijnbaanssteeg 是老城区里一条狭窄的小巷，位于 Singel 运河与 Spuistraat 之间。我们在5–7号，从阿姆斯特丹中央车站步行约十分钟。",
+    "alleyCta": "路线与停车",
+    "mapCaption": "示意图，未按比例绘制。上方为北。",
+    "mapMarker": "Batavia，5–7号",
+    "linksTitle": "四处看看",
+    "cards": {
+      "menus": {
+        "title": "菜单",
+        "text": "鸡尾酒、荷兰葡萄酒和当季的经典荷兰菜。",
+        "cta": "查看菜单"
+      },
+      "events": {
+        "title": "活动",
+        "text": "最多可容纳70位宾客，从吧台到厨房提供全套餐饮服务。",
+        "cta": "策划活动"
+      },
+      "building": {
+        "title": "建筑",
+        "text": "建于1734年：印刷厂、星级餐厅、鸡尾酒吧，如今是一家 public house。",
+        "cta": "阅读历史"
+      },
+      "contact": {
+        "title": "联系我们",
+        "text": "有问题、想预订，或者有什么要庆祝？给我们发消息吧。",
+        "cta": "联系我们"
+      }
+    }
+  },
+  "film": {
+    "cue": "向下滚动，走进店里",
+    "skip": "跳过影片",
+    "rail": [
+      "小巷",
+      "酒吧",
+      "楼梯",
+      "Speakeasy 密室酒吧"
+    ],
+    "c2": "位于两栋建成于1734年的房子里",
+    "c3": "上楼",
+    "c3text": "在酒吧深处，一道陡峭的楼梯通往楼上。",
+    "c4": "书架之后",
+    "c4text": "我们的书架后面，还藏着更多的历史。"
+  },
+  "menus": {
+    "title": "菜单",
+    "lead": "我们的菜单随季节变化，以荷兰本地食材为基础。",
+    "body": "因此菜单全年都在更换。请在下方下载当前菜单。",
+    "listTitle": "当前菜单",
+    "pdfNote": "即将推出"
+  },
+  "events": {
+    "title": "活动",
+    "lead": "有什么要庆祝或组织的？在这里就可以。",
+    "fact1Title": "最多70位宾客",
+    "fact1Text": "我们可承办最多70人的活动。",
+    "fact2Title": "从吧台到厨房",
+    "fact2Text": "我们提供专业的餐饮服务，从吧台到厨房。",
+    "ctaTitle": "有想法了吗？",
+    "ctaText": "告诉我们日期、宾客人数和您的需求，我们会和您一起筹划。",
+    "ctaContact": "发送咨询",
+    "ctaWhatsapp": "通过 WhatsApp 联系我们"
+  },
+  "building": {
+    "title": "建筑",
+    "lead": "Lijnbaanssteeg 5–7号建于1734年。此后这里先后是一家商业印刷厂、两家餐厅和一家鸡尾酒吧。如今它是一家 public house：阿姆斯特丹中心的一家历史悠久的酒吧。",
+    "galleryTitle": "建筑影像",
+    "credit": "历史照片：",
+    "nameTitle": "为什么叫 Batavia",
+    "nameText": "Batavia 是荷兰的古拉丁名称。叫 public house，是因为我们是一家开在阿姆斯特丹老房子里、向所有人敞开的酒馆。仅此而已。",
+    "streetTitle": "制绳匠的小巷",
+    "streetText": "这条小巷得名于 lijnbanen，即十六世纪末设在这里的制绳场，那时 Singel 运河还是城市的边界。",
+    "insideTitle": "保留下来的",
+    "insideText": "走进店里仍能看到：曾经是船体一部分的木梁、天然石材地面和一座古董吧台。",
+    "timelineTitle": "在这个屋檐下",
+    "timeline": [
+      {
+        "year": "1734",
+        "title": "建筑",
+        "text": "Lijnbaanssteeg 5–7号的房子建成。"
+      },
+      {
+        "year": "不详–1960年代",
+        "title": "印刷厂",
+        "text": "5号是一家商业印刷厂，店名以大字写在店面上方。"
+      },
+      {
+        "year": "1969",
+        "title": "Gravenmolen 餐厅",
+        "text": "1968年，建筑师 Nic. Klok 设计了改建方案：楼下是酒馆，楼上是餐厅。Gravenmolen 于1969年11月开业，1972年至1976年间获得米其林一星。"
+      },
+      {
+        "year": "1990–2010",
+        "title": "De Jonge Gravenmolen",
+        "text": "新的一代：De Jonge Gravenmolen 餐厅。"
+      },
+      {
+        "year": "2012",
+        "title": "Tales & Spirits",
+        "text": "鸡尾酒吧 Tales & Spirits 入驻。"
+      },
+      {
+        "year": "如今",
+        "title": "Batavia Public House",
+        "text": "今天，这里以 Batavia Public House 的身份开门迎客。"
+      }
+    ]
+  },
+  "team": {
+    "title": "团队",
+    "lead": "Batavia 由 Jimmy Hu 和 Samuel Stok 经营，两位调酒师相识于阿姆斯特丹 The Tailor 酒吧的吧台后。",
+    "careerTitle": "职业经历",
+    "pressTitle": "媒体报道与舞台",
+    "pressText": "关于他们参加比赛的报道，以及他们亲自主持的活动。链接将在来源网站上打开。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "lead": "发消息、打电话或使用 WhatsApp 都可以。预订方式相同；不预订直接来也随时欢迎。",
+    "formTitle": "给我们发消息",
+    "name": "姓名",
+    "email": "电子邮箱",
+    "message": "留言",
+    "send": "发送",
+    "formNote": "您的消息将发送至 info@bataviapublichouse.nl。",
+    "subject": "来自网站的消息",
+    "directTitle": "直接联系",
+    "emailLabel": "电子邮件",
+    "phoneLabel": "电话",
+    "whatsapp": "通过 WhatsApp 联系我们",
+    "addressTitle": "地址",
+    "mapsCta": "在地图中打开",
+    "parkingTitle": "停车",
+    "parkingText": "最近的停车场是位于 Nieuwezijds Kolk 18 的 Q-Park Nieuwendijk，全天24小时开放，步行几分钟即可到达酒吧。",
+    "parkingCta": "在地图中打开停车场",
+    "routeTitle": "从中央车站步行",
+    "routeTime": "约十分钟。",
+    "s1": {
+      "place": "中央车站",
+      "text": "从车站靠市中心一侧（Stationsplein）出站。"
+    },
+    "s2": {
+      "place": "Martelaarsgracht",
+      "text": "穿过 Prins Hendrikkade，走进 Martelaarsgracht。"
+    },
+    "s3": {
+      "place": "Hekelveld 和 Spuistraat",
+      "text": "沿 Hekelveld 继续走，直到 Spuistraat。"
+    },
+    "s4": {
+      "place": "Lijnbaanssteeg",
+      "text": "沿 Spuistraat 前行，右转进入狭窄的小巷 Lijnbaanssteeg。我们在5–7号。"
+    },
+    "routeCta": "在地图中打开步行路线"
+  },
+  "footer": {
+    "addressTitle": "地址",
+    "hoursTitle": "营业",
+    "contactTitle": "联系"
+  }
+}

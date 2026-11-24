@@ -1,0 +1,189 @@
+{
+  "seo": {
+    "title": "Batavia Public House | Amsterdam merkezde kokteyl bar ve pub",
+    "description": "Amsterdam merkezde yeni kokteyl bar ve pub, 1734 yapımı bir binada. Yerel Hollanda ürünleriyle kokteyller, Hollanda mutfağı ve pub ortamında üst düzey hizmet."
+  },
+  "home": {
+    "lead": "Amsterdam merkezde bir Brown Cocktail Pub; Singel kanalı ile Spuistraat arasında, 1734 yapımı iki evde.",
+    "ctaFind": "Bize nasıl ulaşılır",
+    "ctaMenus": "Menülere bak",
+    "impTitle": "Bardan bir izlenim",
+    "impBody1": "Batavia hem kokteyl bar hem de klasik bir Amsterdam pubı: Amsterdamlılar, kokteyl severler, yemek meraklıları ve şarap tutkunları için mahalle barı ve oturma odası. Rahat ve samimi, üst düzey hizmetle: bir masada uzun uzun akşam yemeği yenir, yandaki masaya bir içki için uğranır.",
+    "impBody2": "Kokteyllerimiz ve Hollanda mutfağımız için yerel çiftçiler, üreticiler ve damıtıcılarla çalışıyoruz. Her menü mevsimleri takip eder ve kullandığımız ürünlerle ilgili tüm bilgileri menülerimizde bulabilirsiniz.",
+    "peopleTitle": "Barın arkasında",
+    "peopleText": "Jimmy Hu ve Samuel Stok; yıllardır misafirperverlik sektöründe çalışan, ödüllü iki barmen.",
+    "peopleLink": "Ekip hakkında daha fazlası",
+    "knowTitle": "Bilmekte fayda var",
+    "k1Title": "Rezervasyonlu ya da rezervasyonsuz",
+    "k1Text": "Doğrudan gelebilirsiniz. Masanızı garantilemek için önceden rezervasyon yapın.",
+    "k2Title": "Teras",
+    "k2Text": "Hava güzel olduğunda on beş kişilik terasımız açık.",
+    "k3Title": "İçeride",
+    "k3Text": "Yetmiş kişilik oturma yeri.",
+    "k4Title": "Alkolsüz",
+    "k4Text": "İster alkollü ister alkolsüz bir içki için gelin, yerel ürünlerle yapılmış ev yapımı alkolsüz kokteyllerden oluşan eşsiz bir seçkimiz var.",
+    "k5Title": "Herkese açık",
+    "k5Text": "Tekerlekli sandalyeye uygun, evcil hayvanlar da hoş karşılanır.",
+    "k6Title": "Fiyatlar ve ödeme",
+    "k6Text": "Kokteyller 15–17 €. Kartla da nakit de ödeyebilirsiniz.",
+    "hoursTitle": "Açılış saatleri",
+    "alleyTitle": "Sokağı bulmak",
+    "alleyBody": "Lijnbaanssteeg, eski şehirde Singel ile Spuistraat arasında dar bir sokaktır. Bizi 5–7 numarada bulursunuz; Amsterdam Centraal istasyonundan yürüyerek yaklaşık on dakika.",
+    "alleyCta": "Yol tarifi ve otopark",
+    "mapCaption": "Kroki, ölçekli değildir. Kuzey yukarıdadır.",
+    "mapMarker": "Batavia, no. 5–7",
+    "linksTitle": "Göz atın",
+    "cards": {
+      "menus": {
+        "title": "Menüler",
+        "text": "Kokteyller, Hollanda şarapları ve mevsimin klasik Hollanda yemekleri.",
+        "cta": "Menülere bak"
+      },
+      "events": {
+        "title": "Etkinlikler",
+        "text": "70 misafire kadar yer, bardan mutfağa catering ile.",
+        "cta": "Etkinlik planla"
+      },
+      "building": {
+        "title": "Bina",
+        "text": "1734'te inşa edildi: matbaa, yıldızlı restoran, kokteyl bar ve şimdi bir pub.",
+        "cta": "Tarihçeyi oku"
+      },
+      "contact": {
+        "title": "İletişim",
+        "text": "Bir sorunuz, rezervasyonunuz ya da kutlayacak bir şeyiniz mi var? Bize yazın.",
+        "cta": "İletişime geç"
+      }
+    }
+  },
+  "film": {
+    "cue": "İçeri girmek için kaydırın",
+    "skip": "Filmi atla",
+    "rail": [
+      "Sokak",
+      "Bar",
+      "Merdiven",
+      "Speakeasy"
+    ],
+    "c2": "1734'te tamamlanan iki evde",
+    "c3": "Merdivenden yukarı",
+    "c3text": "Barın arka tarafında dik bir merdiven yukarı çıkar.",
+    "c4": "Kitaplığın arkasında",
+    "c4text": "Kitaplığımızın arkasında daha fazla tarih saklı."
+  },
+  "menus": {
+    "title": "Menüler",
+    "lead": "Menülerimiz mevsimleri takip eder ve yerel Hollanda ürünlerine dayanır.",
+    "body": "Bu yüzden yıl boyunca değişir. Güncel menüleri aşağıdan indirin.",
+    "listTitle": "Güncel menüler",
+    "pdfNote": "Yakında"
+  },
+  "events": {
+    "title": "Etkinlikler",
+    "lead": "Kutlayacak ya da düzenleyecek bir şeyiniz mi var? Burada yapabilirsiniz.",
+    "fact1Title": "70 misafire kadar",
+    "fact1Text": "Aynı anda 70 kişiye kadar etkinliklere ev sahipliği yapıyoruz.",
+    "fact2Title": "Bardan mutfağa",
+    "fact2Text": "Bardan mutfağa profesyonel catering sunuyoruz.",
+    "ctaTitle": "Aklınızda bir şey mi var?",
+    "ctaText": "Bize tarihi, misafir sayısını ve isteklerinizi söyleyin, birlikte düşünelim.",
+    "ctaContact": "Talep gönder",
+    "ctaWhatsapp": "WhatsApp'tan yazın"
+  },
+  "building": {
+    "title": "Bina",
+    "lead": "Lijnbaanssteeg 5–7, 1734'te inşa edildi. O zamandan beri burada bir ticari matbaa, iki restoran ve bir kokteyl bar bulundu. Şimdi bir public house: Amsterdam'ın kalbinde tarihi bir bar.",
+    "galleryTitle": "Fotoğraflarla bina",
+    "credit": "Tarihi fotoğraflar:",
+    "nameTitle": "Neden Batavia",
+    "nameText": "Batavia, Hollanda'nın eski Latince adıdır. Public house ise, eski bir Amsterdam evinde herkese açık bir pub olduğumuz için. Ne eksik ne fazla.",
+    "streetTitle": "Halatçılar sokağı",
+    "streetText": "Sokak adını lijnbanen'den, yani 16. yüzyılın sonunda, Singel henüz şehrin sınırıyken burada bulunan halat atölyelerinden alır.",
+    "insideTitle": "Korunanlar",
+    "insideText": "İçeride hâlâ görebilirsiniz: bir zamanlar gemilerin parçası olan kirişler, doğal taş zemin ve antika bir bar.",
+    "timelineTitle": "Bu çatının altında",
+    "timeline": [
+      {
+        "year": "1734",
+        "title": "Bina",
+        "text": "Lijnbaanssteeg 5–7'deki bina inşa edilir."
+      },
+      {
+        "year": "Bilinmiyor–1960'lar",
+        "title": "Matbaa",
+        "text": "5 numarada bir ticari matbaa çalışır. Adı vitrinin üstünde büyük harflerle yazılıdır."
+      },
+      {
+        "year": "1969",
+        "title": "Gravenmolen Restoranı",
+        "text": "Mimar Nic. Klok 1968'de tadilatı çizer: altta bir meyhane, üstte restoran. Gravenmolen Kasım 1969'da açılır ve 1972'den 1976'ya kadar bir Michelin yıldızına sahiptir."
+      },
+      {
+        "year": "1990–2010",
+        "title": "De Jonge Gravenmolen",
+        "text": "Yeni bir kuşak: De Jonge Gravenmolen restoranı."
+      },
+      {
+        "year": "2012",
+        "title": "Tales & Spirits",
+        "text": "Kokteyl bar Tales & Spirits buraya taşınır."
+      },
+      {
+        "year": "Bugün",
+        "title": "Batavia Public House",
+        "text": "Bugün kapılar Batavia Public House olarak açılıyor."
+      }
+    ]
+  },
+  "team": {
+    "title": "Ekip",
+    "lead": "Batavia, Amsterdam'daki The Tailor'ın barının arkasında tanışan iki barmen, Jimmy Hu ve Samuel Stok'a ait.",
+    "careerTitle": "Kariyer",
+    "pressTitle": "Basında ve sahnede",
+    "pressText": "Katıldıkları yarışmalar hakkındaki yazılar ve kendilerinin sunduğu etkinlikler. Bağlantılar kaynağın kendi sitesinde açılır."
+  },
+  "contact": {
+    "title": "İletişim",
+    "lead": "Mesaj gönderin, bizi arayın ya da WhatsApp kullanın. Rezervasyon da aynı şekilde yapılır; rezervasyonsuz gelmek her zaman mümkün.",
+    "formTitle": "Bize mesaj gönderin",
+    "name": "Ad",
+    "email": "E-posta adresi",
+    "message": "Mesaj",
+    "send": "Mesajı gönder",
+    "formNote": "Mesajınız info@bataviapublichouse.nl adresine gider.",
+    "subject": "Web sitesinden mesaj",
+    "directTitle": "Doğrudan iletişim",
+    "emailLabel": "E-posta",
+    "phoneLabel": "Telefon",
+    "whatsapp": "WhatsApp'tan yazın",
+    "addressTitle": "Adres",
+    "mapsCta": "Haritalar'da aç",
+    "parkingTitle": "Otopark",
+    "parkingText": "En yakın otopark Nieuwezijds Kolk 18'deki Q-Park Nieuwendijk'tir. Gece gündüz açıktır ve bara birkaç dakikalık yürüme mesafesindedir.",
+    "parkingCta": "Otoparkı Haritalar'da aç",
+    "routeTitle": "Centraal istasyonundan yürüyerek",
+    "routeTime": "Yaklaşık on dakika.",
+    "s1": {
+      "place": "Centraal istasyonu",
+      "text": "İstasyondan şehir merkezi tarafından, Stationsplein'dan çıkın."
+    },
+    "s2": {
+      "place": "Martelaarsgracht",
+      "text": "Prins Hendrikkade'yi geçin ve Martelaarsgracht'a girin."
+    },
+    "s3": {
+      "place": "Hekelveld ve Spuistraat",
+      "text": "Hekelveld boyunca Spuistraat'a ulaşana kadar devam edin."
+    },
+    "s4": {
+      "place": "Lijnbaanssteeg",
+      "text": "Spuistraat'ı takip edin ve sağa, dar bir sokak olan Lijnbaanssteeg'e dönün. 5–7 numaradayız."
+    },
+    "routeCta": "Yürüyüş rotasını Haritalar'da aç"
+  },
+  "footer": {
+    "addressTitle": "Adres",
+    "hoursTitle": "Açık",
+    "contactTitle": "İletişim"
+  }
+}

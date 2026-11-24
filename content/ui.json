@@ -1,0 +1,1262 @@
+{
+  "nl": {
+    "nav": {
+      "home": "Home",
+      "menus": "Menu's",
+      "events": "Evenementen",
+      "building": "Het pand",
+      "team": "Het team",
+      "contact": "Contact"
+    },
+    "a11y": {
+      "mainNav": "Hoofdmenu",
+      "language": "Taal",
+      "skip": "Ga naar de inhoud",
+      "logoHome": "Batavia Public House, naar de homepage",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Lijntekening van de gevel van Batavia Public House aan de Lijnbaanssteeg 5–7",
+      "gallery": "Foto's uit de geschiedenis van het pand",
+      "prev": "Vorige foto",
+      "next": "Volgende foto"
+    },
+    "status": {
+      "closed": "Gesloten",
+      "openUntil": "Nu open tot {t}",
+      "opensToday": "Vandaag open vanaf {t}",
+      "opensDay": "Nu gesloten, {d} weer open vanaf {t}",
+      "daysMid": {
+        "d0": "zondag",
+        "d1": "maandag",
+        "d2": "dinsdag",
+        "d3": "woensdag",
+        "d4": "donderdag",
+        "d5": "vrijdag",
+        "d6": "zaterdag"
+      }
+    },
+    "form": {
+      "ready": "Je bericht staat klaar, maar is nog niet verstuurd. Open het in je mailprogramma om het te versturen.",
+      "open": "Open in mailprogramma",
+      "copy": "Kopieer bericht",
+      "copied": "Gekopieerd",
+      "missing": "Vul je naam, e-mailadres en bericht in."
+    },
+    "still": {
+      "facade": "Beeld uit de film: de gevel aan de Lijnbaanssteeg in de avond",
+      "bar": "Beeld uit de film: de bar bij kaarslicht",
+      "room": "Beeld uit de film: de speakeasy achter de boekenkast"
+    },
+    "home": {
+      "days": {
+        "d1": "Maandag",
+        "d2": "Dinsdag",
+        "d3": "Woensdag",
+        "d4": "Donderdag",
+        "d5": "Vrijdag",
+        "d6": "Zaterdag",
+        "d7": "Zondag"
+      }
+    },
+    "film": {
+      "label": "Film: van de steeg naar binnen, door de bar en de trap op naar de bovenzaal",
+      "loading": "De film wordt geladen"
+    },
+    "menus": {
+      "open": "Bekijk de kaart (PDF)"
+    },
+    "ui": {
+      "menu": "Menu",
+      "close": "Sluiten"
+    }
+  },
+  "en": {
+    "nav": {
+      "home": "Home",
+      "menus": "Menus",
+      "events": "Events",
+      "building": "The building",
+      "team": "The team",
+      "contact": "Contact"
+    },
+    "a11y": {
+      "mainNav": "Main",
+      "language": "Language",
+      "skip": "Skip to content",
+      "logoHome": "Batavia Public House, to the home page",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Line drawing of the facade of Batavia Public House at Lijnbaanssteeg 5–7",
+      "gallery": "Photographs from the building's history",
+      "prev": "Previous photo",
+      "next": "Next photo"
+    },
+    "status": {
+      "closed": "Closed",
+      "openUntil": "Open now until {t}",
+      "opensToday": "Opens today at {t}",
+      "opensDay": "Closed now, open again on {d} from {t}",
+      "daysMid": {
+        "d0": "Sunday",
+        "d1": "Monday",
+        "d2": "Tuesday",
+        "d3": "Wednesday",
+        "d4": "Thursday",
+        "d5": "Friday",
+        "d6": "Saturday"
+      }
+    },
+    "form": {
+      "ready": "Your message is ready but has not been sent yet. Open it in your mail app to send it.",
+      "open": "Open in mail app",
+      "copy": "Copy message",
+      "copied": "Copied",
+      "missing": "Fill in your name, email address and message."
+    },
+    "still": {
+      "facade": "Still from the film: the facade on Lijnbaanssteeg in the evening",
+      "bar": "Still from the film: the bar by candlelight",
+      "room": "Still from the film: the speakeasy behind the bookshelf"
+    },
+    "home": {
+      "days": {
+        "d1": "Monday",
+        "d2": "Tuesday",
+        "d3": "Wednesday",
+        "d4": "Thursday",
+        "d5": "Friday",
+        "d6": "Saturday",
+        "d7": "Sunday"
+      }
+    },
+    "film": {
+      "label": "Film: from the alley, through the bar and up the stairs to the room upstairs",
+      "loading": "Loading the film"
+    },
+    "menus": {
+      "open": "View the menu (PDF)"
+    },
+    "ui": {
+      "menu": "Menu",
+      "close": "Close"
+    }
+  },
+  "fy": {
+    "nav": {
+      "home": "Thús",
+      "menus": "Menu's",
+      "events": "Eveneminten",
+      "building": "It pân",
+      "team": "It team",
+      "contact": "Kontakt"
+    },
+    "a11y": {
+      "mainNav": "Haadmenu",
+      "language": "Taal",
+      "skip": "Gean nei de ynhâld",
+      "logoHome": "Batavia Public House, nei de thússide",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Lyntekening fan de gevel fan Batavia Public House oan de Lijnbaanssteeg 5–7",
+      "gallery": "Foto's út de skiednis fan it pân",
+      "prev": "Foarige foto",
+      "next": "Folgjende foto"
+    },
+    "status": {
+      "closed": "Ticht",
+      "openUntil": "No iepen oant {t}",
+      "opensToday": "Hjoed iepen fan {t} ôf",
+      "opensDay": "No ticht, {d} wer iepen fan {t} ôf",
+      "daysMid": {
+        "d0": "snein",
+        "d1": "moandei",
+        "d2": "tiisdei",
+        "d3": "woansdei",
+        "d4": "tongersdei",
+        "d5": "freed",
+        "d6": "sneon"
+      }
+    },
+    "form": {
+      "ready": "Jo berjocht stiet klear, mar is noch net ferstjoerd. Iepenje it yn jo mailprogramma om it te ferstjoeren.",
+      "open": "Iepenje yn mailprogramma",
+      "copy": "Kopiearje berjocht",
+      "copied": "Kopiearre",
+      "missing": "Folje jo namme, e-mailadres en berjocht yn."
+    },
+    "still": {
+      "facade": "Byld út de film: de gevel oan de Lijnbaanssteeg jûns",
+      "bar": "Byld út de film: de bar by kearsljocht",
+      "room": "Byld út de film: de speakeasy efter de boekekast"
+    },
+    "home": {
+      "days": {
+        "d1": "Moandei",
+        "d2": "Tiisdei",
+        "d3": "Woansdei",
+        "d4": "Tongersdei",
+        "d5": "Freed",
+        "d6": "Sneon",
+        "d7": "Snein"
+      }
+    },
+    "film": {
+      "label": "Film: fan de steech nei binnen, troch de bar en de trep op nei de boppeseal",
+      "loading": "De film wurdt laden"
+    },
+    "menus": {
+      "open": "Besjoch de kaart (PDF)"
+    },
+    "ui": {
+      "menu": "Menu",
+      "close": "Slute"
+    }
+  },
+  "fr": {
+    "nav": {
+      "home": "Accueil",
+      "menus": "Cartes",
+      "events": "Événements",
+      "building": "La maison",
+      "team": "L'équipe",
+      "contact": "Contact"
+    },
+    "a11y": {
+      "mainNav": "Menu principal",
+      "language": "Langue",
+      "skip": "Aller au contenu",
+      "logoHome": "Batavia Public House, vers la page d'accueil",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Dessin au trait de la façade du Batavia Public House, Lijnbaanssteeg 5–7",
+      "gallery": "Photographies de l'histoire de la maison",
+      "prev": "Photo précédente",
+      "next": "Photo suivante"
+    },
+    "status": {
+      "closed": "Fermé",
+      "openUntil": "Ouvert jusqu'à {t}",
+      "opensToday": "Ouvre aujourd'hui à {t}",
+      "opensDay": "Fermé pour l'instant, réouverture {d} à {t}",
+      "daysMid": {
+        "d0": "dimanche",
+        "d1": "lundi",
+        "d2": "mardi",
+        "d3": "mercredi",
+        "d4": "jeudi",
+        "d5": "vendredi",
+        "d6": "samedi"
+      }
+    },
+    "form": {
+      "ready": "Votre message est prêt, mais il n'a pas encore été envoyé. Ouvrez-le dans votre messagerie pour l'envoyer.",
+      "open": "Ouvrir dans la messagerie",
+      "copy": "Copier le message",
+      "copied": "Copié",
+      "missing": "Indiquez votre nom, votre adresse e-mail et votre message."
+    },
+    "still": {
+      "facade": "Image du film : la façade sur la Lijnbaanssteeg le soir",
+      "bar": "Image du film : le bar à la lueur des bougies",
+      "room": "Image du film : le speakeasy derrière la bibliothèque"
+    },
+    "home": {
+      "days": {
+        "d1": "Lundi",
+        "d2": "Mardi",
+        "d3": "Mercredi",
+        "d4": "Jeudi",
+        "d5": "Vendredi",
+        "d6": "Samedi",
+        "d7": "Dimanche"
+      }
+    },
+    "film": {
+      "label": "Film : de la ruelle à l'intérieur, à travers le bar et par l'escalier jusqu'à la salle de l'étage",
+      "loading": "Chargement du film"
+    },
+    "menus": {
+      "open": "Voir la carte (PDF)"
+    },
+    "ui": {
+      "menu": "Menu",
+      "close": "Fermer"
+    }
+  },
+  "de": {
+    "nav": {
+      "home": "Start",
+      "menus": "Karten",
+      "events": "Veranstaltungen",
+      "building": "Das Haus",
+      "team": "Das Team",
+      "contact": "Kontakt"
+    },
+    "a11y": {
+      "mainNav": "Hauptmenü",
+      "language": "Sprache",
+      "skip": "Zum Inhalt springen",
+      "logoHome": "Batavia Public House, zur Startseite",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Strichzeichnung der Fassade des Batavia Public House in der Lijnbaanssteeg 5–7",
+      "gallery": "Fotografien aus der Geschichte des Hauses",
+      "prev": "Vorheriges Foto",
+      "next": "Nächstes Foto"
+    },
+    "status": {
+      "closed": "Geschlossen",
+      "openUntil": "Jetzt geöffnet bis {t} Uhr",
+      "opensToday": "Heute ab {t} Uhr geöffnet",
+      "opensDay": "Derzeit geschlossen, am {d} wieder ab {t} Uhr geöffnet",
+      "daysMid": {
+        "d0": "Sonntag",
+        "d1": "Montag",
+        "d2": "Dienstag",
+        "d3": "Mittwoch",
+        "d4": "Donnerstag",
+        "d5": "Freitag",
+        "d6": "Samstag"
+      }
+    },
+    "form": {
+      "ready": "Ihre Nachricht ist bereit, aber noch nicht gesendet. Öffnen Sie sie in Ihrem Mailprogramm, um sie zu senden.",
+      "open": "Im Mailprogramm öffnen",
+      "copy": "Nachricht kopieren",
+      "copied": "Kopiert",
+      "missing": "Bitte geben Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht ein."
+    },
+    "still": {
+      "facade": "Standbild aus dem Film: die Fassade an der Lijnbaanssteeg am Abend",
+      "bar": "Standbild aus dem Film: die Bar bei Kerzenlicht",
+      "room": "Standbild aus dem Film: die Speakeasy hinter dem Bücherregal"
+    },
+    "home": {
+      "days": {
+        "d1": "Montag",
+        "d2": "Dienstag",
+        "d3": "Mittwoch",
+        "d4": "Donnerstag",
+        "d5": "Freitag",
+        "d6": "Samstag",
+        "d7": "Sonntag"
+      }
+    },
+    "film": {
+      "label": "Film: von der Gasse hinein, durch die Bar und die Treppe hinauf in den Saal oben",
+      "loading": "Der Film wird geladen"
+    },
+    "menus": {
+      "open": "Karte ansehen (PDF)"
+    },
+    "ui": {
+      "menu": "Menü",
+      "close": "Schließen"
+    }
+  },
+  "es": {
+    "nav": {
+      "home": "Inicio",
+      "menus": "Cartas",
+      "events": "Eventos",
+      "building": "El edificio",
+      "team": "El equipo",
+      "contact": "Contacto"
+    },
+    "a11y": {
+      "mainNav": "Principal",
+      "language": "Idioma",
+      "skip": "Ir al contenido",
+      "logoHome": "Batavia Public House, a la página de inicio",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Ámsterdam",
+      "facadeAlt": "Dibujo de la fachada de Batavia Public House en la Lijnbaanssteeg 5–7",
+      "gallery": "Fotografías de la historia del edificio",
+      "prev": "Foto anterior",
+      "next": "Foto siguiente"
+    },
+    "status": {
+      "closed": "Cerrado",
+      "openUntil": "Abierto ahora hasta las {t}",
+      "opensToday": "Abre hoy a las {t}",
+      "opensDay": "Ahora cerrado, abre de nuevo el {d} a las {t}",
+      "daysMid": {
+        "d0": "domingo",
+        "d1": "lunes",
+        "d2": "martes",
+        "d3": "miércoles",
+        "d4": "jueves",
+        "d5": "viernes",
+        "d6": "sábado"
+      }
+    },
+    "form": {
+      "ready": "Tu mensaje está listo, pero aún no se ha enviado. Ábrelo en tu aplicación de correo para enviarlo.",
+      "open": "Abrir en la aplicación de correo",
+      "copy": "Copiar mensaje",
+      "copied": "Copiado",
+      "missing": "Rellena tu nombre, tu correo electrónico y tu mensaje."
+    },
+    "still": {
+      "facade": "Imagen de la película: la fachada en la Lijnbaanssteeg al anochecer",
+      "bar": "Imagen de la película: la barra a la luz de las velas",
+      "room": "Imagen de la película: el speakeasy detrás de la estantería"
+    },
+    "home": {
+      "days": {
+        "d1": "Lunes",
+        "d2": "Martes",
+        "d3": "Miércoles",
+        "d4": "Jueves",
+        "d5": "Viernes",
+        "d6": "Sábado",
+        "d7": "Domingo"
+      }
+    },
+    "film": {
+      "label": "Película: del callejón, a través del bar y escaleras arriba hasta la sala de arriba",
+      "loading": "Cargando la película"
+    },
+    "menus": {
+      "open": "Ver la carta (PDF)"
+    },
+    "ui": {
+      "menu": "Menú",
+      "close": "Cerrar"
+    }
+  },
+  "it": {
+    "nav": {
+      "home": "Home",
+      "menus": "Menu",
+      "events": "Eventi",
+      "building": "L'edificio",
+      "team": "Il team",
+      "contact": "Contatti"
+    },
+    "a11y": {
+      "mainNav": "Principale",
+      "language": "Lingua",
+      "skip": "Vai al contenuto",
+      "logoHome": "Batavia Public House, alla home page",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Disegno della facciata di Batavia Public House in Lijnbaanssteeg 5–7",
+      "gallery": "Fotografie della storia dell'edificio",
+      "prev": "Foto precedente",
+      "next": "Foto successiva"
+    },
+    "status": {
+      "closed": "Chiuso",
+      "openUntil": "Aperto ora fino alle {t}",
+      "opensToday": "Apre oggi alle {t}",
+      "opensDay": "Ora chiuso, riapre {d} alle {t}",
+      "daysMid": {
+        "d0": "domenica",
+        "d1": "lunedì",
+        "d2": "martedì",
+        "d3": "mercoledì",
+        "d4": "giovedì",
+        "d5": "venerdì",
+        "d6": "sabato"
+      }
+    },
+    "form": {
+      "ready": "Il tuo messaggio è pronto ma non è ancora stato inviato. Aprilo nella tua app di posta per inviarlo.",
+      "open": "Apri nell'app di posta",
+      "copy": "Copia il messaggio",
+      "copied": "Copiato",
+      "missing": "Inserisci nome, indirizzo email e messaggio."
+    },
+    "still": {
+      "facade": "Fotogramma dal film: la facciata sulla Lijnbaanssteeg di sera",
+      "bar": "Fotogramma dal film: il bancone a lume di candela",
+      "room": "Fotogramma dal film: lo speakeasy dietro la libreria"
+    },
+    "home": {
+      "days": {
+        "d1": "Lunedì",
+        "d2": "Martedì",
+        "d3": "Mercoledì",
+        "d4": "Giovedì",
+        "d5": "Venerdì",
+        "d6": "Sabato",
+        "d7": "Domenica"
+      }
+    },
+    "film": {
+      "label": "Film: dal vicolo, attraverso il bar e su per le scale fino alla sala al piano di sopra",
+      "loading": "Caricamento del film"
+    },
+    "menus": {
+      "open": "Vedi il menu (PDF)"
+    },
+    "ui": {
+      "menu": "Menu",
+      "close": "Chiudi"
+    }
+  },
+  "pt": {
+    "nav": {
+      "home": "Início",
+      "menus": "Cartas",
+      "events": "Eventos",
+      "building": "O edifício",
+      "team": "A equipa",
+      "contact": "Contacto"
+    },
+    "a11y": {
+      "mainNav": "Principal",
+      "language": "Idioma",
+      "skip": "Ir para o conteúdo",
+      "logoHome": "Batavia Public House, para a página inicial",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amesterdão",
+      "facadeAlt": "Desenho da fachada do Batavia Public House na Lijnbaanssteeg 5–7",
+      "gallery": "Fotografias da história do edifício",
+      "prev": "Foto anterior",
+      "next": "Foto seguinte"
+    },
+    "status": {
+      "closed": "Fechado",
+      "openUntil": "Aberto agora até às {t}",
+      "opensToday": "Abre hoje às {t}",
+      "opensDay": "Agora fechado, abre de novo {d} às {t}",
+      "daysMid": {
+        "d0": "domingo",
+        "d1": "segunda-feira",
+        "d2": "terça-feira",
+        "d3": "quarta-feira",
+        "d4": "quinta-feira",
+        "d5": "sexta-feira",
+        "d6": "sábado"
+      }
+    },
+    "form": {
+      "ready": "A sua mensagem está pronta, mas ainda não foi enviada. Abra-a na sua aplicação de e-mail para a enviar.",
+      "open": "Abrir na aplicação de e-mail",
+      "copy": "Copiar mensagem",
+      "copied": "Copiado",
+      "missing": "Preencha o seu nome, e-mail e mensagem."
+    },
+    "still": {
+      "facade": "Imagem do filme: a fachada na Lijnbaanssteeg ao anoitecer",
+      "bar": "Imagem do filme: o balcão à luz das velas",
+      "room": "Imagem do filme: o speakeasy atrás da estante"
+    },
+    "home": {
+      "days": {
+        "d1": "Segunda-feira",
+        "d2": "Terça-feira",
+        "d3": "Quarta-feira",
+        "d4": "Quinta-feira",
+        "d5": "Sexta-feira",
+        "d6": "Sábado",
+        "d7": "Domingo"
+      }
+    },
+    "film": {
+      "label": "Filme: da viela, através do bar e escada acima até à sala de cima",
+      "loading": "A carregar o filme"
+    },
+    "menus": {
+      "open": "Ver a carta (PDF)"
+    },
+    "ui": {
+      "menu": "Menu",
+      "close": "Fechar"
+    }
+  },
+  "zh": {
+    "nav": {
+      "home": "首页",
+      "menus": "菜单",
+      "events": "活动",
+      "building": "建筑",
+      "team": "团队",
+      "contact": "联系我们"
+    },
+    "a11y": {
+      "mainNav": "主导航",
+      "language": "语言",
+      "skip": "跳到正文",
+      "logoHome": "Batavia Public House，返回首页",
+      "logoAlt": "Batavia Public House，Lijnbaanssteeg 5–7，阿姆斯特丹",
+      "facadeAlt": "Batavia Public House（Lijnbaanssteeg 5–7号）立面线描图",
+      "gallery": "建筑历史照片",
+      "prev": "上一张",
+      "next": "下一张"
+    },
+    "status": {
+      "closed": "休息",
+      "openUntil": "营业中，至 {t}",
+      "opensToday": "今天 {t} 开门",
+      "opensDay": "现在休息，{d} {t} 再开门",
+      "daysMid": {
+        "d0": "星期日",
+        "d1": "星期一",
+        "d2": "星期二",
+        "d3": "星期三",
+        "d4": "星期四",
+        "d5": "星期五",
+        "d6": "星期六"
+      }
+    },
+    "form": {
+      "ready": "您的消息已准备好，但尚未发送。请在邮件应用中打开并发送。",
+      "open": "在邮件应用中打开",
+      "copy": "复制消息",
+      "copied": "已复制",
+      "missing": "请填写您的姓名、电子邮箱和留言。"
+    },
+    "still": {
+      "facade": "影片截图：傍晚时分 Lijnbaanssteeg 上的立面",
+      "bar": "影片截图：烛光下的吧台",
+      "room": "影片截图：书架后的 speakeasy 密室酒吧"
+    },
+    "home": {
+      "days": {
+        "d1": "星期一",
+        "d2": "星期二",
+        "d3": "星期三",
+        "d4": "星期四",
+        "d5": "星期五",
+        "d6": "星期六",
+        "d7": "星期日"
+      }
+    },
+    "film": {
+      "label": "影片：从小巷穿过酒吧，沿楼梯走上楼上的房间",
+      "loading": "影片加载中"
+    },
+    "menus": {
+      "open": "查看菜单（PDF）"
+    },
+    "ui": {
+      "menu": "菜单",
+      "close": "关闭"
+    }
+  },
+  "ja": {
+    "nav": {
+      "home": "ホーム",
+      "menus": "メニュー",
+      "events": "イベント",
+      "building": "建物",
+      "team": "チーム",
+      "contact": "お問い合わせ"
+    },
+    "a11y": {
+      "mainNav": "メイン",
+      "language": "言語",
+      "skip": "本文へ移動",
+      "logoHome": "Batavia Public House、ホームへ",
+      "logoAlt": "Batavia Public House、Lijnbaanssteeg 5–7、アムステルダム",
+      "facadeAlt": "Lijnbaanssteeg 5–7 にある Batavia Public House のファサードの線画",
+      "gallery": "建物の歴史写真",
+      "prev": "前の写真",
+      "next": "次の写真"
+    },
+    "status": {
+      "closed": "定休日",
+      "openUntil": "営業中、{t}まで",
+      "opensToday": "本日{t}開店",
+      "opensDay": "ただいま閉店中、次は{d}の{t}に開店",
+      "daysMid": {
+        "d0": "日曜日",
+        "d1": "月曜日",
+        "d2": "火曜日",
+        "d3": "水曜日",
+        "d4": "木曜日",
+        "d5": "金曜日",
+        "d6": "土曜日"
+      }
+    },
+    "form": {
+      "ready": "メッセージの準備ができましたが、まだ送信されていません。メールアプリで開いて送信してください。",
+      "open": "メールアプリで開く",
+      "copy": "メッセージをコピー",
+      "copied": "コピーしました",
+      "missing": "お名前、メールアドレス、メッセージを入力してください。"
+    },
+    "still": {
+      "facade": "映像より：夕暮れの Lijnbaanssteeg に面したファサード",
+      "bar": "映像より：キャンドルの灯りの中のバーカウンター",
+      "room": "映像より：本棚の向こうのスピークイージー"
+    },
+    "home": {
+      "days": {
+        "d1": "月曜日",
+        "d2": "火曜日",
+        "d3": "水曜日",
+        "d4": "木曜日",
+        "d5": "金曜日",
+        "d6": "土曜日",
+        "d7": "日曜日"
+      }
+    },
+    "film": {
+      "label": "映像：路地からバーを抜け、階段を上って上の部屋へ",
+      "loading": "映像を読み込んでいます"
+    },
+    "menus": {
+      "open": "メニューを見る（PDF）"
+    },
+    "ui": {
+      "menu": "メニュー",
+      "close": "閉じる"
+    }
+  },
+  "ar": {
+    "nav": {
+      "home": "الرئيسية",
+      "menus": "القوائم",
+      "events": "المناسبات",
+      "building": "المبنى",
+      "team": "الفريق",
+      "contact": "اتصل بنا"
+    },
+    "a11y": {
+      "mainNav": "القائمة الرئيسية",
+      "language": "اللغة",
+      "skip": "انتقل إلى المحتوى",
+      "logoHome": "‏Batavia Public House، إلى الصفحة الرئيسية",
+      "logoAlt": "‏Batavia Public House، Lijnbaanssteeg 5–7، أمستردام",
+      "facadeAlt": "رسم خطي لواجهة Batavia Public House في Lijnbaanssteeg 5–7",
+      "gallery": "صور من تاريخ المبنى",
+      "prev": "الصورة السابقة",
+      "next": "الصورة التالية"
+    },
+    "status": {
+      "closed": "مغلق",
+      "openUntil": "مفتوح الآن حتى {t}",
+      "opensToday": "يفتح اليوم الساعة {t}",
+      "opensDay": "مغلق الآن، يفتح مجددًا يوم {d} الساعة {t}",
+      "daysMid": {
+        "d0": "الأحد",
+        "d1": "الاثنين",
+        "d2": "الثلاثاء",
+        "d3": "الأربعاء",
+        "d4": "الخميس",
+        "d5": "الجمعة",
+        "d6": "السبت"
+      }
+    },
+    "form": {
+      "ready": "رسالتك جاهزة لكنها لم تُرسل بعد. افتحها في تطبيق البريد لإرسالها.",
+      "open": "افتح في تطبيق البريد",
+      "copy": "انسخ الرسالة",
+      "copied": "تم النسخ",
+      "missing": "املأ اسمك وبريدك الإلكتروني ورسالتك."
+    },
+    "still": {
+      "facade": "لقطة من الفيلم: الواجهة في Lijnbaanssteeg مساءً",
+      "bar": "لقطة من الفيلم: البار على ضوء الشموع",
+      "room": "لقطة من الفيلم: البار السري خلف رف الكتب"
+    },
+    "home": {
+      "days": {
+        "d1": "الاثنين",
+        "d2": "الثلاثاء",
+        "d3": "الأربعاء",
+        "d4": "الخميس",
+        "d5": "الجمعة",
+        "d6": "السبت",
+        "d7": "الأحد"
+      }
+    },
+    "film": {
+      "label": "فيلم: من الزقاق، عبر البار، وصعودًا على الدرج إلى الغرفة العلوية",
+      "loading": "جارٍ تحميل الفيلم"
+    },
+    "menus": {
+      "open": "عرض القائمة (PDF)"
+    },
+    "ui": {
+      "menu": "القائمة",
+      "close": "إغلاق"
+    }
+  },
+  "hi": {
+    "nav": {
+      "home": "होम",
+      "menus": "मेन्यू",
+      "events": "इवेंट",
+      "building": "इमारत",
+      "team": "टीम",
+      "contact": "संपर्क"
+    },
+    "a11y": {
+      "mainNav": "मुख्य",
+      "language": "भाषा",
+      "skip": "सामग्री पर जाएँ",
+      "logoHome": "Batavia Public House, होम पेज पर",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, एम्स्टर्डम",
+      "facadeAlt": "Lijnbaanssteeg 5–7 पर Batavia Public House के अग्रभाग का रेखाचित्र",
+      "gallery": "इमारत के इतिहास की तस्वीरें",
+      "prev": "पिछली तस्वीर",
+      "next": "अगली तस्वीर"
+    },
+    "status": {
+      "closed": "बंद",
+      "openUntil": "अभी खुला है, {t} तक",
+      "opensToday": "आज {t} बजे खुलेगा",
+      "opensDay": "अभी बंद है, {d} को {t} बजे फिर खुलेगा",
+      "daysMid": {
+        "d0": "रविवार",
+        "d1": "सोमवार",
+        "d2": "मंगलवार",
+        "d3": "बुधवार",
+        "d4": "गुरुवार",
+        "d5": "शुक्रवार",
+        "d6": "शनिवार"
+      }
+    },
+    "form": {
+      "ready": "आपका संदेश तैयार है, पर अभी भेजा नहीं गया है। भेजने के लिए इसे अपने मेल ऐप में खोलें।",
+      "open": "मेल ऐप में खोलें",
+      "copy": "संदेश कॉपी करें",
+      "copied": "कॉपी हो गया",
+      "missing": "अपना नाम, ईमेल पता और संदेश भरें।"
+    },
+    "still": {
+      "facade": "फ़िल्म से: शाम को Lijnbaanssteeg पर अग्रभाग",
+      "bar": "फ़िल्म से: मोमबत्ती की रोशनी में बार",
+      "room": "फ़िल्म से: किताबों की अलमारी के पीछे स्पीकईज़ी"
+    },
+    "home": {
+      "days": {
+        "d1": "सोमवार",
+        "d2": "मंगलवार",
+        "d3": "बुधवार",
+        "d4": "गुरुवार",
+        "d5": "शुक्रवार",
+        "d6": "शनिवार",
+        "d7": "रविवार"
+      }
+    },
+    "film": {
+      "label": "फ़िल्म: गली से, बार के बीच से होते हुए, सीढ़ियों से ऊपर के कमरे तक",
+      "loading": "फ़िल्म लोड हो रही है"
+    },
+    "menus": {
+      "open": "मेन्यू देखें (PDF)"
+    },
+    "ui": {
+      "menu": "मेन्यू",
+      "close": "बंद करें"
+    }
+  },
+  "ru": {
+    "nav": {
+      "home": "Главная",
+      "menus": "Меню",
+      "events": "Мероприятия",
+      "building": "Здание",
+      "team": "Команда",
+      "contact": "Контакты"
+    },
+    "a11y": {
+      "mainNav": "Главное меню",
+      "language": "Язык",
+      "skip": "Перейти к содержанию",
+      "logoHome": "Batavia Public House, на главную",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Амстердам",
+      "facadeAlt": "Контурный рисунок фасада Batavia Public House на Lijnbaanssteeg 5–7",
+      "gallery": "Фотографии из истории здания",
+      "prev": "Предыдущее фото",
+      "next": "Следующее фото"
+    },
+    "status": {
+      "closed": "Закрыто",
+      "openUntil": "Сейчас открыто до {t}",
+      "opensToday": "Сегодня открывается в {t}",
+      "opensDay": "Сейчас закрыто, откроется в {d} в {t}",
+      "daysMid": {
+        "d0": "воскресенье",
+        "d1": "понедельник",
+        "d2": "вторник",
+        "d3": "среду",
+        "d4": "четверг",
+        "d5": "пятницу",
+        "d6": "субботу"
+      }
+    },
+    "form": {
+      "ready": "Ваше сообщение готово, но ещё не отправлено. Откройте его в почтовом приложении, чтобы отправить.",
+      "open": "Открыть в почтовом приложении",
+      "copy": "Скопировать сообщение",
+      "copied": "Скопировано",
+      "missing": "Укажите имя, адрес электронной почты и сообщение."
+    },
+    "still": {
+      "facade": "Кадр из фильма: фасад на Lijnbaanssteeg вечером",
+      "bar": "Кадр из фильма: барная стойка при свечах",
+      "room": "Кадр из фильма: спикизи за книжным шкафом"
+    },
+    "home": {
+      "days": {
+        "d1": "Понедельник",
+        "d2": "Вторник",
+        "d3": "Среда",
+        "d4": "Четверг",
+        "d5": "Пятница",
+        "d6": "Суббота",
+        "d7": "Воскресенье"
+      }
+    },
+    "film": {
+      "label": "Фильм: из переулка через бар и вверх по лестнице в комнату наверху",
+      "loading": "Загрузка фильма"
+    },
+    "menus": {
+      "open": "Смотреть меню (PDF)"
+    },
+    "ui": {
+      "menu": "Меню",
+      "close": "Закрыть"
+    }
+  },
+  "pl": {
+    "nav": {
+      "home": "Start",
+      "menus": "Menu",
+      "events": "Wydarzenia",
+      "building": "Budynek",
+      "team": "Zespół",
+      "contact": "Kontakt"
+    },
+    "a11y": {
+      "mainNav": "Główne",
+      "language": "Język",
+      "skip": "Przejdź do treści",
+      "logoHome": "Batavia Public House, do strony głównej",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Rysunek fasady Batavia Public House przy Lijnbaanssteeg 5–7",
+      "gallery": "Zdjęcia z historii budynku",
+      "prev": "Poprzednie zdjęcie",
+      "next": "Następne zdjęcie"
+    },
+    "status": {
+      "closed": "Zamknięte",
+      "openUntil": "Teraz otwarte do {t}",
+      "opensToday": "Dziś otwieramy o {t}",
+      "opensDay": "Teraz zamknięte, otwieramy znów w {d} o {t}",
+      "daysMid": {
+        "d0": "niedzielę",
+        "d1": "poniedziałek",
+        "d2": "wtorek",
+        "d3": "środę",
+        "d4": "czwartek",
+        "d5": "piątek",
+        "d6": "sobotę"
+      }
+    },
+    "form": {
+      "ready": "Twoja wiadomość jest gotowa, ale nie została jeszcze wysłana. Otwórz ją w aplikacji pocztowej, aby ją wysłać.",
+      "open": "Otwórz w aplikacji pocztowej",
+      "copy": "Kopiuj wiadomość",
+      "copied": "Skopiowano",
+      "missing": "Wpisz imię, adres e-mail i wiadomość."
+    },
+    "still": {
+      "facade": "Kadr z filmu: fasada przy Lijnbaanssteeg wieczorem",
+      "bar": "Kadr z filmu: bar przy świecach",
+      "room": "Kadr z filmu: speakeasy za regałem z książkami"
+    },
+    "home": {
+      "days": {
+        "d1": "Poniedziałek",
+        "d2": "Wtorek",
+        "d3": "Środa",
+        "d4": "Czwartek",
+        "d5": "Piątek",
+        "d6": "Sobota",
+        "d7": "Niedziela"
+      }
+    },
+    "film": {
+      "label": "Film: z zaułka, przez bar i po schodach do sali na górze",
+      "loading": "Ładowanie filmu"
+    },
+    "menus": {
+      "open": "Zobacz menu (PDF)"
+    },
+    "ui": {
+      "menu": "Menu",
+      "close": "Zamknij"
+    }
+  },
+  "tr": {
+    "nav": {
+      "home": "Ana sayfa",
+      "menus": "Menüler",
+      "events": "Etkinlikler",
+      "building": "Bina",
+      "team": "Ekip",
+      "contact": "İletişim"
+    },
+    "a11y": {
+      "mainNav": "Ana menü",
+      "language": "Dil",
+      "skip": "İçeriğe geç",
+      "logoHome": "Batavia Public House, ana sayfaya",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Lijnbaanssteeg 5–7'deki Batavia Public House cephesinin çizimi",
+      "gallery": "Binanın tarihinden fotoğraflar",
+      "prev": "Önceki fotoğraf",
+      "next": "Sonraki fotoğraf"
+    },
+    "status": {
+      "closed": "Kapalı",
+      "openUntil": "Şu an açık, saat {t}'e kadar",
+      "opensToday": "Bugün saat {t}'de açılıyor",
+      "opensDay": "Şu an kapalı, {d} saat {t}'de yeniden açılıyor",
+      "daysMid": {
+        "d0": "pazar",
+        "d1": "pazartesi",
+        "d2": "salı",
+        "d3": "çarşamba",
+        "d4": "perşembe",
+        "d5": "cuma",
+        "d6": "cumartesi"
+      }
+    },
+    "form": {
+      "ready": "Mesajınız hazır ama henüz gönderilmedi. Göndermek için e-posta uygulamanızda açın.",
+      "open": "E-posta uygulamasında aç",
+      "copy": "Mesajı kopyala",
+      "copied": "Kopyalandı",
+      "missing": "Adınızı, e-posta adresinizi ve mesajınızı yazın."
+    },
+    "still": {
+      "facade": "Filmden kare: akşam Lijnbaanssteeg'deki cephe",
+      "bar": "Filmden kare: mum ışığında bar",
+      "room": "Filmden kare: kitaplığın arkasındaki speakeasy"
+    },
+    "home": {
+      "days": {
+        "d1": "Pazartesi",
+        "d2": "Salı",
+        "d3": "Çarşamba",
+        "d4": "Perşembe",
+        "d5": "Cuma",
+        "d6": "Cumartesi",
+        "d7": "Pazar"
+      }
+    },
+    "film": {
+      "label": "Film: sokaktan, bardan geçip merdivenle üst kattaki odaya",
+      "loading": "Film yükleniyor"
+    },
+    "menus": {
+      "open": "Menüye bak (PDF)"
+    },
+    "ui": {
+      "menu": "Menü",
+      "close": "Kapat"
+    }
+  },
+  "el": {
+    "nav": {
+      "home": "Αρχική",
+      "menus": "Κατάλογοι",
+      "events": "Εκδηλώσεις",
+      "building": "Το κτίριο",
+      "team": "Η ομάδα",
+      "contact": "Επικοινωνία"
+    },
+    "a11y": {
+      "mainNav": "Κύριο μενού",
+      "language": "Γλώσσα",
+      "skip": "Μετάβαση στο περιεχόμενο",
+      "logoHome": "Batavia Public House, στην αρχική σελίδα",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Άμστερνταμ",
+      "facadeAlt": "Σχέδιο της πρόσοψης του Batavia Public House στο Lijnbaanssteeg 5–7",
+      "gallery": "Φωτογραφίες από την ιστορία του κτιρίου",
+      "prev": "Προηγούμενη φωτογραφία",
+      "next": "Επόμενη φωτογραφία"
+    },
+    "status": {
+      "closed": "Κλειστό",
+      "openUntil": "Ανοιχτά τώρα έως τις {t}",
+      "opensToday": "Ανοίγει σήμερα στις {t}",
+      "opensDay": "Κλειστό τώρα, ανοίγει ξανά {d} στις {t}",
+      "daysMid": {
+        "d0": "την Κυριακή",
+        "d1": "τη Δευτέρα",
+        "d2": "την Τρίτη",
+        "d3": "την Τετάρτη",
+        "d4": "την Πέμπτη",
+        "d5": "την Παρασκευή",
+        "d6": "το Σάββατο"
+      }
+    },
+    "form": {
+      "ready": "Το μήνυμά σας είναι έτοιμο αλλά δεν έχει σταλεί ακόμα. Ανοίξτε το στην εφαρμογή email για να το στείλετε.",
+      "open": "Άνοιγμα στην εφαρμογή email",
+      "copy": "Αντιγραφή μηνύματος",
+      "copied": "Αντιγράφηκε",
+      "missing": "Συμπληρώστε όνομα, διεύθυνση email και μήνυμα."
+    },
+    "still": {
+      "facade": "Καρέ από την ταινία: η πρόσοψη στη Lijnbaanssteeg το βράδυ",
+      "bar": "Καρέ από την ταινία: το μπαρ στο φως των κεριών",
+      "room": "Καρέ από την ταινία: το speakeasy πίσω από τη βιβλιοθήκη"
+    },
+    "home": {
+      "days": {
+        "d1": "Δευτέρα",
+        "d2": "Τρίτη",
+        "d3": "Τετάρτη",
+        "d4": "Πέμπτη",
+        "d5": "Παρασκευή",
+        "d6": "Σάββατο",
+        "d7": "Κυριακή"
+      }
+    },
+    "film": {
+      "label": "Ταινία: από το σοκάκι, μέσα από το μπαρ και πάνω από τη σκάλα στο επάνω δωμάτιο",
+      "loading": "Η ταινία φορτώνει"
+    },
+    "menus": {
+      "open": "Δείτε τον κατάλογο (PDF)"
+    },
+    "ui": {
+      "menu": "Μενού",
+      "close": "Κλείσιμο"
+    }
+  },
+  "da": {
+    "nav": {
+      "home": "Forside",
+      "menus": "Menuer",
+      "events": "Arrangementer",
+      "building": "Bygningen",
+      "team": "Holdet",
+      "contact": "Kontakt"
+    },
+    "a11y": {
+      "mainNav": "Hovedmenu",
+      "language": "Sprog",
+      "skip": "Gå til indholdet",
+      "logoHome": "Batavia Public House, til forsiden",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Stregtegning af facaden på Batavia Public House, Lijnbaanssteeg 5–7",
+      "gallery": "Fotografier fra bygningens historie",
+      "prev": "Forrige foto",
+      "next": "Næste foto"
+    },
+    "status": {
+      "closed": "Lukket",
+      "openUntil": "Åbent nu til {t}",
+      "opensToday": "Åbner i dag kl. {t}",
+      "opensDay": "Lukket nu, åbner igen {d} kl. {t}",
+      "daysMid": {
+        "d0": "søndag",
+        "d1": "mandag",
+        "d2": "tirsdag",
+        "d3": "onsdag",
+        "d4": "torsdag",
+        "d5": "fredag",
+        "d6": "lørdag"
+      }
+    },
+    "form": {
+      "ready": "Din besked er klar, men er ikke sendt endnu. Åbn den i din mailapp for at sende den.",
+      "open": "Åbn i mailappen",
+      "copy": "Kopiér besked",
+      "copied": "Kopieret",
+      "missing": "Udfyld dit navn, din e-mailadresse og din besked."
+    },
+    "still": {
+      "facade": "Still fra filmen: facaden i Lijnbaanssteeg om aftenen",
+      "bar": "Still fra filmen: baren i levende lys",
+      "room": "Still fra filmen: speakeasyen bag bogreolen"
+    },
+    "home": {
+      "days": {
+        "d1": "Mandag",
+        "d2": "Tirsdag",
+        "d3": "Onsdag",
+        "d4": "Torsdag",
+        "d5": "Fredag",
+        "d6": "Lørdag",
+        "d7": "Søndag"
+      }
+    },
+    "film": {
+      "label": "Film: fra gyden, gennem baren og op ad trappen til rummet ovenpå",
+      "loading": "Filmen indlæses"
+    },
+    "menus": {
+      "open": "Se menuen (PDF)"
+    },
+    "ui": {
+      "menu": "Menu",
+      "close": "Luk"
+    }
+  },
+  "sv": {
+    "nav": {
+      "home": "Hem",
+      "menus": "Menyer",
+      "events": "Evenemang",
+      "building": "Byggnaden",
+      "team": "Teamet",
+      "contact": "Kontakt"
+    },
+    "a11y": {
+      "mainNav": "Huvudmeny",
+      "language": "Språk",
+      "skip": "Gå till innehållet",
+      "logoHome": "Batavia Public House, till startsidan",
+      "logoAlt": "Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam",
+      "facadeAlt": "Linjeteckning av fasaden på Batavia Public House, Lijnbaanssteeg 5–7",
+      "gallery": "Fotografier från byggnadens historia",
+      "prev": "Föregående foto",
+      "next": "Nästa foto"
+    },
+    "status": {
+      "closed": "Stängt",
+      "openUntil": "Öppet nu till {t}",
+      "opensToday": "Öppnar i dag kl. {t}",
+      "opensDay": "Stängt nu, öppnar igen på {d} kl. {t}",
+      "daysMid": {
+        "d0": "söndag",
+        "d1": "måndag",
+        "d2": "tisdag",
+        "d3": "onsdag",
+        "d4": "torsdag",
+        "d5": "fredag",
+        "d6": "lördag"
+      }
+    },
+    "form": {
+      "ready": "Ditt meddelande är klart men har inte skickats än. Öppna det i din e-postapp för att skicka det.",
+      "open": "Öppna i e-postappen",
+      "copy": "Kopiera meddelandet",
+      "copied": "Kopierat",
+      "missing": "Fyll i ditt namn, din e-postadress och ditt meddelande."
+    },
+    "still": {
+      "facade": "Bild ur filmen: fasaden i Lijnbaanssteeg på kvällen",
+      "bar": "Bild ur filmen: baren i levande ljus",
+      "room": "Bild ur filmen: speakeasyn bakom bokhyllan"
+    },
+    "home": {
+      "days": {
+        "d1": "Måndag",
+        "d2": "Tisdag",
+        "d3": "Onsdag",
+        "d4": "Torsdag",
+        "d5": "Fredag",
+        "d6": "Lördag",
+        "d7": "Söndag"
+      }
+    },
+    "film": {
+      "label": "Film: från gränden, genom baren och uppför trappan till rummet en trappa upp",
+      "loading": "Filmen laddas"
+    },
+    "menus": {
+      "open": "Se menyn (PDF)"
+    },
+    "ui": {
+      "menu": "Meny",
+      "close": "Stäng"
+    }
+  }
+}

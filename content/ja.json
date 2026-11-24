@@ -1,0 +1,189 @@
+{
+  "seo": {
+    "title": "Batavia Public House | アムステルダム中心部のカクテルバー＆パブ",
+    "description": "アムステルダム中心部に新しくオープンするカクテルバー＆パブ。1734年の建物で、オランダ産の地元食材を使ったカクテルとオランダ料理、パブの雰囲気の中で一流のサービスを。"
+  },
+  "home": {
+    "lead": "アムステルダム中心部の Brown Cocktail Pub。シンゲル運河とスパウ通りの間に建つ、1734年の二軒の家にあります。",
+    "ctaFind": "アクセス",
+    "ctaMenus": "メニューを見る",
+    "impTitle": "バーの雰囲気",
+    "impBody1": "Batavia はカクテルバーであり、昔ながらのアムステルダムのパブでもあります。地元の人、カクテル好き、食通、ワイン好きのための街角のバーであり、リビングルームのような場所。気取らず居心地がよく、それでいてサービスは一流です。ゆっくり夕食を楽しむテーブルもあれば、一杯だけ飲みに立ち寄るテーブルもあります。",
+    "impBody2": "カクテルとオランダ料理のために、地元の農家、生産者、蒸留所と協力しています。メニューは季節ごとに変わり、使用している食材の情報はすべてメニューに記載しています。",
+    "peopleTitle": "バーカウンターの向こうに",
+    "peopleText": "Jimmy Hu と Samuel Stok。受賞歴のある二人のバーテンダーで、長年ホスピタリティの世界で活躍しています。",
+    "peopleLink": "チームについて詳しく",
+    "knowTitle": "お知らせ",
+    "k1Title": "予約なしでも、予約でも",
+    "k1Text": "予約なしでお気軽にどうぞ。確実に席を確保したい場合は事前にご予約ください。",
+    "k2Title": "テラス",
+    "k2Text": "天気の良い日はテラスを出し、15名様までお座りいただけます。",
+    "k3Title": "店内",
+    "k3Text": "70名様分の席があります。",
+    "k4Title": "ノンアルコール",
+    "k4Text": "アルコール入りでもノンアルコールでも、地元の食材で作る自家製ノンアルコールカクテルを豊富にご用意しています。",
+    "k5Title": "どなたでも",
+    "k5Text": "車椅子でご利用いただけます。ペットも歓迎です。",
+    "k6Title": "料金とお支払い",
+    "k6Text": "カクテルは15〜17ユーロ。カードでも現金でもお支払いいただけます。",
+    "hoursTitle": "営業時間",
+    "alleyTitle": "路地の見つけ方",
+    "alleyBody": "Lijnbaanssteeg（ラインバーンス小路）は旧市街の細い路地で、シンゲル運河とスパウ通りの間にあります。5–7番地にあり、アムステルダム中央駅から徒歩約10分です。",
+    "alleyCta": "ルートと駐車場",
+    "mapCaption": "略図のため縮尺は正確ではありません。上が北です。",
+    "mapMarker": "Batavia、5–7番地",
+    "linksTitle": "ほかのページも見る",
+    "cards": {
+      "menus": {
+        "title": "メニュー",
+        "text": "カクテル、オランダワイン、季節の伝統的なオランダ料理。",
+        "cta": "メニューを見る"
+      },
+      "events": {
+        "title": "イベント",
+        "text": "最大70名様まで。バーからキッチンまでケータリングも対応します。",
+        "cta": "イベントを企画する"
+      },
+      "building": {
+        "title": "建物",
+        "text": "1734年築：印刷所、星付きレストラン、カクテルバー、そして今はパブに。",
+        "cta": "歴史を読む"
+      },
+      "contact": {
+        "title": "お問い合わせ",
+        "text": "ご質問、ご予約、お祝いごと。お気軽にメッセージをどうぞ。",
+        "cta": "お問い合わせ"
+      }
+    }
+  },
+  "film": {
+    "cue": "スクロールして中へ",
+    "skip": "映像をスキップ",
+    "rail": [
+      "路地",
+      "バー",
+      "階段",
+      "スピークイージー"
+    ],
+    "c2": "1734年に完成した二軒の家",
+    "c3": "階段を上がって",
+    "c3text": "バーの奥には、上の階へ続く急な階段があります。",
+    "c4": "本棚の向こうに",
+    "c4text": "本棚の向こうには、さらに多くの歴史が隠れています。"
+  },
+  "menus": {
+    "title": "メニュー",
+    "lead": "メニューは季節に合わせて変わり、オランダの地元食材を中心に作っています。",
+    "body": "そのため一年を通して内容が変わります。現在のメニューは下からダウンロードできます。",
+    "listTitle": "現在のメニュー",
+    "pdfNote": "近日公開"
+  },
+  "events": {
+    "title": "イベント",
+    "lead": "お祝いや集まりのご予定はありますか？ここで開催できます。",
+    "fact1Title": "最大70名様",
+    "fact1Text": "最大70名様までのイベントに対応しています。",
+    "fact2Title": "バーからキッチンまで",
+    "fact2Text": "バーからキッチンまで、プロのケータリングをご提供します。",
+    "ctaTitle": "ご希望はありますか？",
+    "ctaText": "日付、人数、ご希望をお知らせください。一緒にプランを考えます。",
+    "ctaContact": "お問い合わせを送る",
+    "ctaWhatsapp": "WhatsApp でメッセージ"
+  },
+  "building": {
+    "title": "建物",
+    "lead": "Lijnbaanssteeg 5–7 は1734年に建てられました。その後、商業印刷所、二軒のレストラン、カクテルバーが入りました。今はパブ（public house）として、アムステルダムの中心にある歴史あるバーになっています。",
+    "galleryTitle": "写真で見る建物",
+    "credit": "歴史的写真：",
+    "nameTitle": "なぜ Batavia なのか",
+    "nameText": "Batavia はオランダの古いラテン語名です。そして public house というのは、私たちがアムステルダムの古い家にある、誰にでも開かれたパブだから。それ以上でも以下でもありません。",
+    "streetTitle": "ロープ職人の路地",
+    "streetText": "この路地の名前は lijnbanen に由来します。16世紀末、シンゲル運河がまだ街の境界だった頃、ここにはロープ製造所が並んでいました。",
+    "insideTitle": "残されたもの",
+    "insideText": "店内では今も見ることができます。かつて船の一部だった梁、天然石の床、そしてアンティークのバーカウンター。",
+    "timelineTitle": "この屋根の下で",
+    "timeline": [
+      {
+        "year": "1734",
+        "title": "建物",
+        "text": "Lijnbaanssteeg 5–7 の建物が建てられる。"
+      },
+      {
+        "year": "不明〜1960年代",
+        "title": "印刷所",
+        "text": "5番地で商業印刷所が営業。店名が店先の上に大きな文字で書かれていた。"
+      },
+      {
+        "year": "1969",
+        "title": "レストラン Gravenmolen",
+        "text": "1968年、建築家 Nic. Klok が改装を設計。1階は酒場、上階はレストランに。Gravenmolen は1969年11月に開店し、1972年から1976年までミシュランの星を獲得。"
+      },
+      {
+        "year": "1990–2010",
+        "title": "De Jonge Gravenmolen",
+        "text": "新しい世代へ：レストラン De Jonge Gravenmolen。"
+      },
+      {
+        "year": "2012",
+        "title": "Tales & Spirits",
+        "text": "カクテルバー Tales & Spirits が入る。"
+      },
+      {
+        "year": "現在",
+        "title": "Batavia Public House",
+        "text": "今日、Batavia Public House として扉を開ける。"
+      }
+    ]
+  },
+  "team": {
+    "title": "チーム",
+    "lead": "Batavia のオーナーは Jimmy Hu と Samuel Stok。二人のバーテンダーは、アムステルダムの The Tailor のカウンターで出会いました。",
+    "careerTitle": "経歴",
+    "pressTitle": "メディアとステージ",
+    "pressText": "二人が出場した大会についての記事と、自ら主催したイベント。リンクは各ソースのサイトで開きます。"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "lead": "メッセージ、お電話、または WhatsApp でどうぞ。ご予約も同じ方法で承ります。予約なしでもいつでも歓迎です。",
+    "formTitle": "メッセージを送る",
+    "name": "お名前",
+    "email": "メールアドレス",
+    "message": "メッセージ",
+    "send": "送信",
+    "formNote": "メッセージは info@bataviapublichouse.nl に届きます。",
+    "subject": "ウェブサイトからのメッセージ",
+    "directTitle": "直接のご連絡",
+    "emailLabel": "メール",
+    "phoneLabel": "電話",
+    "whatsapp": "WhatsApp でメッセージ",
+    "addressTitle": "住所",
+    "mapsCta": "マップで開く",
+    "parkingTitle": "駐車場",
+    "parkingText": "最寄りの駐車場は Nieuwezijds Kolk 18 にある Q-Park Nieuwendijk です。24時間営業で、バーまで徒歩数分です。",
+    "parkingCta": "駐車場をマップで開く",
+    "routeTitle": "中央駅から徒歩で",
+    "routeTime": "約10分。",
+    "s1": {
+      "place": "中央駅",
+      "text": "駅の市街地側、Stationsplein 側の出口から出ます。"
+    },
+    "s2": {
+      "place": "Martelaarsgracht",
+      "text": "Prins Hendrikkade を渡り、Martelaarsgracht に入ります。"
+    },
+    "s3": {
+      "place": "Hekelveld と Spuistraat",
+      "text": "Hekelveld を進み、Spuistraat に出ます。"
+    },
+    "s4": {
+      "place": "Lijnbaanssteeg",
+      "text": "Spuistraat を進み、右に曲がって細い路地 Lijnbaanssteeg へ。5–7番地です。"
+    },
+    "routeCta": "徒歩ルートをマップで開く"
+  },
+  "footer": {
+    "addressTitle": "住所",
+    "hoursTitle": "営業",
+    "contactTitle": "連絡先"
+  }
+}

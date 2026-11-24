@@ -1,0 +1,189 @@
+{
+  "seo": {
+    "title": "Batavia Public House | Cocktailbar och pub i centrala Amsterdam",
+    "description": "Ny cocktailbar och pub i centrala Amsterdam, i en byggnad från 1734. Cocktails med lokala holländska råvaror, holländsk mat och service i toppklass i pubmiljö."
+  },
+  "home": {
+    "lead": "En Brown Cocktail Pub i centrala Amsterdam, i två hus från 1734 mellan Singelkanalen och Spuistraat.",
+    "ctaFind": "Hitta hit",
+    "ctaMenus": "Se menyerna",
+    "impTitle": "Ett intryck av baren",
+    "impBody1": "Batavia är både cocktailbar och klassisk Amsterdampub: den lokala baren och vardagsrummet för amsterdamare, cocktailälskare, matentusiaster och vinälskare. Avslappnat och mysigt, med service i toppklass: vid ett bord äter man middag i lugn och ro, vid bordet bredvid tittar man in för en drink.",
+    "impBody2": "Vi samarbetar med lokala bönder, producenter och destillerier för våra cocktails och vår holländska mat. Varje meny följer årstiderna, och i våra menyer hittar du all information om råvarorna vi använder.",
+    "peopleTitle": "Bakom baren",
+    "peopleText": "Jimmy Hu och Samuel Stok, två prisbelönta bartendrar med många års erfarenhet i restaurangbranschen.",
+    "peopleLink": "Läs mer om teamet",
+    "knowTitle": "Bra att veta",
+    "k1Title": "Kom in eller boka",
+    "k1Text": "Kom bara in. Vill du vara säker på ett bord, boka i förväg.",
+    "k2Title": "Uteservering",
+    "k2Text": "När vädret är fint är uteserveringen öppen, med plats för femton gäster.",
+    "k3Title": "Inomhus",
+    "k3Text": "Sittplatser för sjuttio gäster.",
+    "k4Title": "Alkoholfritt",
+    "k4Text": "Oavsett om du kommer för en drink med eller utan alkohol har vi ett unikt urval av hemgjorda alkoholfria cocktails gjorda på lokala råvaror.",
+    "k5Title": "Alla är välkomna",
+    "k5Text": "Tillgängligt med rullstol, och husdjur är välkomna.",
+    "k6Title": "Priser och betalning",
+    "k6Text": "Cocktails kostar 15–17 €. Du kan betala med kort eller kontanter.",
+    "hoursTitle": "Öppettider",
+    "alleyTitle": "Hitta gränden",
+    "alleyBody": "Lijnbaanssteeg är en smal gränd i gamla stan, mellan Singel och Spuistraat. Du hittar oss på nummer 5–7, ungefär tio minuters promenad från Centraal Station.",
+    "alleyCta": "Vägbeskrivning och parkering",
+    "mapCaption": "Skiss, ej skalenlig. Norr är uppåt.",
+    "mapMarker": "Batavia, nr 5–7",
+    "linksTitle": "Titta runt",
+    "cards": {
+      "menus": {
+        "title": "Menyer",
+        "text": "Cocktails, holländska viner och klassiska holländska rätter efter säsong.",
+        "cta": "Se menyerna"
+      },
+      "events": {
+        "title": "Evenemang",
+        "text": "Plats för upp till 70 gäster, med catering från bar till kök.",
+        "cta": "Planera ett evenemang"
+      },
+      "building": {
+        "title": "Byggnaden",
+        "text": "Byggd 1734: tryckeri, stjärnkrog, cocktailbar och nu ett public house.",
+        "cta": "Läs historien"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "text": "En fråga, en bokning eller något att fira? Skicka ett meddelande.",
+        "cta": "Kontakta oss"
+      }
+    }
+  },
+  "film": {
+    "cue": "Scrolla för att kliva in",
+    "skip": "Hoppa över filmen",
+    "rail": [
+      "Gränden",
+      "Baren",
+      "Trappan",
+      "Speakeasy"
+    ],
+    "c2": "I två hus som stod klara 1734",
+    "c3": "Uppför trappan",
+    "c3text": "Längst in i baren leder en brant trappa uppåt.",
+    "c4": "Bakom bokhyllan",
+    "c4text": "Bakom vår bokhylla gömmer sig ännu mer historia."
+  },
+  "menus": {
+    "title": "Menyer",
+    "lead": "Våra menyer följer årstiderna och bygger på lokala holländska råvaror.",
+    "body": "Därför ändras de under året. Ladda ner de aktuella menyerna nedan.",
+    "listTitle": "Aktuella menyer",
+    "pdfNote": "Kommer snart"
+  },
+  "events": {
+    "title": "Evenemang",
+    "lead": "Något att fira eller ordna? Det kan du göra hos oss.",
+    "fact1Title": "Upp till 70 gäster",
+    "fact1Text": "Vi tar emot evenemang för upp till 70 personer åt gången.",
+    "fact2Title": "Från bar till kök",
+    "fact2Text": "Vi erbjuder professionell catering, från bar till kök.",
+    "ctaTitle": "Har du något i tankarna?",
+    "ctaText": "Berätta datum, antal gäster och dina önskemål, så tänker vi tillsammans med dig.",
+    "ctaContact": "Skicka en förfrågan",
+    "ctaWhatsapp": "Skriv till oss på WhatsApp"
+  },
+  "building": {
+    "title": "Byggnaden",
+    "lead": "Lijnbaanssteeg 5–7 byggdes 1734. Sedan dess har huset rymt ett handelstryckeri, två restauranger och en cocktailbar. Nu är det ett public house: en historisk bar mitt i Amsterdam.",
+    "galleryTitle": "Byggnaden i bilder",
+    "credit": "Historiska fotografier:",
+    "nameTitle": "Varför Batavia",
+    "nameText": "Batavia är det gamla latinska namnet på Nederländerna. Och public house, eftersom vi är en pub i ett gammalt Amsterdamhus, öppen för alla. Varken mer eller mindre.",
+    "streetTitle": "Repslagarnas gränd",
+    "streetText": "Gränden har fått sitt namn efter lijnbanen, repslagarbanorna som låg här i slutet av 1500-talet, när Singel fortfarande var stadens gräns.",
+    "insideTitle": "Det som bevarats",
+    "insideText": "Inne kan du fortfarande se det: bjälkar som en gång var delar av fartyg, ett golv av natursten och en antik bar.",
+    "timelineTitle": "Under detta tak",
+    "timeline": [
+      {
+        "year": "1734",
+        "title": "Byggnaden",
+        "text": "Huset på Lijnbaanssteeg 5–7 byggs."
+      },
+      {
+        "year": "Okänt–1960-talet",
+        "title": "Tryckeriet",
+        "text": "På nummer 5 drivs ett handelstryckeri. Namnet står med stora bokstäver ovanför skyltfönstret."
+      },
+      {
+        "year": "1969",
+        "title": "Restaurang Gravenmolen",
+        "text": "1968 ritar arkitekten Nic. Klok ombyggnaden: en krog på nedervåningen och restaurangen ovanför. Gravenmolen öppnar i november 1969 och har en Michelinstjärna 1972–1976."
+      },
+      {
+        "year": "1990–2010",
+        "title": "De Jonge Gravenmolen",
+        "text": "En ny generation: restaurang De Jonge Gravenmolen."
+      },
+      {
+        "year": "2012",
+        "title": "Tales & Spirits",
+        "text": "Cocktailbaren Tales & Spirits flyttar in."
+      },
+      {
+        "year": "Nu",
+        "title": "Batavia Public House",
+        "text": "I dag öppnas dörrarna som Batavia Public House."
+      }
+    ]
+  },
+  "team": {
+    "title": "Teamet",
+    "lead": "Batavia ägs av Jimmy Hu och Samuel Stok, två bartendrar som träffades bakom baren på The Tailor i Amsterdam.",
+    "careerTitle": "Karriär",
+    "pressTitle": "I pressen och på scen",
+    "pressText": "Artiklar om deras tävlingar och evenemang som de själva höll i. Länkarna öppnas på källans egen webbplats."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Skicka ett meddelande, ring oss eller använd WhatsApp. Du bokar på samma sätt; det går alltid bra att bara komma in.",
+    "formTitle": "Skicka ett meddelande",
+    "name": "Namn",
+    "email": "E-postadress",
+    "message": "Meddelande",
+    "send": "Skicka meddelande",
+    "formNote": "Ditt meddelande går till info@bataviapublichouse.nl.",
+    "subject": "Meddelande via webbplatsen",
+    "directTitle": "Direktkontakt",
+    "emailLabel": "E-post",
+    "phoneLabel": "Telefon",
+    "whatsapp": "Skriv till oss på WhatsApp",
+    "addressTitle": "Adress",
+    "mapsCta": "Öppna i Kartor",
+    "parkingTitle": "Parkering",
+    "parkingText": "Närmaste parkeringshus är Q-Park Nieuwendijk på Nieuwezijds Kolk 18. Det är öppet dygnet runt och ligger några minuters promenad från baren.",
+    "parkingCta": "Öppna parkeringen i Kartor",
+    "routeTitle": "Till fots från Centraal Station",
+    "routeTime": "Ungefär tio minuter.",
+    "s1": {
+      "place": "Centraal Station",
+      "text": "Gå ut från stationen på stadssidan, vid Stationsplein."
+    },
+    "s2": {
+      "place": "Martelaarsgracht",
+      "text": "Korsa Prins Hendrikkade och gå in på Martelaarsgracht."
+    },
+    "s3": {
+      "place": "Hekelveld och Spuistraat",
+      "text": "Fortsätt längs Hekelveld tills du kommer till Spuistraat."
+    },
+    "s4": {
+      "place": "Lijnbaanssteeg",
+      "text": "Följ Spuistraat och sväng höger in på Lijnbaanssteeg, en smal gränd. Vi finns på nummer 5–7."
+    },
+    "routeCta": "Öppna gångvägen i Kartor"
+  },
+  "footer": {
+    "addressTitle": "Adress",
+    "hoursTitle": "Öppet",
+    "contactTitle": "Kontakt"
+  }
+}

@@ -1,15 +1,15 @@
 {
   "seo": {
-    "title": "Batavia Public House | Bar à cocktails au centre d'Amsterdam",
-    "description": "Bar à cocktails de Jimmy Hu et Samuel Stok dans deux maisons de 1734, entre le Singel et la Spuistraat. Cocktails de saison, aussi sans alcool, et plats aux produits locaux."
+    "title": "Batavia Public House | Bar à cocktails et pub au centre d'Amsterdam",
+    "description": "Nouveau bar à cocktails et pub au centre d'Amsterdam, dans une maison de 1734. Cocktails aux produits néerlandais locaux, service haut de gamme, esprit pub."
   },
   "home": {
-    "lead": "Un Brown Cocktail Pub dans deux maisons de 1734, dans la ruelle entre le Singel et la Spuistraat.",
+    "lead": "Un Brown Cocktail Pub au centre d'Amsterdam, dans deux maisons de 1734 entre le Singel et la Spuistraat.",
     "ctaFind": "Comment nous trouver",
     "ctaMenus": "Voir les cartes",
     "impTitle": "Un aperçu du bar",
-    "impBody1": "Batavia est un salon pour les Amstellodamois, les amateurs de cocktails, les gourmets et les amateurs de vin. Décontracté et chaleureux : une table dîne longuement, l'autre passe pour un verre.",
-    "impBody2": "Nous travaillons avec des agriculteurs, des producteurs et des distillateurs locaux pour créer nos cocktails et nos plats. Chaque carte suit les saisons, et vous trouverez sur nos cartes toutes les informations sur les produits que nous utilisons.",
+    "impBody1": "Batavia est à la fois un bar à cocktails et un café brun amstellodamois : le bar de quartier et le salon des Amstellodamois, des amateurs de cocktails, des gourmets et des amateurs de vin. Décontracté et chaleureux, avec un service haut de gamme : une table dîne longuement, l'autre passe pour un verre.",
+    "impBody2": "Nous travaillons avec des agriculteurs, des producteurs et des distillateurs locaux pour créer nos cocktails et notre cuisine néerlandaise. Chaque carte suit les saisons, et vous trouverez sur nos cartes toutes les informations sur les produits que nous utilisons.",
     "peopleTitle": "Derrière le bar",
     "peopleText": "Jimmy Hu & Samuel Stok, deux bartenders primés qui travaillent dans la restauration depuis des années.",
     "peopleLink": "En savoir plus sur l'équipe",
@@ -19,9 +19,13 @@
     "k2Title": "Terrasse",
     "k2Text": "Par beau temps, la terrasse est installée, avec quinze places.",
     "k3Title": "À l'intérieur",
-    "k3Text": "Quarante places assises dans le pub.",
+    "k3Text": "De la place pour soixante-dix personnes.",
     "k4Title": "Sans alcool",
     "k4Text": "Que vous veniez pour une boisson avec ou sans alcool, nous proposons une sélection unique de cocktails sans alcool faits maison avec des produits locaux.",
+    "k5Title": "Bienvenue à tous",
+    "k5Text": "Accessible en fauteuil roulant, et les animaux sont les bienvenus.",
+    "k6Title": "Prix et paiement",
+    "k6Text": "Les cocktails coûtent 15 à 17 €. Carte et espèces acceptées.",
     "hoursTitle": "Horaires d'ouverture",
     "alleyTitle": "Trouver la ruelle",
     "alleyBody": "La Lijnbaanssteeg est une ruelle étroite du centre ancien, entre le Singel et la Spuistraat. Nous sommes aux numéros 5–7, à une dizaine de minutes à pied de la gare centrale.",
@@ -88,7 +92,7 @@
   },
   "building": {
     "title": "La maison",
-    "lead": "Le 5–7 de la Lijnbaanssteeg a été construit en 1734. Depuis, la maison a abrité une imprimerie commerciale, deux restaurants et un bar à cocktails. C'est aujourd'hui un public house.",
+    "lead": "Le 5–7 de la Lijnbaanssteeg a été construit en 1734. Depuis, la maison a abrité une imprimerie commerciale, deux restaurants et un bar à cocktails. C'est aujourd'hui un public house : un bar historique au cœur d'Amsterdam.",
     "galleryTitle": "La maison en images",
     "credit": "Photographies historiques :",
     "nameTitle": "Pourquoi Batavia",
