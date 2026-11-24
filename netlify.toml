@@ -1,0 +1,13 @@
+# Netlify builds the site on every change (also edits made in Pages CMS).
+# The build writes the text into the HTML so search engines and AI assistants can read it.
+[build]
+  command = "node scripts/build.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

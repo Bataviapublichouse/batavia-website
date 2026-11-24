@@ -193,6 +193,16 @@ content:
   path: content/nl.json
   format: json
   fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
   - name: home
     label: Homepage
     type: object
@@ -606,6 +616,16 @@ content:
   path: content/en.json
   format: json
   fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
   - name: home
     label: Homepage
     type: object
@@ -1019,6 +1039,16 @@ content:
   path: content/fy.json
   format: json
   fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
   - name: home
     label: Homepage
     type: object
@@ -1432,6 +1462,16 @@ content:
   path: content/fr.json
   format: json
   fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
   - name: home
     label: Homepage
     type: object
@@ -1845,6 +1885,16 @@ content:
   path: content/de.json
   format: json
   fields:
+  - name: seo
+    label: Google and AI search
+    type: object
+    fields:
+    - name: title
+      label: Title in search results (about 50–60 characters)
+      type: string
+    - name: description
+      label: Description in search results (about 140–160 characters)
+      type: text
   - name: home
     label: Homepage
     type: object
@@ -2416,3 +2466,23 @@ content:
       - name: de
         label: Deutsch
         type: text
+- name: business
+  label: Business details for Google and AI
+  type: file
+  path: content/business.json
+  format: json
+  fields:
+  - name: priceRange
+    label: Price level, for example €€ (leave empty if unsure)
+    type: string
+  - name: acceptsReservations
+    label: Accepts reservations
+    type: boolean
+  - name: servesCuisine
+    label: What you serve (one item per line, in English)
+    type: string
+    list: true
+  - name: links
+    label: 'Your other pages: Instagram, Facebook, Google Maps, Tripadvisor etc.'
+    type: string
+    list: true

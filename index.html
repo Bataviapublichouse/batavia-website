@@ -3,8 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Batavia Public House</title>
-<meta name="description" content="Batavia Public House, Lijnbaanssteeg 5–7, Amsterdam.">
+<title>Batavia Public House | Brown Cocktail Pub in Amsterdam centrum</title>
+<meta name="description" content="Batavia Public House, Brown Cocktail Pub in twee panden uit 1734 aan de Lijnbaanssteeg 5–7, tussen Singel en Spuistraat in Amsterdam.">
+<!--SEO-->
+<script>
+/* The Dutch site lives at /, the other languages at /en/, /fy/, /fr/ and /de/.
+   A visitor who lands on / from outside the Netherlands (or who chose another language before)
+   is sent to their language. Search engines always get the page they asked for. */
+(function () {
+  try {
+    if (document.documentElement.lang !== 'nl' || location.pathname !== '/') return;
+    var L = ['nl', 'en', 'fy', 'fr', 'de'], target = null, saved = null;
+    try { saved = localStorage.getItem('bph-lang'); } catch (e) {}
+    if (saved && L.indexOf(saved) >= 0) target = saved;
+    else {
+      if (/bot|crawl|spider|slurp|google|bing|yandex|baidu|duckduck|facebookexternalhit|preview|lighthouse|headless/i.test(navigator.userAgent)) return;
+      if (Intl.DateTimeFormat().resolvedOptions().timeZone === 'Europe/Amsterdam') return;
+      var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
+      for (var i = 0; i < prefs.length && !target; i++) { var p = String(prefs[i]).toLowerCase().slice(0, 2); if (L.indexOf(p) >= 0) target = p; }
+      target = target || 'en';
+    }
+    if (target !== 'nl') location.replace('/' + target + '/' + location.search + location.hash);
+  } catch (e) {}
+})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400&family=Jost:wght@400;500&display=swap" rel="stylesheet">
@@ -258,7 +280,7 @@ address { font-style: normal; }
 <a class="skip-link" href="#main" data-t="a11y.skip"></a>
 
 <header class="site-header" id="header">
-  <a class="brand" href="#home" data-ta="aria-label:a11y.logoHome"><img src="media/logo.png" alt="" width="1128" height="980"></a>
+  <a class="brand" href="#home" data-ta="aria-label:a11y.logoHome"><img src="/media/logo.png" alt="" width="1128" height="980"></a>
   <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav" data-t="ui.menu"></button>
   <nav class="nav" id="nav" data-ta="aria-label:a11y.mainNav">
     <ul class="nav-links">
@@ -285,7 +307,7 @@ address { font-style: normal; }
 <div class="view" data-view="home">
   <section class="film" id="film" data-ta="aria-label:film.label">
     <div class="stage" id="stage">
-      <img class="poster" src="media/poster.jpg" alt="" width="1280" height="720" fetchpriority="high">
+      <img class="poster" src="/media/poster.jpg" alt="" width="1280" height="720" fetchpriority="high">
       <video id="filmVideo" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
       <div class="shade"></div>
       <div class="mobile-bar" aria-hidden="true"><i id="mobileFill"></i></div>
@@ -422,7 +444,7 @@ address { font-style: normal; }
       <h1 class="page-title" data-t="events.title"></h1>
       <p class="lead" data-t="events.lead"></p>
     </header>
-    <figure class="still"><img src="media/still-room.jpg" alt="" width="1280" height="720" loading="lazy" data-ta="alt:still.room"><figcaption data-t="still.room"></figcaption></figure>
+    <figure class="still"><img src="/media/still-room.jpg" alt="" width="1280" height="720" loading="lazy" data-ta="alt:still.room"><figcaption data-t="still.room"></figcaption></figure>
     <section class="block first">
       <ul class="facts">
         <li><h3 data-t="events.fact1Title"></h3><p data-t="events.fact1Text"></p></li>
@@ -565,7 +587,7 @@ address { font-style: normal; }
 
 <footer class="site-footer">
   <div class="wrap foot">
-    <div><img src="media/logo.png" alt="" width="1128" height="980" data-ta="alt:a11y.logoAlt"></div>
+    <div><img src="/media/logo.png" alt="" width="1128" height="980" data-ta="alt:a11y.logoAlt"></div>
     <div><h2 data-t="footer.addressTitle"></h2><address>Lijnbaanssteeg 5–7<br>1012 TE Amsterdam</address></div>
     <div><h2 data-t="footer.hoursTitle"></h2><p class="status" id="status3"></p></div>
     <div><h2 data-t="footer.contactTitle"></h2><p><a href="mailto:info@bataviapublichouse.nl">info@bataviapublichouse.nl</a><br><a href="tel:+31640476549">+31 6 40476549</a><br><a href="https://wa.me/31640476549" target="_blank" rel="noopener">WhatsApp</a></p></div>
@@ -613,7 +635,7 @@ function merge(a, b) {
   });
   return o;
 }
-function loadLang(l) { return CONTENT[l] ? Promise.resolve(CONTENT[l]) : getJSON('content/' + l + '.json').then(function (j) { CONTENT[l] = j; return j; }); }
+function loadLang(l) { return CONTENT[l] ? Promise.resolve(CONTENT[l]) : getJSON('/content/' + l + '.json').then(function (j) { CONTENT[l] = j; return j; }); }
 var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function $(s, r) { return (r || document).querySelector(s); }
@@ -621,15 +643,8 @@ function $$(s, r) { return Array.prototype.slice.call((r || document).querySelec
 function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
 
 var lang = (function () {
-  var saved = store('bph-lang');
-  if (saved && LANGS.indexOf(saved) >= 0) return saved;
-  try { if (Intl.DateTimeFormat().resolvedOptions().timeZone === 'Europe/Amsterdam') return 'nl'; } catch (e) {}
-  var prefs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'nl']);
-  for (var i = 0; i < prefs.length; i++) {
-    var p = String(prefs[i]).toLowerCase().slice(0, 2);
-    if (LANGS.indexOf(p) >= 0) return p;
-  }
-  return 'en';
+  var l = (document.documentElement.lang || 'nl').toLowerCase().slice(0, 2);
+  return LANGS.indexOf(l) >= 0 ? l : 'nl';
 })();
 var t;
 
@@ -743,7 +758,7 @@ function monthYear(d) {
 function renderTeam() {
   var tt = t.team || {};
   $('#teamList').innerHTML = (TEAM.members || []).map(function (m) {
-    var photo = m.photo ? String(m.photo).replace(/^\//, '') : '';
+    var photo = m.photo ? '/' + String(m.photo).replace(/^\//, '') : '';
     var pic = photo ? '<img src="' + esc(photo) + '" alt="' + esc(m.name || '') + '" loading="lazy">' : '<span class="initials" aria-hidden="true">' + esc(initials(m.name)) + '</span>';
     var ms = (m.milestones || []).filter(function (x) { return x && (x.year || pick(x.text)); }).map(function (x) {
       return '<li><span class="yr">' + esc(x.year || '') + '</span><div><p>' + esc(pick(x.text)) + '</p></div></li>';
@@ -767,12 +782,14 @@ function renderTeam() {
   }).join('');
 }
 function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-function pageTitle() { return page === 'home' ? 'Batavia Public House' : t.nav[page] + ' | Batavia Public House'; }
+function pageTitle() { return page === 'home' ? ((t.seo && t.seo.title) || 'Batavia Public House') : t.nav[page] + ' | Batavia Public House'; }
 
 $$('.langs button').forEach(function (b) {
   b.addEventListener('click', function () {
     var l = b.getAttribute('data-lang');
-    loadLang(l).then(function () { lang = l; store('bph-lang', lang); render(); }).catch(function () {});
+    store('bph-lang', l);
+    if (l === lang) return;
+    location.href = (l === 'nl' ? '/' : '/' + l + '/') + location.search + location.hash;
   });
 });
 
@@ -868,7 +885,7 @@ function tick() {
 window.addEventListener('scroll', onScroll, { passive: true });
 window.addEventListener('resize', onScroll);
 
-function pickSource() { return 'media/film.mp4'; }
+function pickSource() { return '/media/film.mp4'; }
 function markReady() {
   if (filmReady) return;
   filmReady = true;
@@ -930,7 +947,7 @@ $('#skipFilm').addEventListener('click', function () {
 
 /* Gallery */
 var gi = 0, seen = {};
-function slideSrc(i) { var p = PHOTOS[i] && PHOTOS[i].photo; return p ? String(p).replace(/^\//, '') : ''; }
+function slideSrc(i) { var p = PHOTOS[i] && PHOTOS[i].photo; return p ? '/' + String(p).replace(/^\//, '') : ''; }
 function slideCap(i) { var c = PHOTOS[i] && PHOTOS[i].caption; return (c && (c[lang] || c.nl || c.en)) || ''; }
 function showSlide(i) {
   var n = PHOTOS.length;
@@ -979,10 +996,10 @@ $('#copyMsg').addEventListener('click', function () {
 
 Promise.all([
   loadLang(lang).catch(function () { return loadLang('nl'); }),
-  getJSON('content/opening-hours.json').then(buildSched).catch(function () {}),
-  getJSON('content/menus.json').then(function (j) { MENUS = (j && j.menus) || []; }).catch(function () {}),
-  getJSON('content/history-photos.json').then(function (j) { PHOTOS = (j && j.photos) || []; }).catch(function () {}),
-  getJSON('content/team.json').then(function (j) { TEAM = { visible: !!(j && j.visible === true), members: (j && j.members) || [], press: (j && j.press) || [] }; }).catch(function () {})
+  getJSON('/content/opening-hours.json').then(buildSched).catch(function () {}),
+  getJSON('/content/menus.json').then(function (j) { MENUS = (j && j.menus) || []; }).catch(function () {}),
+  getJSON('/content/history-photos.json').then(function (j) { PHOTOS = (j && j.photos) || []; }).catch(function () {}),
+  getJSON('/content/team.json').then(function (j) { TEAM = { visible: !!(j && j.visible === true), members: (j && j.members) || [], press: (j && j.press) || [] }; }).catch(function () {})
 ]).then(function () {
   if (!CONTENT[lang]) lang = 'nl';
   render();
