@@ -2293,6 +2293,9 @@ content:
   path: content/team.json
   format: json
   fields:
+  - name: visible
+    label: Show the team page on the website (menu item and homepage link)
+    type: boolean
   - name: members
     label: Team members
     type: object
